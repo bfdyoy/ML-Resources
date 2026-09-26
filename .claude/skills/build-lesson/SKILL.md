@@ -18,7 +18,7 @@ description: Write or rewrite a lesson file in lessons/ from the template, seque
    `research-resources` skill first.
 4. Build the **study plan** in this order: Intuition (short, visual) → Read (primary chapter,
    exact sections) → Build (notebook/exercise) → optional Watch. Put a time estimate on every step.
-   Target total: 3–8 hours.
+   Target total: 5–9 hours (hands-on-heavy lessons may reach 12).
 5. Write **Check your understanding** questions that test the goals. At least one question
    should be "debug this situation" style.
 6. Design a **mini-project** with a named public dataset (sklearn built-ins, Kaggle, UCI, Hugging Face Datasets).

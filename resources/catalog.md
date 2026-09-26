@@ -134,3 +134,14 @@ Start lessons with these. They build the mental picture before the reading.
 | [scikit-learn User Guide](https://scikit-learn.org/stable/user_guide.html) | CORE-* | S 2026-09 |
 | [scikit-learn: Common pitfalls and recommended practices](https://scikit-learn.org/stable/common_pitfalls.html) | CORE-07 | S 2026-09 |
 | [Python code for Murphy's PML (pyprobml)](https://github.com/probml/pyprobml) | EL-02 | S 2026-09 |
+
+## 8. Deep links into catalogued resources
+
+Chapter/section URLs used directly in lessons. The parent resource is listed above.
+
+| Deep link | Parent resource | Used in | Verified |
+|---|---|---|---|
+| [Nielsen Ch. 1](http://neuralnetworksanddeeplearning.com/chap1.html) · [Ch. 2](http://neuralnetworksanddeeplearning.com/chap2.html) · [Ch. 3](http://neuralnetworksanddeeplearning.com/chap3.html) · [Ch. 4](http://neuralnetworksanddeeplearning.com/chap4.html) · [Ch. 5](http://neuralnetworksanddeeplearning.com/chap5.html) | Neural Networks and Deep Learning | DL-01, DL-03 | S 2026-09 (Ch. 2); others follow the site's `chapN.html` scheme |
+| [Molnar: SHAP](https://christophm.github.io/interpretable-ml-book/shap.html) | Interpretable Machine Learning | CORE-08 | S 2026-09 |
+| [MLU-Explain: Double Descent 2](https://mlu-explain.github.io/double-descent2/) | MLU-Explain | CORE-04 | F(repo) 2026-09 |
+| [learnpytorch.io 00 Fundamentals](https://www.learnpytorch.io/00_pytorch_fundamentals/) · [01 Workflow](https://www.learnpytorch.io/01_pytorch_workflow/) · [04 Custom Datasets](https://www.learnpytorch.io/04_pytorch_custom_datasets/) · [07 Experiment Tracking](https://www.learnpytorch.io/07_pytorch_experiment_tracking/) · [08 Paper Replicating](https://www.learnpytorch.io/08_pytorch_paper_replicating/) · [09 Model Deployment](https://www.learnpytorch.io/09_pytorch_model_deployment/) | Learn PyTorch for Deep Learning | DL-02, DL-04, Path 2, PROD-02 | S (00, 01) + F(repo) 2026-09 |

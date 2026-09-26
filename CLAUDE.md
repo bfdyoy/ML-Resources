@@ -18,8 +18,9 @@ learning ML is as easy as possible *and still makes sense*.
 
 ```
 README.md                 Start here: overview, how to use, path picker
+PROGRESS.md               Learner's personal checklist
 paths/                    Learning paths (ordered sequences of lessons)
-lessons/<track>/NN-*.md   One lesson = one concept cluster, 3–8 hours of work
+lessons/<track>/NN-*.md   One lesson = one concept cluster, ~5–12 hours of work
   core-ml/                Classical ML done properly
   deep-learning/          Neural nets → CNNs → transformers
   llms-genai/             LLMs, fine-tuning, RAG, evals, diffusion
