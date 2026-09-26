@@ -1,6 +1,6 @@
 # Toolbox 11: MLOps, Systems & Scale
 
-[← Toolbox](README.md) · Guided version: [PROD-01](../lessons/production/01-ml-system-design.md), [PROD-02](../lessons/production/02-mlops-in-practice.md) · Papers: [06 Efficiency & systems](../papers/06-efficiency-systems.md), [11 Production](../papers/11-ml-in-production.md)
+[← Toolbox](README.md) · **Taught in:** [PROD-01](../lessons/production/01-ml-system-design.md) · [PROD-02](../lessons/production/02-mlops-in-practice.md) · [PROD-03](../lessons/production/03-testing-monitoring-drift.md) · [PROD-04](../lessons/production/04-distributed-training.md) · [PROD-05](../lessons/production/05-llmops-genai-platforms.md) · [DL-07](../lessons/deep-learning/07-performance-gpus-mixed-precision.md) · [EL-08](../lessons/electives/08-gpu-programming.md) · Papers: [06 Efficiency & systems](../papers/06-efficiency-systems.md), [11 Production](../papers/11-ml-in-production.md)
 
 **Whole-field resources:** [Made With ML](https://madewithml.com/) · [MLOps Zoomcamp](https://github.com/DataTalksClub/mlops-zoomcamp) · [Stanford CS329S: ML Systems Design](https://stanford-cs329s.github.io/) · [Full Stack Deep Learning](https://fullstackdeeplearning.com/course/2022/) · [Designing ML Systems](https://www.oreilly.com/library/view/designing-machine-learning/9781098107956/) `[paid]` ([summaries](https://github.com/chiphuyen/dmls-book)) · [awesome-mlops](https://github.com/visenger/awesome-mlops)
 

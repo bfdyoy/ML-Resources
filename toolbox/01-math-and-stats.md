@@ -1,6 +1,6 @@
 # Toolbox 01: Math & Statistics
 
-[← Toolbox](README.md) · Guided version: [MATH-01](../lessons/math/01-linear-algebra.md), [MATH-02](../lessons/math/02-calculus-optimization.md), [MATH-03](../lessons/math/03-probability-statistics.md)
+[← Toolbox](README.md) · **Taught in:** [MATH-01](../lessons/math/01-linear-algebra.md) · [MATH-02](../lessons/math/02-calculus-optimization.md) · [MATH-03](../lessons/math/03-probability-statistics.md)
 
 > Learn math **just in time**. When a lesson uses a concept you're shaky on, look it up here, fix it, and go back.
 

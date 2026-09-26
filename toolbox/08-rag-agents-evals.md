@@ -1,6 +1,6 @@
 # Toolbox 08: RAG, Agents & LLM Evaluation
 
-[← Toolbox](README.md) · Guided version: [GEN-02](../lessons/llms-genai/02-adapting-llms-finetuning-rag.md), [GEN-03](../lessons/llms-genai/03-evaluating-llm-apps.md) · Papers: [05 Retrieval & RAG](../papers/05-retrieval-rag.md), [04 Agents & evals](../papers/04-alignment-reasoning-agents.md)
+[← Toolbox](README.md) · **Taught in:** [GEN-02](../lessons/llms-genai/02-adapting-llms-finetuning-rag.md) · [GEN-03](../lessons/llms-genai/03-evaluating-llm-apps.md) · [GEN-05](../lessons/llms-genai/05-retrieval-engineering.md) · [GEN-06](../lessons/llms-genai/06-agents-tool-use.md) · [GEN-09](../lessons/llms-genai/09-llm-security-safety.md) · Papers: [05 Retrieval & RAG](../papers/05-retrieval-rag.md), [04 Agents & evals](../papers/04-alignment-reasoning-agents.md)
 
 **Practitioner guides for the whole topic:** [What We've Learned From A Year of Building with LLMs](https://applied-llms.org/) (Yan, Bischof, Frye, Husain, Liu, Shankar) · [Eugene Yan: Patterns for LLM Systems](https://eugeneyan.com/writing/llm-patterns/) · [Chip Huyen: Building a GenAI Platform](https://huyenchip.com/2024/07/25/genai-platform.html) · [AI Engineering](https://www.oreilly.com/library/view/ai-engineering/9781098166298/) `[paid]`
 

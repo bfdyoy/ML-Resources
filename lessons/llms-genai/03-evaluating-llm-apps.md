@@ -40,6 +40,8 @@ measured agreement, and a single summary score. Change one thing (the prompt, ch
 ## Go deeper
 - [AI Engineering](https://www.oreilly.com/library/view/ai-engineering/9781098166298/) (Chip Huyen) `[paid]`: the evaluation-methodology chapters.
 - [Rules of Machine Learning](https://developers.google.com/machine-learning/guides/rules-of-ml): these "classic ML" production rules still apply to LLM products.
+- [Lilian Weng: Extrinsic Hallucinations in LLMs](https://lilianweng.github.io/posts/2024-07-07-hallucination/): causes, detection, and evaluation of hallucination.
+- [HF Evaluation Guidebook](https://github.com/huggingface/evaluation-guidebook) and [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness): benchmark-style evaluation of models.
 
 ## Toolbox, papers & practice
 - **Reference shelf:** [Toolbox 08: RAG, agents & evals](../../toolbox/08-rag-agents-evals.md), for every concept in this lesson, with alternatives.

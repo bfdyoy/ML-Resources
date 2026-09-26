@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Used by |
 |---|---|---|---|
-| Math | ~5 h (in pieces) | L1→L2 | CORE-03, GEN-04, EL-02, EL-03 |
+| Math | ~9 h (in pieces) | L1→L2 | CORE-03, CORE-04, CORE-11, GEN-04, EL-02, EL-03, EL-05 |
 
 ## Block A: Probability basics, Bayes, and distributions (for CORE-03)
 | Step | Resource | Scope | Time |
@@ -21,7 +21,17 @@
 |---|---|---|---|
 | **Read** | [UDL](https://udlbook.github.io/udlbook/) | Ch. 5 "Loss Functions" (it derives cross-entropy from maximum likelihood) and the book's appendix on probability (KL divergence) | 1 h |
 
+## Block D: Statistics for evaluating models and running experiments (for CORE-04, CORE-11, EL-02, EL-05)
+| Step | Resource | Scope | Time |
+|---|---|---|---|
+| **Intuition** | [Seeing Theory](https://seeing-theory.brown.edu/) | "Frequentist Inference" (confidence intervals, hypothesis testing), revisited with experiments in mind | 30 min |
+| **Read** | [Think Stats](https://greenteapress.com/wp/think-stats-3e/) (Downey) | The chapters on estimation, hypothesis testing, and resampling. Python-first, with simulation instead of formulas. | 2 h |
+| **Read** | [ISLP](https://www.statlearning.com/) | §5.2 (the bootstrap) and Ch. 13 "Multiple Testing" (why running 100 comparisons produces "significant" junk) | 1.5 h |
+| *Go deeper* | [Stat 110](https://stat110.hsites.harvard.edu/) (Harvard) | The full probability course, if you want rigour | — |
+
 ## Self-check
 1. Use Bayes' rule on a test with 99% sensitivity and 1% prevalence. What's P(disease | positive)?
 2. Why does minimizing MSE correspond to MLE under Gaussian noise?
 3. KL divergence is not symmetric. Give an intuition for what KL(p‖q) vs KL(q‖p) penalizes.
+4. Model B beats model A by 0.4% accuracy on 2,000 test examples. How would you check whether that's real (bootstrap or a paired test)?
+5. You compared 40 feature sets and 3 look "significant" at p < 0.05. What should you conclude?

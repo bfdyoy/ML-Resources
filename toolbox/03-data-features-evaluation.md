@@ -1,6 +1,6 @@
 # Toolbox 03: Data, Features & Evaluation
 
-[← Toolbox](README.md) · Guided version: [CORE-01](../lessons/core-ml/01-ml-workflow-end-to-end.md), [CORE-03](../lessons/core-ml/03-classification-and-metrics.md), [CORE-04](../lessons/core-ml/04-generalization-validation-regularization.md), [CORE-07](../lessons/core-ml/07-feature-engineering-pipelines-leakage.md)
+[← Toolbox](README.md) · **Taught in:** [CORE-01](../lessons/core-ml/01-ml-workflow-end-to-end.md) · [CORE-03](../lessons/core-ml/03-classification-and-metrics.md) · [CORE-04](../lessons/core-ml/04-generalization-validation-regularization.md) · [CORE-07](../lessons/core-ml/07-feature-engineering-pipelines-leakage.md) · [CORE-08](../lessons/core-ml/08-interpretability-and-responsible-ml.md) · [CORE-10](../lessons/core-ml/10-data-centric-ml.md) · [CORE-11](../lessons/core-ml/11-uncertainty-calibration-conformal.md) · [CORE-12](../lessons/core-ml/12-hyperparameter-optimization.md)
 
 ## Problem framing & data work
 | Concept | Start here | Go deeper | Practice |

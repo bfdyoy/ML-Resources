@@ -22,13 +22,14 @@ PROGRESS.md               Learner's personal checklist
 paths/                    Learning paths (ordered sequences of lessons)
 lessons/<track>/NN-*.md   One lesson = one concept cluster, ~5–12 hours of work
   core-ml/                Classical ML done properly
-  deep-learning/          Neural nets → CNNs → transformers
-  llms-genai/             LLMs, fine-tuning, RAG, evals, diffusion
-  production/             ML systems design + MLOps
-  electives/              Time series, Bayesian ML, RL
+  deep-learning/          Neural nets → CNNs → transformers → performance, modern architectures, GNNs
+  vision/                 Detection/segmentation, ViT & self-supervised, CLIP/VLMs, 3D
+  llms-genai/             LLMs, fine-tuning, RAG/retrieval, agents, evals, post-training, inference, security, diffusion
+  production/             ML systems design, MLOps, testing & drift, distributed training, LLMOps
+  electives/              Time series, Bayesian, RL, recsys, causal, anomaly, mech interp, GPU, audio, tabular DL
   math/                   Just-in-time math refreshers linked from lessons
 toolbox/NN-*.md           Reference shelf: every concept → intuition, deeper reading, practice, paper
-papers/NN-*.md            ~240 verified papers by topic, with a 30-paper must-read list
+papers/NN-*.md            ~250 verified papers by topic, with a 30-paper must-read list
 exercises/*.md            Drills, 45-rung from-scratch ladder, assignments, projects, interview prep
 resources/catalog.md      Resources used in lessons, typed and tagged
 resources/verified-urls.tsv  Verification record for EVERY URL in the repo (method + evidence)
@@ -68,7 +69,8 @@ Lessons link down into the other three (see the "Toolbox, papers & practice" sec
 
 - Lesson files: `lessons/<track>/NN-kebab-title.md`, using `templates/lesson-template.md`.
 - New resources go into `resources/catalog.md` **first**, and lessons reference them from there.
-- Keep lesson IDs stable (`CORE-03`, `DL-02`, …). Paths refer to lessons by ID + link.
+- Keep lesson IDs stable (`CORE-03`, `DL-02`, `CV-01`, …). Paths refer to lessons by ID + link.
+- **Coverage rule:** every toolbox section should be taught by at least one lesson. When you add a toolbox topic, add or extend a lesson.
 - When you change a lesson, update every path that includes it.
 - **Every new URL gets a row in `resources/verified-urls.tsv`** (method codes in `.claude/rules/link-policy.md`).
   `python3 scripts/audit_urls.py` must pass before committing.

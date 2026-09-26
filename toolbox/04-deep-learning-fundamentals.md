@@ -1,6 +1,6 @@
 # Toolbox 04: Deep Learning Fundamentals
 
-[← Toolbox](README.md) · Guided version: [DL-01](../lessons/deep-learning/01-neural-networks-from-scratch.md), [DL-02](../lessons/deep-learning/02-pytorch-fluency.md), [DL-03](../lessons/deep-learning/03-training-deep-networks.md)
+[← Toolbox](README.md) · **Taught in:** [DL-01](../lessons/deep-learning/01-neural-networks-from-scratch.md) · [DL-02](../lessons/deep-learning/02-pytorch-fluency.md) · [DL-03](../lessons/deep-learning/03-training-deep-networks.md) · [DL-07](../lessons/deep-learning/07-performance-gpus-mixed-precision.md)
 
 ## Core mechanics
 | Concept | Start here | Go deeper | Practice | Paper |

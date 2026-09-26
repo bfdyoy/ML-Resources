@@ -33,7 +33,7 @@
 | [mixup: Beyond Empirical Risk Minimization](https://arxiv.org/abs/1710.09412) | 2017 | A simple data augmentation that also regularizes. | L2 | DL-04 |
 | [Bag of Tricks for Image Classification with CNNs](https://arxiv.org/abs/1812.01187) | 2018 | ⭐ A dozen small tricks with measured gains. A model of how to do ablations. | L1 | DL-04 |
 | [Mixed Precision Training](https://arxiv.org/abs/1710.03740) | 2017 | FP16/BF16 training with loss scaling, which every large model uses. | L2 | DL-03 |
-| [Training Deep Nets with Sublinear Memory Cost (gradient checkpointing)](https://arxiv.org/abs/1604.06174) | 2016 | Trade compute for memory. | L2 | PROD / efficiency |
+| [Training Deep Nets with Sublinear Memory Cost (gradient checkpointing)](https://arxiv.org/abs/1604.06174) | 2016 | Trade compute for memory. | L2 | DL-07 |
 | [Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531) | 2015 | ⭐ Knowledge distillation: soft targets and temperature. | L2 | DL-03 |
 
 ## Generalization: what's actually going on

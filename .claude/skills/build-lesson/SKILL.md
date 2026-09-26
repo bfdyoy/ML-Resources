@@ -6,7 +6,7 @@ description: Write or rewrite a lesson file in lessons/ from the template, seque
 # Build a lesson
 
 ## Inputs
-- `id` (e.g. `DL-07`), `title`, `track` (core-ml | deep-learning | llms-genai | production | electives | math)
+- `id` (e.g. `DL-07`), `title`, `track` (core-ml | deep-learning | vision | llms-genai | production | electives | math)
 - Prerequisite lesson IDs
 
 ## Steps

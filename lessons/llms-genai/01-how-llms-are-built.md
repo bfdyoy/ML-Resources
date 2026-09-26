@@ -48,6 +48,8 @@ Compare token counts per word, and inspect odd merges. Then load a small open mo
 - [Jurafsky & Martin, SLP3](https://web.stanford.edu/~jurafsky/slp3/): the chapters on large language models, transformers, and post-training/alignment.
 - [Stanford CS336: Language Modeling from Scratch](https://cs336.stanford.edu/) ([lectures](https://www.youtube.com/playlist?list=PLoROMvodv4rOY23Y0BoGoBGgQ1zmU_MT_)): the advanced, full-stack version of this lesson.
 - [The Illustrated GPT-2](https://jalammar.github.io/illustrated-gpt2/)
+- Scaling and data: [Lilian Weng: Scaling Laws, Carefully](https://lilianweng.github.io/posts/2026-06-24-scaling-laws/) · [Chinchilla](https://arxiv.org/abs/2203.15556) · [FineWeb](https://arxiv.org/abs/2406.17557) (what makes pretraining data good)
+- Build it for real: [nanochat](https://github.com/karpathy/nanochat) trains a small ChatGPT-style model end to end.
 
 ## Toolbox, papers & practice
 - **Reference shelf:** [Toolbox 07: NLP & LLMs](../../toolbox/07-nlp-and-llms.md), for every concept in this lesson, with alternatives.

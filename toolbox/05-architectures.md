@@ -1,6 +1,6 @@
 # Toolbox 05: Architectures
 
-[← Toolbox](README.md) · Guided version: [DL-04](../lessons/deep-learning/04-cnns-computer-vision.md), [DL-05](../lessons/deep-learning/05-embeddings-sequences-attention.md), [DL-06](../lessons/deep-learning/06-transformers.md)
+[← Toolbox](README.md) · **Taught in:** [DL-04](../lessons/deep-learning/04-cnns-computer-vision.md) · [DL-05](../lessons/deep-learning/05-embeddings-sequences-attention.md) · [DL-06](../lessons/deep-learning/06-transformers.md) · [DL-08](../lessons/deep-learning/08-modern-architectures-moe-ssm.md) · [DL-09](../lessons/deep-learning/09-graph-neural-networks.md) · [CV-02](../lessons/vision/02-vision-transformers-self-supervised.md)
 
 > **The unifying idea:** architectures encode *inductive biases*: locality (CNNs), order (RNNs), permutation symmetry (GNNs,
 > attention), sparsity (MoE). For the deep version of this view, read [Geometric Deep Learning](https://arxiv.org/abs/2104.13478).

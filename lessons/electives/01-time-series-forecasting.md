@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| Elective | ~8 h | L1→L2 | CORE-04, CORE-05 |
+| Elective | ~10 h | L1→L2 | CORE-04, CORE-05 |
 
 ## Why this matters
 Demand, traffic, energy, finance: forecasting is everywhere. It also breaks the i.i.d. assumption the rest of
@@ -22,6 +22,8 @@ By the end you can:
 | 1 | **Read + Build** | [Forecasting: Principles and Practice, the Pythonic Way](https://otexts.com/fpppy/) | Chapters on time-series graphics, decomposition, the forecaster's toolbox (baselines, residual diagnostics, evaluating accuracy, time-series CV) | 3 h |
 | 2 | **Read + Build** | [FPP, Pythonic Way](https://otexts.com/fpppy/) | Chapters on exponential smoothing and ARIMA | 3 h |
 | 3 | **Read + Build** | [FPP, Pythonic Way](https://otexts.com/fpppy/) | The chapter on neural networks / ML-based forecasting (this is new to the Python edition) | 1.5 h |
+| 4 | **Build** | [Kaggle Learn: Time Series](https://www.kaggle.com/learn/time-series) | The lessons on lag features, hybrid models, and forecasting with ML (GBMs over many series) | 1.5 h |
+| 5 | *Build (optional)* | [Chronos](https://github.com/amazon-science/chronos-forecasting) or [TimesFM](https://github.com/google-research/timesfm) | Zero-shot forecasts from a pretrained foundation model on your series. Compare them with your tuned models. | 1 h |
 
 **Notes for the learner:** If the Python edition is missing a section you need, the [R original (fpp3)](https://otexts.com/fpp3/)
 has the same explanations. The prose is the valuable part.
@@ -38,6 +40,11 @@ has the same explanations. The prose is the valuable part.
 using rolling-origin CV.
 **Dataset:** Any public daily series, e.g. bike-sharing demand (UCI) or electricity load.
 **Deliverable:** A notebook with an accuracy table (MASE/RMSE) per model.
+
+## Go deeper
+- [Are Transformers Effective for Time Series Forecasting?](https://arxiv.org/abs/2205.13504): a healthy dose of skepticism about deep forecasters.
+- [DeepAR](https://arxiv.org/abs/1704.04110) · [N-BEATS](https://arxiv.org/abs/1905.10437) · [Temporal Fusion Transformers](https://arxiv.org/abs/1912.09363)
+- [GluonTS](https://github.com/awslabs/gluonts): probabilistic deep forecasting models.
 
 ## Toolbox, papers & practice
 - **Reference shelf:** [Toolbox 12: Specialized topics](../../toolbox/12-specialized-topics.md), for every concept in this lesson, with alternatives.

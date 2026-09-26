@@ -1,6 +1,6 @@
 # Toolbox 09: Generative Models
 
-[← Toolbox](README.md) · Guided version: [GEN-04](../lessons/llms-genai/04-generative-models-diffusion.md) · Papers: [07 Generative models](../papers/07-generative-models.md)
+[← Toolbox](README.md) · **Taught in:** [GEN-04](../lessons/llms-genai/04-generative-models-diffusion.md) · [GEN-10](../lessons/llms-genai/10-advanced-diffusion-flow-matching.md) · Papers: [07 Generative models](../papers/07-generative-models.md)
 
 **Whole-field resources:** [UDL](https://udlbook.github.io/udlbook/) Ch. 14–18 (primary text) · [CS236 notes](https://deepgenerativemodels.github.io/notes/) (Stanford) · [MIT 6.S184: Flow Matching & Diffusion](https://diffusion.csail.mit.edu/2026/index.html) (lecture notes + labs) · [HF Diffusion Course](https://github.com/huggingface/diffusion-models-class)
 

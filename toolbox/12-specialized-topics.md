@@ -1,6 +1,6 @@
 # Toolbox 12: Specialized Topics
 
-[← Toolbox](README.md) · Papers: [09](../papers/09-tabular-timeseries-recsys-causal.md), [10](../papers/10-interpretability-uncertainty-responsible.md)
+[← Toolbox](README.md) · **Taught in:** [Electives](../paths/06-electives.md): [EL-01](../lessons/electives/01-time-series-forecasting.md), [EL-04](../lessons/electives/04-recommender-systems.md), [EL-05](../lessons/electives/05-causal-inference-uplift.md), [EL-06](../lessons/electives/06-anomaly-detection.md), [EL-07](../lessons/electives/07-mechanistic-interpretability.md), [EL-09](../lessons/electives/09-audio-and-speech.md), [EL-10](../lessons/electives/10-tabular-deep-learning.md) · [CORE-11](../lessons/core-ml/11-uncertainty-calibration-conformal.md) · [GEN-09](../lessons/llms-genai/09-llm-security-safety.md) · Papers: [09](../papers/09-tabular-timeseries-recsys-causal.md), [10](../papers/10-interpretability-uncertainty-responsible.md)
 
 ## Time-series forecasting
 Guided version: [EL-01](../lessons/electives/01-time-series-forecasting.md)

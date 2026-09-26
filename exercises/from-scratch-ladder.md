@@ -24,7 +24,7 @@ definition of done. Passing the check is what counts. "It runs" doesn't.
 | 5 | Softmax regression (multiclass) | Accuracy within 1% of sklearn on `load_digits` | CORE-03 |
 | 6 | Metrics: confusion matrix, precision/recall/F1, ROC curve, AUC, PR-AUC | Match `sklearn.metrics` exactly on 3 random prediction sets | CORE-03 |
 | 7 | k-fold, stratified, and grouped cross-validation splitters | Folds are disjoint, cover all rows, and respect strata/groups (write assertions) | CORE-04 |
-| 8 | k-nearest neighbours (vectorized distances, no loops) | Matches `KNeighborsClassifier` predictions exactly | toolbox 02 |
+| 8 | k-nearest neighbours (vectorized distances, no loops) | Matches `KNeighborsClassifier` predictions exactly | CORE-09 |
 | 9 | Gaussian naive Bayes | Matches `GaussianNB` `predict_proba` to 1e-6 | toolbox 02 |
 | 10 | Decision tree (CART, Gini/entropy, max_depth, min_samples) | Within 1% accuracy of `DecisionTreeClassifier` with the same params | CORE-05 |
 | 11 | Random forest (bootstrap + feature subsampling) + OOB score | OOB score within 2% of sklearn's | CORE-05 |
@@ -33,7 +33,7 @@ definition of done. Passing the check is what counts. "It runs" doesn't.
 | 14 | PCA via SVD, with explained variance | Components match `PCA` up to sign | CORE-06 |
 | 15 | Gaussian mixture model via EM (1-D, then diagonal N-D) | Log-likelihood increases every iteration; parameters close to `GaussianMixture` | CORE-06 |
 | 16 | Permutation importance and a 1-D partial dependence plot | Match `sklearn.inspection` outputs | CORE-08 |
-| 17 | Bootstrap confidence interval for a model metric | 95% CI covers the true value in ~95% of 200 simulated datasets | toolbox 01 |
+| 17 | Bootstrap confidence interval for a model metric | 95% CI covers the true value in ~95% of 200 simulated datasets | MATH-03 |
 
 ## Level 2: Neural networks (NumPy → PyTorch)
 | # | Build | Check | Lesson |
@@ -44,7 +44,7 @@ definition of done. Passing the check is what counts. "It runs" doesn't.
 | 21 | BatchNorm and LayerNorm forward + backward (NumPy) | Gradients match PyTorch autograd | DL-03 |
 | 22 | Dropout, and weight initializations (Xavier/He) | Activation std stays ~constant across 20 layers with He init + ReLU | DL-03 |
 | 23 | Conv2d forward/backward (im2col), max-pool | Outputs and gradients match `F.conv2d` / `F.max_pool2d` | DL-04 |
-| 24 | ResNet-18 in PyTorch + training loop with AMP and a cosine schedule | >90% on CIFAR-10 | DL-04 |
+| 24 | ResNet-18 in PyTorch + training loop with AMP and a cosine schedule | >90% on CIFAR-10 | DL-04, DL-07 |
 | 25 | LSTM cell | Matches `nn.LSTMCell` outputs given the same weights | DL-05 |
 | 26 | Character-level language model (bigram → MLP) | Dev NLL below the bigram baseline ([makemore](https://github.com/karpathy/makemore)) | DL-05 |
 
@@ -55,26 +55,26 @@ definition of done. Passing the check is what counts. "It runs" doesn't.
 | 28 | Multi-head attention → transformer block → GPT | Overfits a tiny text; trains on Tiny Shakespeare to val loss < 1.6 ([nanoGPT](https://github.com/karpathy/nanoGPT)) | DL-06 |
 | 29 | BPE tokenizer: train, encode, decode | `decode(encode(s)) == s` for 1,000 random strings; merges match [minbpe](https://github.com/karpathy/minbpe) on a test corpus | GEN-01 |
 | 30 | Sampling: temperature, top-k, top-p | Empirical token frequencies match the target distribution (χ² test) | GEN-01 |
-| 31 | KV cache for your GPT | Identical outputs with and without the cache; measure the speed-up | toolbox 07 |
-| 32 | RoPE + RMSNorm + SwiGLU upgrade | Same or better val loss than rung 28 at equal compute | toolbox 07 |
+| 31 | KV cache for your GPT | Identical outputs with and without the cache; measure the speed-up | GEN-08 |
+| 32 | RoPE + RMSNorm + SwiGLU upgrade | Same or better val loss than rung 28 at equal compute | DL-08 |
 | 33 | LoRA layer wrapping `nn.Linear` | Base weights frozen; merged weights give identical outputs; only ~1% of params trainable | GEN-02 |
 | 34 | Instruction fine-tuning loop with loss masking on prompt tokens | Loss computed only on response tokens (assert on the mask) | GEN-02 |
-| 35 | DPO loss | Matches TRL's `DPOTrainer` loss on a fixed batch ([TRL](https://github.com/huggingface/trl)) | GEN-02 |
-| 36 | INT8 symmetric weight quantization of a linear layer | Output error < 1% relative; memory reduced ~4× | toolbox 07 |
+| 35 | DPO loss | Matches TRL's `DPOTrainer` loss on a fixed batch ([TRL](https://github.com/huggingface/trl)) | GEN-07 |
+| 36 | INT8 symmetric weight quantization of a linear layer | Output error < 1% relative; memory reduced ~4× | GEN-08 |
 
 ## Level 4: Retrieval & RAG
 | # | Build | Check | Lesson |
 |---|---|---|---|
-| 37 | BM25 ranking from scratch | Top-10 matches a reference implementation on a small corpus | toolbox 08 |
-| 38 | Dense retrieval: embed, cosine top-k with NumPy, then with Faiss HNSW | Recall@10 of HNSW ≥ 0.95 of exact search | toolbox 08 |
-| 39 | Retrieval evaluation: recall@k, MRR, NDCG@k | Matches hand-computed values on 3 toy examples | toolbox 08 |
+| 37 | BM25 ranking from scratch | Top-10 matches a reference implementation on a small corpus | GEN-05 |
+| 38 | Dense retrieval: embed, cosine top-k with NumPy, then with Faiss HNSW | Recall@10 of HNSW ≥ 0.95 of exact search | GEN-05 |
+| 39 | Retrieval evaluation: recall@k, MRR, NDCG@k | Matches hand-computed values on 3 toy examples | GEN-05 |
 | 40 | Minimal RAG pipeline + LLM-judge faithfulness eval | Judge agreement with your own labels (Cohen's κ) > 0.6 on 50 samples | GEN-03 |
 
 ## Level 5: Generative models & RL
 | # | Build | Check | Lesson |
 |---|---|---|---|
 | 41 | VAE on MNIST | ELBO improves; interpolations in latent space look smooth | GEN-04 |
-| 42 | DDPM on 2-D toy data, then on MNIST | 2-D samples match the data distribution visually and by MMD | GEN-04 |
+| 42 | DDPM on 2-D toy data, then on MNIST | 2-D samples match the data distribution visually and by MMD | GEN-04, GEN-10 |
 | 43 | Tabular Q-learning on FrozenLake | Success rate > 70% on the slippery version | EL-03 |
 | 44 | REINFORCE with a baseline on CartPole | Reaches 475+ average return | EL-03 |
 | 45 | PPO (clipped objective + GAE) | Solves CartPole across 5 seeds; compare with [CleanRL](https://github.com/vwxyzjn/cleanrl) | EL-03 |

@@ -28,5 +28,5 @@ Style:
 - Use plain, friendly language. Explain *why* the resource was chosen in a short phrase.
 - Time estimates are for an intermediate learner reading carefully, not skimming.
 - Never paste large chunks of copyrighted text. Summarise and link.
-- Resources used in lessons must be in `resources/catalog.md`, and every URL must have a row in
+- Resources used in lessons must be in `resources/catalog.md` (papers: in `papers/`), and every URL must have a row in
   `resources/verified-urls.tsv` (see `.claude/rules/link-policy.md`).

@@ -40,18 +40,18 @@
 ## Modern architecture components
 | Paper | Year | Why read it | Level | After |
 |---|---|---|---|---|
-| [RoFormer (RoPE)](https://arxiv.org/abs/2104.09864) | 2021 | ⭐ Rotary position embeddings, now standard. | L2 | DL-06 |
-| [YaRN: Efficient Context Window Extension](https://arxiv.org/abs/2309.00071) | 2023 | Extending RoPE to longer contexts. | L3 | DL-06 |
-| [GQA: Grouped-Query Attention](https://arxiv.org/abs/2305.13245) | 2023 | Smaller KV cache and faster inference. | L2 | DL-06 |
-| [Efficient Streaming LMs with Attention Sinks](https://arxiv.org/abs/2309.17453) | 2023 | Why the first tokens soak up attention. | L3 | DL-06 |
-| [Outrageously Large Neural Networks (Sparsely-Gated MoE)](https://arxiv.org/abs/1701.06538) | 2017 | The original mixture-of-experts layer. | L2 | DL-06 |
-| [GShard](https://arxiv.org/abs/2006.16668) | 2020 | Scaling MoE with automatic sharding. | L3 | DL-06 |
-| [Switch Transformers](https://arxiv.org/abs/2101.03961) | 2021 | ⭐ Simplified top-1 MoE routing. | L2 | DL-06 |
-| [Mixtral of Experts](https://arxiv.org/abs/2401.04088) | 2024 | An open sparse MoE LLM. A short, readable report. | L2 | DL-06 |
-| [DeepSeekMoE](https://arxiv.org/abs/2401.06066) | 2024 | Fine-grained plus shared experts. | L3 | DL-06 |
-| [Efficiently Modeling Long Sequences with Structured State Spaces (S4)](https://arxiv.org/abs/2111.00396) | 2021 | State-space models. Math-heavy. | L3 | DL-05 |
-| [Mamba](https://arxiv.org/abs/2312.00752) | 2023 | ⭐ Selective SSMs, the main alternative to attention. | L3 | DL-06 |
-| [Transformers are SSMs (Mamba-2)](https://arxiv.org/abs/2405.21060) | 2024 | Connects SSMs and attention. | L3 | DL-06 |
+| [RoFormer (RoPE)](https://arxiv.org/abs/2104.09864) | 2021 | ⭐ Rotary position embeddings, now standard. | L2 | DL-08 |
+| [YaRN: Efficient Context Window Extension](https://arxiv.org/abs/2309.00071) | 2023 | Extending RoPE to longer contexts. | L3 | DL-08 |
+| [GQA: Grouped-Query Attention](https://arxiv.org/abs/2305.13245) | 2023 | Smaller KV cache and faster inference. | L2 | DL-08 |
+| [Efficient Streaming LMs with Attention Sinks](https://arxiv.org/abs/2309.17453) | 2023 | Why the first tokens soak up attention. | L3 | DL-08 |
+| [Outrageously Large Neural Networks (Sparsely-Gated MoE)](https://arxiv.org/abs/1701.06538) | 2017 | The original mixture-of-experts layer. | L2 | DL-08 |
+| [GShard](https://arxiv.org/abs/2006.16668) | 2020 | Scaling MoE with automatic sharding. | L3 | DL-08 |
+| [Switch Transformers](https://arxiv.org/abs/2101.03961) | 2021 | ⭐ Simplified top-1 MoE routing. | L2 | DL-08 |
+| [Mixtral of Experts](https://arxiv.org/abs/2401.04088) | 2024 | An open sparse MoE LLM. A short, readable report. | L2 | DL-08 |
+| [DeepSeekMoE](https://arxiv.org/abs/2401.06066) | 2024 | Fine-grained plus shared experts. | L3 | DL-08 |
+| [Efficiently Modeling Long Sequences with Structured State Spaces (S4)](https://arxiv.org/abs/2111.00396) | 2021 | State-space models. Math-heavy. | L3 | DL-08 |
+| [Mamba](https://arxiv.org/abs/2312.00752) | 2023 | ⭐ Selective SSMs, the main alternative to attention. | L3 | DL-08 |
+| [Transformers are SSMs (Mamba-2)](https://arxiv.org/abs/2405.21060) | 2024 | Connects SSMs and attention. | L3 | DL-08 |
 
 ## Pretraining data
 | Paper | Year | Why read it | Level | After |

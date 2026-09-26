@@ -1,6 +1,6 @@
 # Papers: Interpretability, Uncertainty & Responsible ML
 
-[← Papers library](README.md) · Background: [CORE-08](../lessons/core-ml/08-interpretability-and-responsible-ml.md) · [Toolbox: Data, features & evaluation](../toolbox/03-data-features-evaluation.md), [Toolbox: Specialized](../toolbox/12-specialized-topics.md)
+[← Papers library](README.md) · Background: [CORE-08](../lessons/core-ml/08-interpretability-and-responsible-ml.md), [CORE-11](../lessons/core-ml/11-uncertainty-calibration-conformal.md), [EL-07](../lessons/electives/07-mechanistic-interpretability.md) · [Toolbox: Data, features & evaluation](../toolbox/03-data-features-evaluation.md), [Toolbox: Specialized](../toolbox/12-specialized-topics.md)
 
 ## Explaining predictions
 | Paper | Year | Why read it | Level | After |
@@ -14,14 +14,14 @@
 ## Mechanistic interpretability
 | Paper | Year | Why read it | Level | After |
 |---|---|---|---|---|
-| [A Mathematical Framework for Transformer Circuits](https://transformer-circuits.pub/2021/framework/index.html) | 2021 | ⭐ The residual stream, QK/OV circuits, induction heads. | L3 | DL-06 |
-| [Toy Models of Superposition](https://arxiv.org/abs/2209.10652) | 2022 | Why individual neurons are polysemantic. | L3 | DL-06 |
+| [A Mathematical Framework for Transformer Circuits](https://transformer-circuits.pub/2021/framework/index.html) | 2021 | ⭐ The residual stream, QK/OV circuits, induction heads. | L3 | EL-07 |
+| [Toy Models of Superposition](https://arxiv.org/abs/2209.10652) | 2022 | Why individual neurons are polysemantic. | L3 | EL-07 |
 
 ## Uncertainty & calibration
 | Paper | Year | Why read it | Level | After |
 |---|---|---|---|---|
-| [On Calibration of Modern Neural Networks](https://arxiv.org/abs/1706.04599) | 2017 | ⭐ Deep nets are overconfident. Temperature scaling fixes a lot of it. | L2 | CORE-03 |
-| [A Gentle Introduction to Conformal Prediction](https://arxiv.org/abs/2107.07511) | 2021 | ⭐ Distribution-free prediction intervals with guarantees, and working code. | L2 | CORE-04 |
+| [On Calibration of Modern Neural Networks](https://arxiv.org/abs/1706.04599) | 2017 | ⭐ Deep nets are overconfident. Temperature scaling fixes a lot of it. | L2 | CORE-11 |
+| [A Gentle Introduction to Conformal Prediction](https://arxiv.org/abs/2107.07511) | 2021 | ⭐ Distribution-free prediction intervals with guarantees, and working code. | L2 | CORE-11 |
 
 ## Documentation & responsible ML
 | Paper | Year | Why read it | Level | After |

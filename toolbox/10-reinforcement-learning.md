@@ -1,6 +1,6 @@
 # Toolbox 10: Reinforcement Learning
 
-[← Toolbox](README.md) · Guided version: [EL-03](../lessons/electives/03-reinforcement-learning.md) · Papers: [08 RL](../papers/08-reinforcement-learning.md)
+[← Toolbox](README.md) · **Taught in:** [EL-03](../lessons/electives/03-reinforcement-learning.md) · [GEN-07 (RL for LLMs)](../lessons/llms-genai/07-post-training-alignment-reasoning.md) · Papers: [08 RL](../papers/08-reinforcement-learning.md)
 
 **Whole-field resources:** [Sutton & Barto](http://incompleteideas.net/book/the-book-2nd.html) (textbook) · [David Silver's UCL course](https://davidstarsilver.wordpress.com/teaching/) ([videos](https://www.youtube.com/playlist?list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ)) · [Spinning Up](https://spinningup.openai.com/en/latest/user/introduction.html) · [HF Deep RL Course](https://huggingface.co/learn/deep-rl-course/unit0/introduction) · [Berkeley CS285](https://rail.eecs.berkeley.edu/deeprlcourse-fa22) (advanced)
 

@@ -1,6 +1,6 @@
 # Toolbox 06: Computer Vision
 
-[← Toolbox](README.md) · Guided version: [DL-04](../lessons/deep-learning/04-cnns-computer-vision.md) · Papers: [02 Computer vision](../papers/02-computer-vision.md)
+[← Toolbox](README.md) · **Taught in:** [DL-04](../lessons/deep-learning/04-cnns-computer-vision.md) · [Path 5 Computer Vision](../paths/05-computer-vision.md) (CV-01…04) · Papers: [02 Computer vision](../papers/02-computer-vision.md)
 
 **Courses covering the whole field:** [CS231n notes](https://cs231n.github.io/) (classic, very clear) · [Hugging Face Community CV Course](https://huggingface.co/learn/computer-vision-course/en/unit0/welcome/welcome) (modern, hands-on) · [Foundations of Computer Vision](https://mitpress.mit.edu/9780262048972/foundations-of-computer-vision/) (Torralba, Isola & Freeman, free online edition) · [Szeliski](https://szeliski.org/Book/) (reference)
 

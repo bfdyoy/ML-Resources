@@ -13,9 +13,9 @@ understanding, not another "What is ML?" intro.
 
 | Layer | What it is | Size |
 |---|---|---|
-| 🧭 **[Paths](#learning-paths) → [Lessons](#lesson-index)** | The guided route. What to study next, in what order, and how to check yourself. | 4 paths · 26 lessons |
+| 🧭 **[Paths](#learning-paths) → [Lessons](#lesson-index)** | The guided route. What to study next, in what order, and how to check yourself. | 5 paths + electives · 53 lessons |
 | 🧰 **[Toolbox](toolbox/README.md)** | The reference shelf. Every concept in ML/DL/LLMs/MLOps, each mapped to *intuition → deeper reading → practice → paper*. | 12 domains · 29 free books |
-| 📄 **[Papers](papers/README.md)** | Primary sources with verified arXiv links, a 30-paper must-read list, and a "read after lesson X" for each. | ~240 papers |
+| 📄 **[Papers](papers/README.md)** | Primary sources with verified arXiv links, a 30-paper must-read list, and a "read after lesson X" for each. | ~250 papers |
 | 🏋️ **[Exercises](exercises/README.md)** | Practice at every scale: drills, puzzles, a 45-rung from-scratch ladder, university assignments, projects, interview prep. | 5 practice banks |
 
 Use the lessons as your spine. Each lesson ends with links into the toolbox, the papers, and the exercises for its topic.
@@ -44,11 +44,12 @@ staring at a list of 12 links wondering where to start.
 
 | Path | For | Lessons | Time |
 |---|---|---|---|
-| [1. Core ML Practitioner](paths/01-core-ml-practitioner.md) | Solid classical ML: workflow, metrics, validation, trees, features, interpretability | 8 | ~48 h |
-| [2. Deep Learning Foundations](paths/02-deep-learning.md) | Backprop from scratch → PyTorch → training craft → CNNs → transformers | 6 | ~47 h |
-| [3. LLMs & Generative AI](paths/03-llms-genai.md) | How LLMs are built, fine-tuning/LoRA/RAG, evals, diffusion | 4 | ~31 h |
-| [4. ML in Production](paths/04-ml-in-production.md) | System design, MLOps, deployment, monitoring | 2 | ~18 h |
-| [Electives](paths/05-electives.md) | Time series · Bayesian ML · Reinforcement learning | 3 | 8–12 h each |
+| [1. Core ML Practitioner](paths/01-core-ml-practitioner.md) | Classical ML done properly: workflow, metrics, validation, trees, features, interpretability, kernels, data quality, uncertainty, tuning | 12 | ~72 h |
+| [2. Deep Learning Foundations](paths/02-deep-learning.md) | Backprop from scratch → PyTorch → training craft → CNNs → transformers → performance, modern architectures, GNNs | 9 | ~67 h |
+| [3. LLMs & Generative AI](paths/03-llms-genai.md) | LLM apps (fine-tuning, RAG, retrieval, agents, evals, security), post-training & inference, diffusion & flow matching | 10 | ~81 h |
+| [4. ML in Production](paths/04-ml-in-production.md) | System design, MLOps, testing & drift, distributed training, LLMOps | 5 | ~41 h |
+| [5. Computer Vision](paths/05-computer-vision.md) | Detection & segmentation, ViTs & self-supervised learning, CLIP & VLMs, 3D | 4 | ~30 h |
+| [Electives](paths/06-electives.md) | Time series · Bayesian · RL · RecSys · Causal · Anomaly detection · Mech interp · GPU programming · Audio · Tabular DL | 10 | 5–12 h each |
 
 ### Recommended route
 
@@ -60,15 +61,19 @@ staring at a list of 12 links wondering where to start.
             ┌─────────────┴──────────────┐
             ▼                            ▼
    Path 2: Deep Learning        Path 4: ML in Production
-            │                   (can run in parallel)
-            ▼
-   Path 3: LLMs & GenAI
-            │
-            ▼
-   Electives as needed ── Time series · Bayesian · RL
+            │                   (runs in parallel; PROD-04/05
+     ┌──────┴───────┐            wait for DL-07 / GEN-03)
+     ▼              ▼
+ Path 3: LLMs    Path 5: Computer Vision
+ & GenAI
+     │
+     ▼
+ Electives as needed ── Time series · Bayesian · RL · RecSys · Causal · Anomaly · Mech interp · GPU · Audio · Tabular DL
 ```
 
-At **~7–8 hours/week**, the full route (Paths 1–4) takes about **5–6 months**, including capstones. Math is taught
+At **~7–8 hours/week**, the **essential route** takes about **6 months**, including capstones: CORE-01…08, DL-01…06, Path 3 Part A, and
+PROD-01…03. Everything (Paths 1–5) is roughly a **year-long programme**. The extended lessons are clearly marked in each path, so you can
+take them when you need them. Math is taught
 **just in time**: lessons link to the specific block of [linear algebra](lessons/math/01-linear-algebra.md),
 [calculus & optimization](lessons/math/02-calculus-optimization.md), or
 [probability & statistics](lessons/math/03-probability-statistics.md) that you need, when you need it.
@@ -90,6 +95,10 @@ Track your progress in [PROGRESS.md](PROGRESS.md).
 | CORE-06 | [Unsupervised Learning](lessons/core-ml/06-unsupervised-learning.md) | Setosa PCA · ISLP Ch. 12 · Géron Ch. 7–8 · Distill t-SNE · PAIR UMAP |
 | CORE-07 | [Feature Engineering, Pipelines & Leakage](lessons/core-ml/07-feature-engineering-pipelines-leakage.md) | sklearn pitfalls · Kaggle Learn ×2 · Kuhn & Johnson |
 | CORE-08 | [Interpreting Models & Responsible ML](lessons/core-ml/08-interpretability-and-responsible-ml.md) | Molnar's *Interpretable ML* · Google Fairness module |
+| CORE-09 | [Kernel Methods, SVMs, Nearest Neighbours & GPs](lessons/core-ml/09-kernels-svms-nearest-neighbours.md) | ISLP Ch. 9 · CS229 notes · Distill GP explorer · sklearn |
+| CORE-10 | [Data-Centric ML: Label Quality, Imbalance & Few Labels](lessons/core-ml/10-data-centric-ml.md) | MIT DCAI + labs · cleanlab · Lilian Weng (human data, semi-supervised, active learning) |
+| CORE-11 | [Uncertainty: Calibration & Conformal Prediction](lessons/core-ml/11-uncertainty-calibration-conformal.md) | sklearn calibration · Guo et al. · Angelopoulos & Bates · MAPIE |
+| CORE-12 | [Hyperparameter Optimization](lessons/core-ml/12-hyperparameter-optimization.md) | Inria MOOC · sklearn search · Bayesian optimization · Optuna · DL Tuning Playbook |
 
 ### Deep Learning
 | ID | Lesson | Primary resources |
@@ -100,6 +109,17 @@ Track your progress in [PROGRESS.md](PROGRESS.md).
 | DL-04 | [Convolutional Networks & Computer Vision](lessons/deep-learning/04-cnns-computer-vision.md) | CNN Explainer · UDL Ch. 10–11 · CS231n · learnpytorch.io |
 | DL-05 | [Embeddings, Language Modeling & Sequences](lessons/deep-learning/05-embeddings-sequences-attention.md) | Illustrated Word2vec · Jurafsky & Martin · Karpathy makemore |
 | DL-06 | [Transformers](lessons/deep-learning/06-transformers.md) | 3Blue1Brown · Illustrated Transformer · Transformer Explainer · UDL Ch. 12 · Raschka · Karpathy GPT |
+| DL-07 | [Making Training Fast: GPUs, Mixed Precision & Profiling](lessons/deep-learning/07-performance-gpus-mixed-precision.md) | Horace He · PyTorch tuning guide, torch.compile, profiler · How to Scale Your Model |
+| DL-08 | [Modern Architectures: RoPE, GQA, MoE & SSMs](lessons/deep-learning/08-modern-architectures-moe-ssm.md) | Raschka's architecture comparison · HF (positional encoding, MoE) · Lilian Weng · Mamba |
+| DL-09 | [Graph Neural Networks](lessons/deep-learning/09-graph-neural-networks.md) | Distill ×2 · Hamilton's GRL book · UvA tutorial · PyG |
+
+### Computer Vision
+| ID | Lesson | Primary resources |
+|---|---|---|
+| CV-01 | [Object Detection & Segmentation](lessons/vision/01-object-detection-segmentation.md) | Lilian Weng's detection series · D2L CV chapter · U-Net · Ultralytics/Detectron2 |
+| CV-02 | [Vision Transformers & Self-Supervised Learning](lessons/vision/02-vision-transformers-self-supervised.md) | ViT · UvA tutorials · Lilian Weng (contrastive) · SSL Cookbook |
+| CV-03 | [Multimodal: CLIP & Vision-Language Models](lessons/vision/03-clip-vision-language-models.md) | CLIP · HF VLM posts ×2 · Lilian Weng (VLMs) |
+| CV-04 | [3D Vision & Neural Rendering](lessons/vision/04-3d-vision-neural-rendering.md) | Szeliski Ch. 2, 14 · NeRF · 3D Gaussian Splatting |
 
 ### LLMs & Generative AI
 | ID | Lesson | Primary resources |
@@ -108,12 +128,21 @@ Track your progress in [PROGRESS.md](PROGRESS.md).
 | GEN-02 | [Adapting LLMs: Prompting, Fine-tuning, LoRA & RAG](lessons/llms-genai/02-adapting-llms-finetuning-rag.md) | HF LLM Course · Raschka Ch. 6–7, App. E · Eugene Yan |
 | GEN-03 | [Evaluating & Shipping LLM Applications](lessons/llms-genai/03-evaluating-llm-apps.md) | Hamel Husain · Eugene Yan |
 | GEN-04 | [Generative Models: VAEs, GANs & Diffusion](lessons/llms-genai/04-generative-models-diffusion.md) | UDL Ch. 14–18 · Illustrated Stable Diffusion · HF Diffusion course |
+| GEN-05 | [Retrieval Engineering for RAG](lessons/llms-genai/05-retrieval-engineering.md) | IR book Ch. 6, 8, 11 · Sentence Transformers · Faiss · RAG_Techniques |
+| GEN-06 | [Agents: Tool Use, Structured Outputs & MCP](lessons/llms-genai/06-agents-tool-use.md) | Anthropic "Building Effective Agents" · Lilian Weng · HF Agents Course · MCP |
+| GEN-07 | [Post-Training: SFT, RLHF, DPO & Reasoning](lessons/llms-genai/07-post-training-alignment-reasoning.md) | RLHF Book · HF (RLHF, DPO, RLOO) · Raschka · TRL |
+| GEN-08 | [Efficient LLM Inference](lessons/llms-genai/08-efficient-llm-inference.md) | HF KV cache · Lilian Weng · Visual Guide to Quantization · vLLM |
+| GEN-09 | [LLM Security & Safety](lessons/llms-genai/09-llm-security-safety.md) | Simon Willison · OWASP LLM Top 10 · Lilian Weng (attacks, reward hacking) |
+| GEN-10 | [Advanced Diffusion & Flow Matching](lessons/llms-genai/10-advanced-diffusion-flow-matching.md) | Step-by-Step Diffusion · Yang Song · MIT 6.S184 · HF Diffusion course |
 
 ### Production
 | ID | Lesson | Primary resources |
 |---|---|---|
 | PROD-01 | [ML System Design](lessons/production/01-ml-system-design.md) | Rules of ML · Chip Huyen's DMLS · FSDL |
 | PROD-02 | [MLOps in Practice](lessons/production/02-mlops-in-practice.md) | Made With ML · MLOps Zoomcamp |
+| PROD-03 | [Testing, Monitoring & Drift](lessons/production/03-testing-monitoring-drift.md) | ML Test Score · DMLS Ch. 8–9 · Evidently course |
+| PROD-04 | [Distributed Training at Scale](lessons/production/04-distributed-training.md) | Ultra-Scale Playbook · Lilian Weng · PyTorch DDP/FSDP · LLM-Training-Puzzles |
+| PROD-05 | [LLMOps](lessons/production/05-llmops-genai-platforms.md) | Chip Huyen · applied-llms.org · Evidently LLM course · LLM Zoomcamp |
 
 ### Electives
 | ID | Lesson | Primary resources |
@@ -121,13 +150,20 @@ Track your progress in [PROGRESS.md](PROGRESS.md).
 | EL-01 | [Time Series Forecasting](lessons/electives/01-time-series-forecasting.md) | *Forecasting: Principles and Practice* (Python edition) |
 | EL-02 | [Bayesian & Probabilistic ML](lessons/electives/02-bayesian-probabilistic-ml.md) | Bayesian Methods for Hackers · Statistical Rethinking |
 | EL-03 | [Reinforcement Learning](lessons/electives/03-reinforcement-learning.md) | Sutton & Barto · HF Deep RL · Spinning Up · UDL Ch. 19 |
+| EL-04 | [Recommender Systems](lessons/electives/04-recommender-systems.md) | Google RecSys course · fastbook Ch. 8 · Microsoft Recommenders · SASRec |
+| EL-05 | [Causal Inference & Uplift](lessons/electives/05-causal-inference-uplift.md) | Causal Inference for the Brave and True · Brady Neal · EconML |
+| EL-06 | [Anomaly & Outlier Detection](lessons/electives/06-anomaly-detection.md) | sklearn outlier detection · MIT DCAI · PyOD |
+| EL-07 | [Mechanistic Interpretability](lessons/electives/07-mechanistic-interpretability.md) | Transformer Circuits · ARENA · TransformerLens · Toy Models of Superposition |
+| EL-08 | [GPU Programming for ML](lessons/electives/08-gpu-programming.md) | GPU-Puzzles · GPU MODE · FlashAttention · LeetGPU/Tensara |
+| EL-09 | [Audio & Speech](lessons/electives/09-audio-and-speech.md) | HF Audio Course · Whisper |
+| EL-10 | [Deep Learning for Tabular Data](lessons/electives/10-tabular-deep-learning.md) | Grinsztajn et al. · fastbook Ch. 9 · TabPFN |
 
 ### Math (just in time)
 | ID | Lesson | Primary resources |
 |---|---|---|
 | MATH-01 | [Linear Algebra](lessons/math/01-linear-algebra.md) | 3B1B Essence of LA · MML Ch. 2–4 |
 | MATH-02 | [Calculus & Optimization](lessons/math/02-calculus-optimization.md) | 3B1B Essence of Calculus · MML Ch. 5, 7 |
-| MATH-03 | [Probability & Statistics](lessons/math/03-probability-statistics.md) | Seeing Theory · MML Ch. 6, 8 |
+| MATH-03 | [Probability & Statistics](lessons/math/03-probability-statistics.md) | Seeing Theory · MML Ch. 6, 8 · Think Stats · ISLP Ch. 13 |
 
 ---
 
@@ -156,7 +192,7 @@ PROGRESS.md                personal checklist
 paths/                     learning paths (ordered lessons + capstones)
 lessons/                   one file per lesson, grouped by track
 toolbox/                   12-domain reference shelf + free bookshelf
-papers/                    ~240 verified papers by topic + must-read list + how to read papers
+papers/                    ~250 verified papers by topic + must-read list + how to read papers
 exercises/                 drills, from-scratch ladder, assignments, projects, interview prep
 resources/catalog.md       resources used in lessons, typed and tagged
 resources/verified-urls.tsv  how each of the 600+ URLs was verified

@@ -44,6 +44,8 @@ context length, report dev-set NLL, and sample 20 outputs.
 ## Go deeper
 - [Géron, *Hands-On ML*, Ch. 13–14](https://github.com/ageron/handson-mlp): RNNs and CNNs for sequences, and NLP with RNNs and attention.
 - [Karpathy Lecture 6: makemore WaveNet](https://github.com/karpathy/nn-zero-to-hero): hierarchical/convolutional sequence models.
+- [colah: Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/) and [Karpathy: The Unreasonable Effectiveness of RNNs](https://karpathy.github.io/2015/05/21/rnn-effectiveness/): the classic RNN explainers.
+- Classic NLP baseline: [SLP3](https://web.stanford.edu/~jurafsky/slp3/) chapters on naive Bayes and logistic-regression text classification. Always compare against a tf-idf + logistic regression baseline.
 
 ## Toolbox, papers & practice
 - **Reference shelf:** [Toolbox 05: Architectures](../../toolbox/05-architectures.md), for every concept in this lesson, with alternatives.

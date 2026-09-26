@@ -1,6 +1,6 @@
 # Papers Library
 
-About **240 papers**, grouped by topic and ordered so each one builds on the ones before it. Every arXiv link was
+About **250 papers**, grouped by topic and ordered so each one builds on the ones before it. Every arXiv link was
 checked against the exact ID and title (see [`resources/verified-urls.tsv`](../resources/verified-urls.tsv)).
 
 > **You don't need to read all of these.** Papers are the *third* layer of the curriculum. First the lesson's book chapter,
@@ -65,7 +65,7 @@ If you only read 30 papers, read these, in this order.
 | File | Topics | Papers |
 |---|---|---|
 | [01 Optimization, training & generalization](01-optimization-training-generalization.md) | optimizers, LR schedules, init, normalization, regularization, generalization theory | 29 |
-| [02 Computer vision](02-computer-vision.md) | CNNs, detection, segmentation, ViT, self-supervised, multimodal, 3D | 29 |
+| [02 Computer vision](02-computer-vision.md) | CNNs, detection, segmentation, ViT, self-supervised, multimodal, 3D | 30 |
 | [03 NLP, transformers & LLMs](03-nlp-transformers-llms.md) | embeddings, seq2seq, transformers, pretraining, scaling, architectures, data | 38 |
 | [04 Post-training, reasoning & agents](04-alignment-reasoning-agents.md) | instruction tuning, RLHF/DPO, reasoning, prompting, agents, evaluation | 34 |
 | [05 Retrieval & RAG](05-retrieval-rag.md) | dense/sparse retrieval, embeddings, vector search, RAG variants | 21 |
@@ -75,6 +75,7 @@ If you only read 30 papers, read these, in this order.
 | [09 Tabular, time series, recsys & causal](09-tabular-timeseries-recsys-causal.md) | boosting, imbalanced data, HPO, forecasting, recommenders, causal ML | 22 |
 | [10 Interpretability, uncertainty & responsible ML](10-interpretability-uncertainty-responsible.md) | SHAP/LIME, saliency, mech interp, calibration, conformal, documentation | 11 |
 | [11 ML in production](11-ml-in-production.md) | tech debt, testing, operationalization | 5 |
+| [12 Graphs & speech](12-graphs-and-speech.md) | GCN, GraphSAGE, GAT, MPNN, GIN, geometric DL; WaveNet, wav2vec 2.0, Whisper | 9 |
 
 ## Where to find more
 - [labml.ai annotated paper implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations): 60+ papers implemented in PyTorch, with side-by-side notes

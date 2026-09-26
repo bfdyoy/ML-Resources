@@ -1,6 +1,6 @@
 # Toolbox 02: Classical ML Algorithms
 
-[← Toolbox](README.md) · Guided version: [Path 1 Core ML](../paths/01-core-ml-practitioner.md)
+[← Toolbox](README.md) · **Taught in:** [Path 1 Core ML](../paths/01-core-ml-practitioner.md) · [CORE-09 (kernels, SVMs, kNN, GPs)](../lessons/core-ml/09-kernels-svms-nearest-neighbours.md) · [CORE-10 (semi-supervised & active learning)](../lessons/core-ml/10-data-centric-ml.md)
 
 > **Rule of thumb:** for every algorithm, (1) get the picture, (2) read the ISLP section, (3) implement a toy version from scratch
 > (see the [from-scratch ladder](../exercises/from-scratch-ladder.md)), (4) use the scikit-learn version on real data.
