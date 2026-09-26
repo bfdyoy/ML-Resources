@@ -40,3 +40,9 @@ measured agreement, and a single summary score. Change one thing (the prompt, ch
 ## Go deeper
 - [AI Engineering](https://www.oreilly.com/library/view/ai-engineering/9781098166298/) (Chip Huyen) `[paid]`: the evaluation-methodology chapters.
 - [Rules of Machine Learning](https://developers.google.com/machine-learning/guides/rules-of-ml): these "classic ML" production rules still apply to LLM products.
+
+## Toolbox, papers & practice
+- **Reference shelf:** [Toolbox 08: RAG, agents & evals](../../toolbox/08-rag-agents-evals.md), for every concept in this lesson, with alternatives.
+- **Papers:** [Post-training, reasoning & agents](../../papers/04-alignment-reasoning-agents.md). Start with the ⭐ ones.
+- **Implement it yourself:** [from-scratch ladder](../../exercises/from-scratch-ladder.md), rungs 39–40.
+- **Drills:** [Deep-ML](https://www.deep-ml.com/problems) problems on this topic · more in [exercises/](../../exercises/README.md).

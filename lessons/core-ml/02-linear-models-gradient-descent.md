@@ -51,3 +51,9 @@ curves for each and explain what you see.
 ## Math refresher
 - [MATH-01 Linear Algebra](../math/01-linear-algebra.md): matrix multiplication, projections
 - [MATH-02 Calculus & Optimization](../math/02-calculus-optimization.md): gradients, the chain rule
+
+## Toolbox, papers & practice
+- **Reference shelf:** [Toolbox 02: Classical ML](../../toolbox/02-classical-ml.md), for every concept in this lesson, with alternatives.
+- **Papers:** [Optimization, training & generalization](../../papers/01-optimization-training-generalization.md). Start with the ⭐ ones.
+- **Implement it yourself:** [from-scratch ladder](../../exercises/from-scratch-ladder.md), rungs 1–3.
+- **Drills:** [Deep-ML](https://www.deep-ml.com/problems) problems on this topic · more in [exercises/](../../exercises/README.md).

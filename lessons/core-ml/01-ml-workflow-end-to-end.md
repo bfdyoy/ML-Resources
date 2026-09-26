@@ -47,3 +47,9 @@ House Prices](https://www.kaggle.com/learn/intermediate-machine-learning) data u
 ## Go deeper
 - [Google ML Crash Course](https://developers.google.com/machine-learning/crash-course): the "Datasets, generalization and overfitting" module, for a quick second pass.
 - [The Hundred-Page ML Book](https://themlbook.com/), Ch. 1–2: a very fast overview if you want the big picture in one sitting.
+
+## Toolbox, papers & practice
+- **Reference shelf:** [Toolbox 03: Data, features & evaluation](../../toolbox/03-data-features-evaluation.md), for every concept in this lesson, with alternatives.
+- **Papers:** [ML in production](../../papers/11-ml-in-production.md). Start with the ⭐ ones.
+- **Implement it yourself:** [from-scratch ladder](../../exercises/from-scratch-ladder.md), rungs 1, 7.
+- **Drills:** [Deep-ML](https://www.deep-ml.com/problems) problems on this topic · more in [exercises/](../../exercises/README.md).

@@ -40,3 +40,9 @@ By the end you can:
 ## Go deeper
 - [Géron, *Hands-On ML*, Ch. 19 "Reinforcement Learning"](https://github.com/ageron/handson-mlp)
 - [The Illustrated DeepSeek-R1](https://newsletter.languagemodels.co/p/the-illustrated-deepseek-r1): RL applied to LLM reasoning.
+
+## Toolbox, papers & practice
+- **Reference shelf:** [Toolbox 10: Reinforcement learning](../../toolbox/10-reinforcement-learning.md), for every concept in this lesson, with alternatives.
+- **Papers:** [Reinforcement learning](../../papers/08-reinforcement-learning.md). Start with the ⭐ ones.
+- **Implement it yourself:** [from-scratch ladder](../../exercises/from-scratch-ladder.md), rungs 43–45.
+- **Drills:** [Deep-ML](https://www.deep-ml.com/problems) problems on this topic · more in [exercises/](../../exercises/README.md).

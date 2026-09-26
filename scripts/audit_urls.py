@@ -16,7 +16,7 @@ Methods (strongest first):
     I  arXiv ID + title confirmed in curated GitHub citation lists
     P  same URL scheme as verified sibling pages; pending direct check (weakest)
 
-Stdlib only. templates/ is ignored (it contains placeholder URLs).
+Stdlib only. .claude/ and templates/ are ignored (they contain placeholder URLs).
 """
 from __future__ import annotations
 
@@ -28,7 +28,7 @@ import sys
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 LOG = ROOT / "resources" / "verified-urls.tsv"
 URL_RE = re.compile(r"https?://[^\s<>()\"'`\]]+")
-SKIP = {".git", "templates", "node_modules"}
+SKIP = {".git", ".claude", "templates", "node_modules"}
 
 
 def repo_urls() -> dict[str, list[str]]:

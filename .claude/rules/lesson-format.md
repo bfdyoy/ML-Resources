@@ -21,9 +21,12 @@ Every lesson file follows `templates/lesson-template.md`. Non-negotiables:
 6. **Mini-project**: a small concrete task (1–3 h) with a suggested dataset.
 7. **Go deeper**: optional alternatives and advanced material, max 5 items.
 8. **Math refresher** (if needed): link to a `lessons/math/` file with the specific section.
+9. **Toolbox, papers & practice**: links to the matching `toolbox/` page, `papers/` page, the
+   relevant rungs of `exercises/from-scratch-ladder.md`, and a drill source.
 
 Style:
 - Use plain, friendly language. Explain *why* the resource was chosen in a short phrase.
 - Time estimates are for an intermediate learner reading carefully, not skimming.
 - Never paste large chunks of copyrighted text. Summarise and link.
-- Resource names must match their entry in `resources/catalog.md`.
+- Resources used in lessons must be in `resources/catalog.md`, and every URL must have a row in
+  `resources/verified-urls.tsv` (see `.claude/rules/link-policy.md`).

@@ -1,6 +1,8 @@
 # Resource Catalog
 
-Every resource used in a lesson is listed here. Lessons should only link to resources in this file.
+Every resource used in a **lesson** is listed here. The wider reference material lives in the [toolbox](../toolbox/README.md),
+the [papers library](../papers/README.md), and the [exercises](../exercises/README.md). How every URL in the repo was verified is recorded in
+[`verified-urls.tsv`](verified-urls.tsv).
 
 **Legend**
 - **Type:** book · book-chapter · visual-essay · interactive · course · course-notes · video · notebook · blog · docs

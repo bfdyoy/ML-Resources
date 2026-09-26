@@ -17,5 +17,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Check links
+      - name: Every URL has a verification record
+        run: python3 scripts/audit_urls.py --stats
+      - name: Check links are live
         run: python3 scripts/check_links.py

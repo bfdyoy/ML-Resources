@@ -49,3 +49,9 @@ try one architectural change (e.g. more heads vs more layers, or RoPE vs learned
 - [The Illustrated GPT-2](https://jalammar.github.io/illustrated-gpt2/) and [The Illustrated BERT](https://jalammar.github.io/illustrated-bert/)
 - [Build a LLM From Scratch](https://github.com/rasbt/LLMs-from-scratch): Ch. 3 (attention) and Ch. 4 (GPT model), a careful written alternative to Karpathy's video.
 - [D2L](https://d2l.ai/): chapter "Attention Mechanisms and Transformers" (including vision transformers)
+
+## Toolbox, papers & practice
+- **Reference shelf:** [Toolbox 05: Architectures](../../toolbox/05-architectures.md), for every concept in this lesson, with alternatives.
+- **Papers:** [NLP, transformers & LLMs](../../papers/03-nlp-transformers-llms.md). Start with the ⭐ ones.
+- **Implement it yourself:** [from-scratch ladder](../../exercises/from-scratch-ladder.md), rungs 27–28.
+- **Drills:** [Deep-ML](https://www.deep-ml.com/problems) problems on this topic · more in [exercises/](../../exercises/README.md).

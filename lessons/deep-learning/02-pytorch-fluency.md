@@ -42,3 +42,9 @@ prose and do *all* the exercises. The exercises are where the fluency comes from
 ## Go deeper
 - [learnpytorch.io 07: Experiment Tracking](https://www.learnpytorch.io/07_pytorch_experiment_tracking/)
 - [fastbook](https://github.com/fastai/fastbook) Ch. 4 "MNIST Basics": builds SGD and a learner from scratch. A great bridge from DL-01.
+
+## Toolbox, papers & practice
+- **Reference shelf:** [Toolbox 04: Deep learning fundamentals](../../toolbox/04-deep-learning-fundamentals.md), for every concept in this lesson, with alternatives.
+- **Papers:** [Optimization, training & generalization](../../papers/01-optimization-training-generalization.md). Start with the ⭐ ones.
+- **Implement it yourself:** [from-scratch ladder](../../exercises/from-scratch-ladder.md), rung 20.
+- **Drills:** [Deep-ML](https://www.deep-ml.com/problems) problems on this topic · more in [exercises/](../../exercises/README.md).

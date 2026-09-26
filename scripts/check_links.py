@@ -26,7 +26,7 @@ import urllib.request
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 URL_RE = re.compile(r"https?://[^\s<>()\"'`\]]+")
-SKIP_DIRS = {".git", "node_modules", ".venv"}
+SKIP_DIRS = {".git", ".claude", "templates", "node_modules", ".venv"}
 UA = "Mozilla/5.0 (ML-Resources link checker; +https://github.com/bfdyoy/ML-Resources)"
 
 

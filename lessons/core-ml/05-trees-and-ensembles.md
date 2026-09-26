@@ -48,3 +48,9 @@ XGBoost, or LightGBM) with early stopping. Report CV scores and training time, p
 ## Go deeper
 - [Inria scikit-learn MOOC](https://inria.github.io/scikit-learn-mooc/): module "Ensemble of models", which covers bagging vs boosting with clean experiments.
 - [The Hundred-Page ML Book](https://themlbook.com/): the ensemble-learning chapter, for a compact recap.
+
+## Toolbox, papers & practice
+- **Reference shelf:** [Toolbox 02: Classical ML](../../toolbox/02-classical-ml.md), for every concept in this lesson, with alternatives.
+- **Papers:** [Tabular, time series, recsys & causal](../../papers/09-tabular-timeseries-recsys-causal.md). Start with the ⭐ ones.
+- **Implement it yourself:** [from-scratch ladder](../../exercises/from-scratch-ladder.md), rungs 10–12.
+- **Drills:** [Deep-ML](https://www.deep-ml.com/problems) problems on this topic · more in [exercises/](../../exercises/README.md).

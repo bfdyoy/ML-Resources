@@ -44,3 +44,9 @@ and 10 misclassified examples.
 - [D2L](https://d2l.ai/): chapters "Convolutional Neural Networks" and "Modern Convolutional Neural Networks"
 - [fastbook](https://github.com/fastai/fastbook): Ch. 13 "Convolutions", Ch. 14 "ResNets", Ch. 18 "CAM" (class activation maps for interpretability)
 - [Géron, *Hands-On ML*, Ch. 12 "Deep Computer Vision Using CNNs" and Ch. 16 "Vision and Multimodal Transformers"](https://github.com/ageron/handson-mlp)
+
+## Toolbox, papers & practice
+- **Reference shelf:** [Toolbox 06: Computer vision](../../toolbox/06-computer-vision.md), for every concept in this lesson, with alternatives.
+- **Papers:** [Computer vision](../../papers/02-computer-vision.md). Start with the ⭐ ones.
+- **Implement it yourself:** [from-scratch ladder](../../exercises/from-scratch-ladder.md), rungs 23–24.
+- **Drills:** [Deep-ML](https://www.deep-ml.com/problems) problems on this topic · more in [exercises/](../../exercises/README.md).

@@ -44,3 +44,9 @@ context length, report dev-set NLL, and sample 20 outputs.
 ## Go deeper
 - [Géron, *Hands-On ML*, Ch. 13–14](https://github.com/ageron/handson-mlp): RNNs and CNNs for sequences, and NLP with RNNs and attention.
 - [Karpathy Lecture 6: makemore WaveNet](https://github.com/karpathy/nn-zero-to-hero): hierarchical/convolutional sequence models.
+
+## Toolbox, papers & practice
+- **Reference shelf:** [Toolbox 05: Architectures](../../toolbox/05-architectures.md), for every concept in this lesson, with alternatives.
+- **Papers:** [NLP, transformers & LLMs](../../papers/03-nlp-transformers-llms.md). Start with the ⭐ ones.
+- **Implement it yourself:** [from-scratch ladder](../../exercises/from-scratch-ladder.md), rungs 25–26.
+- **Drills:** [Deep-ML](https://www.deep-ml.com/problems) problems on this topic · more in [exercises/](../../exercises/README.md).

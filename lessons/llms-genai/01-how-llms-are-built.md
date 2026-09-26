@@ -48,3 +48,9 @@ Compare token counts per word, and inspect odd merges. Then load a small open mo
 - [Jurafsky & Martin, SLP3](https://web.stanford.edu/~jurafsky/slp3/): the chapters on large language models, transformers, and post-training/alignment.
 - [Stanford CS336: Language Modeling from Scratch](https://cs336.stanford.edu/) ([lectures](https://www.youtube.com/playlist?list=PLoROMvodv4rOY23Y0BoGoBGgQ1zmU_MT_)): the advanced, full-stack version of this lesson.
 - [The Illustrated GPT-2](https://jalammar.github.io/illustrated-gpt2/)
+
+## Toolbox, papers & practice
+- **Reference shelf:** [Toolbox 07: NLP & LLMs](../../toolbox/07-nlp-and-llms.md), for every concept in this lesson, with alternatives.
+- **Papers:** [NLP, transformers & LLMs](../../papers/03-nlp-transformers-llms.md). Start with the ⭐ ones.
+- **Implement it yourself:** [from-scratch ladder](../../exercises/from-scratch-ladder.md), rungs 29–32.
+- **Drills:** [Deep-ML](https://www.deep-ml.com/problems) problems on this topic · more in [exercises/](../../exercises/README.md).

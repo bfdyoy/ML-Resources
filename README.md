@@ -9,6 +9,18 @@ explanation) and puts them in order as **lessons** and **learning paths**.
 It's built for an **intermediate learner**: you know Python, you've trained a model or two, and you want real
 understanding, not another "What is ML?" intro.
 
+## Four layers
+
+| Layer | What it is | Size |
+|---|---|---|
+| 🧭 **[Paths](#learning-paths) → [Lessons](#lesson-index)** | The guided route. What to study next, in what order, and how to check yourself. | 4 paths · 26 lessons |
+| 🧰 **[Toolbox](toolbox/README.md)** | The reference shelf. Every concept in ML/DL/LLMs/MLOps, each mapped to *intuition → deeper reading → practice → paper*. | 12 domains · 29 free books |
+| 📄 **[Papers](papers/README.md)** | Primary sources with verified arXiv links, a 30-paper must-read list, and a "read after lesson X" for each. | ~240 papers |
+| 🏋️ **[Exercises](exercises/README.md)** | Practice at every scale: drills, puzzles, a 45-rung from-scratch ladder, university assignments, projects, interview prep. | 5 practice banks |
+
+Use the lessons as your spine. Each lesson ends with links into the toolbox, the papers, and the exercises for its topic.
+Every one of the 600+ links in this repo has a verification record ([`resources/verified-urls.tsv`](resources/verified-urls.tsv)).
+
 ---
 
 ## How every lesson works
@@ -143,12 +155,17 @@ README.md                  you are here
 PROGRESS.md                personal checklist
 paths/                     learning paths (ordered lessons + capstones)
 lessons/                   one file per lesson, grouped by track
-resources/catalog.md       every resource, typed/tagged/verified (source of truth)
+toolbox/                   12-domain reference shelf + free bookshelf
+papers/                    ~240 verified papers by topic + must-read list + how to read papers
+exercises/                 drills, from-scratch ladder, assignments, projects, interview prep
+resources/catalog.md       resources used in lessons, typed and tagged
+resources/verified-urls.tsv  how each of the 600+ URLs was verified
 templates/                 lesson template
-scripts/check_links.py     link checker (stdlib only), also run weekly by GitHub Actions
+scripts/check_links.py     live link checker (also runs weekly in GitHub Actions)
+scripts/audit_urls.py      fails if any URL lacks a verification record
 CLAUDE.md                  project instructions for Claude Code
 .claude/rules/             quality bar, lesson format, link policy
-.claude/skills/            research-resources · build-lesson · check-links · review-path
+.claude/skills/            research-resources · build-lesson · expand-toolbox · check-links · review-path
 .claude/agents/            resource-scout · curriculum-architect · link-auditor · pedagogy-reviewer
 ```
 
@@ -158,6 +175,7 @@ This repo is set up so Claude Code can keep it growing and up to date:
 
 - *"Research resources for **graph neural networks**"* → `research-resources` skill / `resource-scout` agent
 - *"Write a lesson **DL-07 Graph Neural Networks**"* → `build-lesson` skill
+- *"Add papers and resources on **model merging** to the toolbox"* → `expand-toolbox` skill
 - *"Check all links"* → `check-links` skill / `link-auditor` agent (also runs weekly in CI)
 - *"Review Path 2 for gaps"* → `review-path` skill / `pedagogy-reviewer` agent
 

@@ -45,3 +45,9 @@ show (with CV) which of them actually helped. Then plant a deliberate leak and s
 ## Go deeper
 - [Inria scikit-learn MOOC](https://inria.github.io/scikit-learn-mooc/): its preprocessing and pipeline modules, as a second pass.
 - [Géron, *Hands-On ML*, Ch. 2](https://github.com/ageron/handson-mlp): revisit its custom transformers section.
+
+## Toolbox, papers & practice
+- **Reference shelf:** [Toolbox 03: Data, features & evaluation](../../toolbox/03-data-features-evaluation.md), for every concept in this lesson, with alternatives.
+- **Papers:** [Tabular, time series, recsys & causal](../../papers/09-tabular-timeseries-recsys-causal.md). Start with the ⭐ ones.
+- **Implement it yourself:** [from-scratch ladder](../../exercises/from-scratch-ladder.md), rung 7.
+- **Drills:** [Deep-ML](https://www.deep-ml.com/problems) problems on this topic · more in [exercises/](../../exercises/README.md).

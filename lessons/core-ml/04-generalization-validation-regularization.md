@@ -47,3 +47,9 @@ chosen by CV. Plot coefficient paths, and report test performance using a correc
 ## Go deeper
 - [UDL](https://udlbook.github.io/udlbook/) Ch. 8 "Measuring Performance": the modern DL view of generalization, including double descent.
 - [MLU-Explain: Double Descent 2](https://mlu-explain.github.io/double-descent2/): the mathematical follow-up.
+
+## Toolbox, papers & practice
+- **Reference shelf:** [Toolbox 03: Data, features & evaluation](../../toolbox/03-data-features-evaluation.md), for every concept in this lesson, with alternatives.
+- **Papers:** [Optimization, training & generalization](../../papers/01-optimization-training-generalization.md). Start with the ⭐ ones.
+- **Implement it yourself:** [from-scratch ladder](../../exercises/from-scratch-ladder.md), rungs 3, 7, 17.
+- **Drills:** [Deep-ML](https://www.deep-ml.com/problems) problems on this topic · more in [exercises/](../../exercises/README.md).

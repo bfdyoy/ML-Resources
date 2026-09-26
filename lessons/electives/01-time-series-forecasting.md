@@ -38,3 +38,8 @@ has the same explanations. The prose is the valuable part.
 using rolling-origin CV.
 **Dataset:** Any public daily series, e.g. bike-sharing demand (UCI) or electricity load.
 **Deliverable:** A notebook with an accuracy table (MASE/RMSE) per model.
+
+## Toolbox, papers & practice
+- **Reference shelf:** [Toolbox 12: Specialized topics](../../toolbox/12-specialized-topics.md), for every concept in this lesson, with alternatives.
+- **Papers:** [Tabular, time series, recsys & causal](../../papers/09-tabular-timeseries-recsys-causal.md). Start with the ⭐ ones.
+- **Drills:** [Deep-ML](https://www.deep-ml.com/problems) problems on this topic · more in [exercises/](../../exercises/README.md).

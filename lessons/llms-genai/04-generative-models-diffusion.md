@@ -45,3 +45,9 @@ then add class conditioning. Show samples at several training checkpoints.
 - [Lilian Weng: What are Diffusion Models?](https://lilianweng.github.io/posts/2021-07-11-diffusion-models/): a dense but complete mathematical tour.
 - [Géron, *Hands-On ML*, Ch. 18 "Autoencoders, GANs, and Diffusion Models"](https://github.com/ageron/handson-mlp): a practical implementation angle.
 - [Deep Learning: Foundations and Concepts](https://www.bishopbook.com/) (Bishop): the chapters on generative models, for a rigorous treatment.
+
+## Toolbox, papers & practice
+- **Reference shelf:** [Toolbox 09: Generative models](../../toolbox/09-generative-models.md), for every concept in this lesson, with alternatives.
+- **Papers:** [Generative models](../../papers/07-generative-models.md). Start with the ⭐ ones.
+- **Implement it yourself:** [from-scratch ladder](../../exercises/from-scratch-ladder.md), rungs 41–42.
+- **Drills:** [Deep-ML](https://www.deep-ml.com/problems) problems on this topic · more in [exercises/](../../exercises/README.md).

@@ -31,7 +31,8 @@ description: Research and shortlist the best learning resources (book chapters, 
 
 5. **Pick one primary per step type** (Intuition / Read / Build / Watch). List the rest as "Go deeper".
 
-6. **Update `resources/catalog.md`**: add rows in the right section, keeping alphabetical order within the section.
+6. **Record and file it**: add every URL to `resources/verified-urls.tsv` (method + evidence). Put lesson resources
+   in `resources/catalog.md`, and reference material in the matching `toolbox/` page. Run `python3 scripts/audit_urls.py`.
 
 ## Output
 A short report with the primary pick per step type (and why), the alternatives,

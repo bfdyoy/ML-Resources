@@ -42,3 +42,9 @@ By the end you can:
 ## Go deeper
 - [MML book](https://mml-book.github.io/) Ch. 10 "Dimensionality Reduction with PCA" and Ch. 11 "Density Estimation with Gaussian Mixture Models": the math behind both.
 - [UDL](https://udlbook.github.io/udlbook/) Ch. 14 "Unsupervised Learning": a bridge to generative models (GEN-04).
+
+## Toolbox, papers & practice
+- **Reference shelf:** [Toolbox 02: Classical ML](../../toolbox/02-classical-ml.md), for every concept in this lesson, with alternatives.
+- **Papers:** [Tabular, time series, recsys & causal](../../papers/09-tabular-timeseries-recsys-causal.md). Start with the ⭐ ones.
+- **Implement it yourself:** [from-scratch ladder](../../exercises/from-scratch-ladder.md), rungs 13–15.
+- **Drills:** [Deep-ML](https://www.deep-ml.com/problems) problems on this topic · more in [exercises/](../../exercises/README.md).

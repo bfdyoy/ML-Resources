@@ -16,6 +16,8 @@ Process:
 2. Search broadly, then narrow down to exact chapters and sections. Confirm every URL via a fetch, or via a search
    result showing that exact URL. Never guess a URL, chapter number, or section title.
 3. Reject pirated mirrors, SEO listicles, and paywalled blog posts.
+4. For papers, confirm arXiv ID ↔ title (web search, or GitHub citation corpora when arxiv.org is blocked, per link-policy §8).
+   Pair each paper with the best explainer you can find.
 
 Return (don't edit files):
 - **Primary picks** for Intuition / Read / Build / Watch: name, author, URL, exact scope, time estimate,

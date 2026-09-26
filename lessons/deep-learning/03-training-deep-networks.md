@@ -45,3 +45,9 @@ logging the effect of each change.
 - [Géron, *Hands-On ML*, Ch. 11 "Training Deep Neural Networks"](https://github.com/ageron/handson-mlp): a practitioner checklist with code.
 - [UDL](https://udlbook.github.io/udlbook/) Ch. 11 "Residual Networks" and Ch. 20 "Why Does Deep Learning Work?"
 - [MLU-Explain: Double Descent](https://mlu-explain.github.io/double-descent/): revisit it now that you train big models.
+
+## Toolbox, papers & practice
+- **Reference shelf:** [Toolbox 04: Deep learning fundamentals](../../toolbox/04-deep-learning-fundamentals.md), for every concept in this lesson, with alternatives.
+- **Papers:** [Optimization, training & generalization](../../papers/01-optimization-training-generalization.md). Start with the ⭐ ones.
+- **Implement it yourself:** [from-scratch ladder](../../exercises/from-scratch-ladder.md), rungs 20–22.
+- **Drills:** [Deep-ML](https://www.deep-ml.com/problems) problems on this topic · more in [exercises/](../../exercises/README.md).

@@ -39,3 +39,9 @@ By the end you can:
 
 ## Math refresher
 - [<math lesson>](../math/xx.md): <section>
+
+## Toolbox, papers & practice
+- **Reference shelf:** [Toolbox NN: <domain>](../../toolbox/NN-<domain>.md)
+- **Papers:** [<topic>](../../papers/NN-<topic>.md). Start with the ⭐ ones.
+- **Implement it yourself:** [from-scratch ladder](../../exercises/from-scratch-ladder.md), rungs <n–m>.
+- **Drills:** <drill source> · more in [exercises/](../../exercises/README.md).

@@ -41,3 +41,9 @@ P(B > A), and make a decision with an explicit loss function.
 ## Go deeper
 - [Probabilistic Machine Learning](https://probml.github.io/pml-book/) (Murphy) + [pyprobml](https://github.com/probml/pyprobml): the full probabilistic view of ML.
 - [MML book](https://mml-book.github.io/) Ch. 6 "Probability and Distributions" and Ch. 8 "When Models Meet Data"
+
+## Toolbox, papers & practice
+- **Reference shelf:** [Toolbox 01: Math & statistics](../../toolbox/01-math-and-stats.md), for every concept in this lesson, with alternatives.
+- **Papers:** [Interpretability, uncertainty & responsible ML](../../papers/10-interpretability-uncertainty-responsible.md). Start with the ⭐ ones.
+- **Implement it yourself:** [from-scratch ladder](../../exercises/from-scratch-ladder.md), rung 17.
+- **Drills:** [Deep-ML](https://www.deep-ml.com/problems) problems on this topic · more in [exercises/](../../exercises/README.md).

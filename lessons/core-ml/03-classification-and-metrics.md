@@ -47,3 +47,9 @@ and show a calibration plot before and after `CalibratedClassifierCV`.
 ## Go deeper
 - [Google ML Crash Course](https://developers.google.com/machine-learning/crash-course): the "Logistic regression" and "Classification" modules, which have good quick exercises.
 - [Probabilistic ML (Murphy)](https://probml.github.io/pml-book/) Ch. 10 "Logistic Regression": the full derivation.
+
+## Toolbox, papers & practice
+- **Reference shelf:** [Toolbox 03: Data, features & evaluation](../../toolbox/03-data-features-evaluation.md), for every concept in this lesson, with alternatives.
+- **Papers:** [Interpretability, uncertainty & responsible ML](../../papers/10-interpretability-uncertainty-responsible.md). Start with the ⭐ ones.
+- **Implement it yourself:** [from-scratch ladder](../../exercises/from-scratch-ladder.md), rungs 4–6.
+- **Drills:** [Deep-ML](https://www.deep-ml.com/problems) problems on this topic · more in [exercises/](../../exercises/README.md).

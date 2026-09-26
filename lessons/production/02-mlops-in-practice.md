@@ -41,3 +41,8 @@ a FastAPI service in Docker, a GitHub Actions workflow that runs tests, and a dr
 ## Go deeper
 - [Designing Machine Learning Systems](https://www.oreilly.com/library/view/designing-machine-learning/9781098107956/) `[paid]`: Ch. 9 (continual learning and testing in production) and Ch. 10 (infrastructure and tooling).
 - [learnpytorch.io 09: Model Deployment](https://www.learnpytorch.io/09_pytorch_model_deployment/): a lightweight deployment demo.
+
+## Toolbox, papers & practice
+- **Reference shelf:** [Toolbox 11: MLOps, systems & scale](../../toolbox/11-mlops-and-systems.md), for every concept in this lesson, with alternatives.
+- **Papers:** [ML in production](../../papers/11-ml-in-production.md). Start with the ⭐ ones.
+- **Drills:** [Deep-ML](https://www.deep-ml.com/problems) problems on this topic · more in [exercises/](../../exercises/README.md).

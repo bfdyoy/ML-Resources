@@ -21,6 +21,11 @@ Apply this whenever you add, replace, or recommend a learning resource.
 3. Course notes (CS231n, Inria scikit-learn MOOC)
 4. Video (3Blue1Brown, StatQuest, Karpathy): **only as a complement**, never the sole path in
 
+## Papers & PDFs
+- Papers are welcome as the **"Paper" layer** (toolbox and papers library), and as the Read step only when no better explainer exists.
+- Pair every paper with an explainer (blog, visual essay, annotated implementation) where one exists.
+- Official PDFs from the author, a university, or a publisher are fine (e.g. MML, ESL, Boyd, Sutton & Barto).
+
 ## Red flags → reject
 - SEO listicles, "Top 10 ML algorithms you must know", Medium posts without code or derivations
 - Paywalled Medium or Towards Data Science articles as primary material

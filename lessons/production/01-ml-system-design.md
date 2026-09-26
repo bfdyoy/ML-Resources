@@ -43,3 +43,8 @@ data → features → model baseline → serving → monitoring → risks.
 ## Go deeper
 - [Google MLCC](https://developers.google.com/machine-learning/crash-course): the "Production ML systems" module
 - [Made With ML](https://madewithml.com/): the "Design" section
+
+## Toolbox, papers & practice
+- **Reference shelf:** [Toolbox 11: MLOps, systems & scale](../../toolbox/11-mlops-and-systems.md), for every concept in this lesson, with alternatives.
+- **Papers:** [ML in production](../../papers/11-ml-in-production.md). Start with the ⭐ ones.
+- **Drills:** [Deep-ML](https://www.deep-ml.com/problems) problems on this topic · more in [exercises/](../../exercises/README.md).

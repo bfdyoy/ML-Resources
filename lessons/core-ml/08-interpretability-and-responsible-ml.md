@@ -41,3 +41,9 @@ its caveats), three individual predictions explained, and a group-fairness check
 ## Go deeper
 - [Google ML Crash Course](https://developers.google.com/machine-learning/crash-course): the "Production ML systems" module, which pairs well with PROD-01.
 - [UDL](https://udlbook.github.io/udlbook/) Ch. 21 "Deep Learning and Ethics": a thoughtful, broad view.
+
+## Toolbox, papers & practice
+- **Reference shelf:** [Toolbox 03: Data, features & evaluation](../../toolbox/03-data-features-evaluation.md), for every concept in this lesson, with alternatives.
+- **Papers:** [Interpretability, uncertainty & responsible ML](../../papers/10-interpretability-uncertainty-responsible.md). Start with the ⭐ ones.
+- **Implement it yourself:** [from-scratch ladder](../../exercises/from-scratch-ladder.md), rung 16.
+- **Drills:** [Deep-ML](https://www.deep-ml.com/problems) problems on this topic · more in [exercises/](../../exercises/README.md).

@@ -27,13 +27,25 @@ lessons/<track>/NN-*.md   One lesson = one concept cluster, ~5–12 hours of wor
   production/             ML systems design + MLOps
   electives/              Time series, Bayesian ML, RL
   math/                   Just-in-time math refreshers linked from lessons
-resources/catalog.md      Every resource used, typed and tagged (source of truth)
+toolbox/NN-*.md           Reference shelf: every concept → intuition, deeper reading, practice, paper
+papers/NN-*.md            ~240 verified papers by topic, with a 30-paper must-read list
+exercises/*.md            Drills, 45-rung from-scratch ladder, assignments, projects, interview prep
+resources/catalog.md      Resources used in lessons, typed and tagged
+resources/verified-urls.tsv  Verification record for EVERY URL in the repo (method + evidence)
 templates/lesson-template.md
-scripts/check_links.py    Link checker (stdlib only)
+scripts/check_links.py    Live link checker (stdlib only; run where network allows)
+scripts/audit_urls.py     Fails if any URL lacks a verification record (runs anywhere)
 .claude/rules/            Standing rules (quality bar, lesson format, link policy)
 .claude/skills/           Repeatable workflows (research, build lesson, check links, review path)
 .claude/agents/           Subagents (resource scout, curriculum architect, link auditor, pedagogy reviewer)
 ```
+
+## The four layers
+1. **Paths → lessons**: the guided route (what to do next, in what order).
+2. **Toolbox**: the reference shelf for every concept, including ones no lesson covers.
+3. **Papers**: primary sources, each paired with an explainer and a "read after" lesson.
+4. **Exercises**: practice at every scale, from 20-minute drills to capstones.
+Lessons link down into the other three (see the "Toolbox, papers & practice" section of each lesson).
 
 ## Core principles (read `.claude/rules/` for detail)
 
@@ -58,9 +70,12 @@ scripts/check_links.py    Link checker (stdlib only)
 - New resources go into `resources/catalog.md` **first**, and lessons reference them from there.
 - Keep lesson IDs stable (`CORE-03`, `DL-02`, …). Paths refer to lessons by ID + link.
 - When you change a lesson, update every path that includes it.
+- **Every new URL gets a row in `resources/verified-urls.tsv`** (method codes in `.claude/rules/link-policy.md`).
+  `python3 scripts/audit_urls.py` must pass before committing.
 - Run `python3 scripts/check_links.py` before committing if network allows.
   In restricted sandboxes, many hosts are blocked. Treat those results as
-  "unknown", not "broken".
+  "unknown", not "broken". When arxiv.org is blocked, verify IDs against GitHub citation
+  corpora (link-policy §8).
 - Commit messages: imperative, scoped (e.g. `lessons: add DL-04 CNNs`).
 
 ## Workflows
@@ -72,3 +87,4 @@ scripts/check_links.py    Link checker (stdlib only)
 | Validate URLs | skill `check-links`, or agent `link-auditor` |
 | Check a path's ordering and difficulty | skill `review-path`, or agent `pedagogy-reviewer` |
 | Restructure paths or add a new track | agent `curriculum-architect` |
+| Add concepts, papers, or exercises to the toolbox | skill `expand-toolbox` |

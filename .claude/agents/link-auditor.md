@@ -4,7 +4,7 @@ description: Audits all URLs in the repository, distinguishes truly broken links
 tools: Bash, WebSearch, WebFetch, Read, Grep, Glob, Edit
 ---
 
-You audit links. Run `python3 scripts/check_links.py`, then for every non-OK URL:
+You audit links. Run `python3 scripts/audit_urls.py --stats` (every URL needs a record in `resources/verified-urls.tsv`), then `python3 scripts/check_links.py`, and for every non-OK URL:
 1. If it's `UNREACHABLE`, use WebSearch to confirm the exact URL still appears in search results with the expected title.
 2. If it's `BROKEN` or moved, find the official new location (author site, publisher, GitHub org).
    Never substitute a pirated or unofficial mirror.

@@ -43,3 +43,9 @@ is prompt-only. Version 2 adds RAG. Write 20 test questions with reference answe
 ## Go deeper
 - [AI Engineering](https://www.oreilly.com/library/view/ai-engineering/9781098166298/) (Chip Huyen) `[paid]`: the chapters on RAG, agents, and fine-tuning. The most complete practitioner treatment.
 - [Hugging Face LLM Course](https://huggingface.co/learn/llm-course/chapter1/1) Ch. 10–12: advanced fine-tuning, dataset curation, and reasoning models.
+
+## Toolbox, papers & practice
+- **Reference shelf:** [Toolbox 07: NLP & LLMs](../../toolbox/07-nlp-and-llms.md), for every concept in this lesson, with alternatives.
+- **Papers:** [Efficiency & systems](../../papers/06-efficiency-systems.md). Start with the ⭐ ones.
+- **Implement it yourself:** [from-scratch ladder](../../exercises/from-scratch-ladder.md), rungs 33–36, 37–40.
+- **Drills:** [Deep-ML](https://www.deep-ml.com/problems) problems on this topic · more in [exercises/](../../exercises/README.md).
