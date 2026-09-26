@@ -2,7 +2,7 @@
 
 [← Papers library](README.md) · Background: [GEN-02](../lessons/llms-genai/02-adapting-llms-finetuning-rag.md) · [Toolbox: RAG, agents & evals](../toolbox/08-rag-agents-evals.md)
 
-> **Before these papers:** read the classic IR fundamentals in [*Introduction to Information Retrieval*](https://nlp.stanford.edu/IR-book/),
+> **Before these papers:** read the classic IR fundamentals in [*Introduction to Information Retrieval*](https://nlp.stanford.edu/IR-book/html/htmledition/irbook.html),
 > Ch. 6 (scoring, tf-idf, the vector space model), Ch. 8 (evaluation), and Ch. 11 (probabilistic IR / BM25). Most "RAG problems" are retrieval problems.
 
 ## Embeddings & dense retrieval

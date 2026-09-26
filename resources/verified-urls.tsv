@@ -1,0 +1,625 @@
+url	method	date	evidence
+http://ccr.sigcomm.org/online/files/p83-keshavA.pdf	S	2026-09	exact URL in web search results
+http://incompleteideas.net/book/the-book-2nd.html	S	2026-09	exact URL in web search results
+http://karpathy.github.io/2019/04/25/recipe/	S	2026-09	search result
+http://neuralnetworksanddeeplearning.com/	S	2026-09	exact URL in web search results
+http://neuralnetworksanddeeplearning.com/chap1.html	P	2026-09	same scheme as verified chap2/chap3 pages
+http://neuralnetworksanddeeplearning.com/chap2.html	S	2026-09	exact URL in web search results
+http://neuralnetworksanddeeplearning.com/chap3.html	S	2026-09	exact URL in web search results
+http://neuralnetworksanddeeplearning.com/chap4.html	P	2026-09	same scheme as verified chap2/chap3 pages
+http://neuralnetworksanddeeplearning.com/chap5.html	P	2026-09	same scheme as verified chap2/chap3 pages
+http://www.inference.org.uk/mackay/itila/book.html	S	2026-09	exact URL in web search results
+https://applied-llms.org/	S	2026-09	exact URL in web search results
+https://arxiv.org/abs/1106.1813	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/1206.2944	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/1206.5533	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1207.0580	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1301.3781	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1312.5602	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1312.6114	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1406.2661	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1409.0473	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1409.1556	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1409.3215	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1412.6980	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1502.01852	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/1502.03167	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1502.05477	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1503.02531	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1505.04597	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1506.01186	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/1506.01497	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1506.02438	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1506.02640	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1508.07909	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1509.02971	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1510.00149	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1511.06434	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1512.00567	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/1512.03385	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1602.01783	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1602.04938	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1603.02754	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1603.06560	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1603.09320	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/1604.06174	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1606.07792	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/1606.08415	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1607.04606	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1607.06450	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1608.00060	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/1608.03983	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/1609.02907	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1609.03499	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1609.04747	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/1610.02391	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1611.03530	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1612.03144	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1701.06538	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/1701.07875	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1703.01365	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1703.04247	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/1703.06870	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1704.01212	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1704.04110	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/1704.04861	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1705.07874	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1706.02216	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1706.03461	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1706.03741	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1706.03762	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1706.04599	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/1706.09516	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/1707.06347	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1708.02002	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1708.05031	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/1710.02298	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/1710.03740	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1710.09412	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1710.10903	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1711.00937	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1711.05101	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1712.01815	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/1712.09913	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1801.01290	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1801.06146	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1802.03426	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1802.05365	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1803.03635	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1803.08494	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1803.09010	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/1803.09820	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/1803.10122	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/1806.07572	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1808.06226	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1808.09781	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/1810.00826	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1810.03292	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/1810.03993	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/1810.04805	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1811.06965	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1812.01187	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/1812.04948	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1902.00751	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/1904.06690	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/1905.10437	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/1905.11946	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1906.00091	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/1907.10902	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/1908.10084	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1909.08053	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1910.02054	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1910.07467	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/1910.10683	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1911.05722	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1911.08265	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/1912.02292	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/1912.02762	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/1912.09363	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/2001.07685	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2001.08361	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2002.04745	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/2002.05202	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2002.05709	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2002.08909	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2003.08934	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/2004.04906	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/2004.12832	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2005.11401	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2005.12872	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2005.14165	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2006.07733	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2006.11239	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2006.11477	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2006.16668	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2009.01325	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/2009.03300	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2009.06732	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2010.11929	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2011.09926	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2011.13456	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2101.00027	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2101.00190	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2101.03961	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2103.00020	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2103.14030	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2104.08691	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2104.09864	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2104.13478	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/2104.14294	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2106.01345	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2106.08295	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/2106.09685	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2107.03374	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2107.05720	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2107.07511	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/2110.14168	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2111.00396	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2111.06377	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2112.01488	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2112.04426	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2112.09118	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2112.10752	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2201.00650	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/2201.02177	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/2201.03545	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2201.11903	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2203.02155	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2203.11171	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2203.14465	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2203.15556	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2204.05862	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/2204.06125	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2204.14198	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2205.11916	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/2205.13504	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2205.14135	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2206.00364	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2206.04615	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2206.07682	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/2207.01848	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/2207.08815	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/2207.12598	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2208.07339	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2208.11970	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2209.03003	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2209.09125	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/2209.10652	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/2210.02747	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2210.03629	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2210.07316	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2210.11416	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2210.17323	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2211.09110	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2211.17192	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2212.03533	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2212.04356	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2212.08073	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2212.09748	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2212.10496	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2301.12597	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2302.04761	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2303.01469	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2303.08774	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2303.11366	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2303.15343	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2303.18223	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2304.02643	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2304.03442	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2304.07193	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2304.08485	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2304.11277	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2304.12210	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/2304.15004	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2305.10601	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2305.13245	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2305.14314	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2305.18290	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2305.20050	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2306.00978	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2306.05685	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2306.11644	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/2307.03172	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2307.08691	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2307.09288	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2308.04079	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/2309.00071	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2309.00267	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/2309.06180	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2309.07597	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2309.15217	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/2309.17453	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2310.06770	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2310.10688	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2310.11511	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2312.00752	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2312.07104	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2312.10997	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2401.04088	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/2401.06066	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2401.10774	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2401.15884	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/2401.18059	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/2402.00838	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2402.01306	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2402.03300	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2402.06196	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/2402.09353	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2403.04132	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2403.07691	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2403.07815	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2404.16130	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2405.15793	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/2405.21060	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2406.06608	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2406.08929	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/2406.17557	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2407.21783	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2408.03314	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2411.15124	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2412.06264	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2412.19437	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2501.12948	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://bookdown.org/max/FES	S	2026-09	exact URL in web search results
+https://christophm.github.io/interpretable-ml-book/	S	2026-09	exact URL in web search results
+https://christophm.github.io/interpretable-ml-book/shap.html	S	2026-09	exact URL in web search results
+https://colah.github.io/posts/2015-08-Backprop/	S	2026-09	exact URL in web search results
+https://colah.github.io/posts/2015-08-Understanding-LSTMs/	S	2026-09	exact URL in web search results
+https://course.fast.ai/	S	2026-09	exact URL in web search results
+https://cs224w.stanford.edu/	S	2026-09	exact URL in web search results
+https://cs229.stanford.edu/main_notes.pdf	S	2026-09	exact URL in web search results
+https://cs231n.github.io/	S	2026-09	exact URL in web search results
+https://cs336.stanford.edu/	S	2026-09	exact URL in web search results
+https://d2l.ai/	S	2026-09	exact URL in web search results
+https://davidstarsilver.wordpress.com/teaching/	S	2026-09	exact URL in web search results
+https://dcai.csail.mit.edu/	S	2026-09	exact URL in web search results
+https://deepgenerativemodels.github.io/notes/	S	2026-09	exact URL in web search results
+https://developers.google.com/machine-learning/crash-course	S	2026-09	exact URL in web search results
+https://developers.google.com/machine-learning/crash-course/fairness	S	2026-09	exact URL in web search results
+https://developers.google.com/machine-learning/guides/rules-of-ml	S	2026-09	exact URL in web search results
+https://developers.google.com/machine-learning/problem-framing	S	2026-09	exact URL in web search results
+https://developers.google.com/machine-learning/recommendation	S	2026-09	exact URL in web search results
+https://diffusion.csail.mit.edu/2026/index.html	S	2026-09	exact URL in web search results
+https://distill.pub/2016/augmented-rnns/	S	2026-09	exact URL in web search results
+https://distill.pub/2016/misread-tsne/	S	2026-09	exact URL in web search results
+https://distill.pub/2017/feature-visualization/	S	2026-09	exact URL in web search results
+https://distill.pub/2017/momentum/	S	2026-09	exact URL in web search results
+https://distill.pub/2018/building-blocks/	S	2026-09	exact URL in web search results
+https://distill.pub/2021/gnn-intro/	S	2026-09	exact URL in web search results
+https://distill.pub/2021/understanding-gnns/	S	2026-09	exact URL in web search results
+https://docs.cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning	S	2026-09	exact URL in web search results
+https://eugeneyan.com/writing/llm-patterns/	S	2026-09	exact URL in web search results
+https://explained.ai/gradient-boosting/	S	2026-09	exact URL in web search results
+https://explained.ai/matrix-calculus/	S	2026-09	exact URL in web search results
+https://explained.ai/rf-importance/	S	2026-09	exact URL in web search results
+https://fleuret.org/francois/lbdl.html	S	2026-09	exact URL in web search results
+https://fullstackdeeplearning.com/course/2022/	S	2026-09	exact URL in web search results
+https://genai.owasp.org/resource/owasp-top-10-for-llm-applications-2025/	S	2026-09	exact URL in web search results
+https://github.com/Atcold/NYU-DLSP21	G	2026-09	git ls-remote succeeded
+https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers	G	2026-09	git ls-remote succeeded
+https://github.com/DLR-RM/stable-baselines3	G	2026-09	git ls-remote succeeded
+https://github.com/DataTalksClub/llm-zoomcamp	G	2026-09	git ls-remote succeeded
+https://github.com/DataTalksClub/machine-learning-zoomcamp	G	2026-09	git ls-remote succeeded
+https://github.com/DataTalksClub/mlops-zoomcamp	G	2026-09	git ls-remote succeeded
+https://github.com/EleutherAI/lm-evaluation-harness	G	2026-09	git ls-remote succeeded
+https://github.com/Farama-Foundation/Gymnasium	G	2026-09	git ls-remote succeeded
+https://github.com/GokuMohandas/Made-With-ML	G	2026-09	git ls-remote succeeded
+https://github.com/HandsOnLLM/Hands-On-Large-Language-Models	G	2026-09	git ls-remote succeeded
+https://github.com/Hannibal046/Awesome-LLM	G	2026-09	git clone succeeded
+https://github.com/LeoGrin/tabular-benchmark	G	2026-09	git clone succeeded
+https://github.com/NirDiamant/GenAI_Agents	G	2026-09	git ls-remote succeeded
+https://github.com/NirDiamant/RAG_Techniques	G	2026-09	git ls-remote succeeded
+https://github.com/TransformerLensOrg/TransformerLens	G	2026-09	git ls-remote succeeded
+https://github.com/aangelopoulos/conformal-prediction	G	2026-09	git ls-remote succeeded
+https://github.com/ageron/handson-ml3	G	2026-09	git ls-remote succeeded
+https://github.com/ageron/handson-mlp	G	2026-09	git ls-remote succeeded
+https://github.com/alirezadir/Machine-Learning-Interviews	G	2026-09	git ls-remote succeeded
+https://github.com/amazon-science/chronos-forecasting	G	2026-09	git clone succeeded
+https://github.com/andrewekhalel/MLQuestions	G	2026-09	git ls-remote succeeded
+https://github.com/anthropics/courses	G	2026-09	git ls-remote succeeded
+https://github.com/anthropics/prompt-eng-interactive-tutorial	G	2026-09	git ls-remote succeeded
+https://github.com/awslabs/gluonts	G	2026-09	git clone succeeded
+https://github.com/bentoml/BentoML	G	2026-09	git ls-remote succeeded
+https://github.com/callummcdougall/ARENA_3.0	G	2026-09	git ls-remote succeeded
+https://github.com/chiphuyen/aie-book	G	2026-09	git ls-remote succeeded
+https://github.com/chiphuyen/dmls-book	G	2026-09	git ls-remote succeeded
+https://github.com/chiphuyen/ml-interviews-book	G	2026-09	git ls-remote succeeded
+https://github.com/cleanlab/cleanlab	G	2026-09	git ls-remote succeeded
+https://github.com/cure-lab/LTSF-Linear	G	2026-09	git clone succeeded
+https://github.com/dair-ai/ML-Papers-Explained	G	2026-09	git clone succeeded
+https://github.com/dair-ai/ML-Papers-of-the-Week	G	2026-09	git clone succeeded
+https://github.com/dair-ai/Prompt-Engineering-Guide	G	2026-09	git ls-remote succeeded
+https://github.com/dcai-course/dcai-lab	G	2026-09	git ls-remote succeeded
+https://github.com/eugeneyan/applied-ml	G	2026-09	git clone succeeded
+https://github.com/evidentlyai/evidently	G	2026-09	git ls-remote succeeded
+https://github.com/facebookresearch/detectron2	G	2026-09	git ls-remote succeeded
+https://github.com/facebookresearch/faiss	G	2026-09	git ls-remote succeeded
+https://github.com/facebookresearch/flow_matching	G	2026-09	git clone succeeded
+https://github.com/fastai/fastbook	G	2026-09	git ls-remote succeeded
+https://github.com/feast-dev/feast	G	2026-09	git ls-remote succeeded
+https://github.com/google-research/timesfm	G	2026-09	git clone succeeded
+https://github.com/google-research/tuning_playbook	G	2026-09	git ls-remote succeeded
+https://github.com/gpu-mode/lectures	G	2026-09	git ls-remote succeeded
+https://github.com/guipsamora/pandas_exercises	G	2026-09	git ls-remote succeeded
+https://github.com/huggingface/diffusion-models-class	G	2026-09	git ls-remote succeeded
+https://github.com/huggingface/evaluation-guidebook	G	2026-09	git ls-remote succeeded
+https://github.com/huggingface/peft	G	2026-09	git ls-remote succeeded
+https://github.com/huggingface/smol-course	G	2026-09	git ls-remote succeeded
+https://github.com/huggingface/transformers	G	2026-09	git clone succeeded
+https://github.com/huggingface/trl	G	2026-09	git ls-remote succeeded
+https://github.com/iterative/dvc	G	2026-09	git ls-remote succeeded
+https://github.com/jacobgil/pytorch-grad-cam	G	2026-09	git clone succeeded
+https://github.com/jakevdp/PythonDataScienceHandbook	G	2026-09	git ls-remote succeeded
+https://github.com/karpathy/llm.c	G	2026-09	git ls-remote succeeded
+https://github.com/karpathy/makemore	G	2026-09	git ls-remote succeeded
+https://github.com/karpathy/micrograd	G	2026-09	git ls-remote succeeded
+https://github.com/karpathy/minbpe	G	2026-09	git ls-remote succeeded
+https://github.com/karpathy/nanoGPT	G	2026-09	git ls-remote succeeded
+https://github.com/karpathy/nanochat	G	2026-09	git ls-remote succeeded
+https://github.com/karpathy/nn-zero-to-hero	G	2026-09	git ls-remote succeeded
+https://github.com/labmlai/annotated_deep_learning_paper_implementations	G	2026-09	git ls-remote succeeded
+https://github.com/langchain-ai/rag-from-scratch	G	2026-09	git ls-remote succeeded
+https://github.com/microsoft/ML-For-Beginners	G	2026-09	git ls-remote succeeded
+https://github.com/mlabonne/llm-course	G	2026-09	git ls-remote succeeded
+https://github.com/mlflow/mlflow	G	2026-09	git ls-remote succeeded
+https://github.com/modelcontextprotocol/modelcontextprotocol	G	2026-09	git ls-remote succeeded
+https://github.com/openai/improved-diffusion	G	2026-09	git clone succeeded
+https://github.com/openai/openai-cookbook	G	2026-09	git ls-remote succeeded
+https://github.com/optuna/optuna	G	2026-09	git ls-remote succeeded
+https://github.com/probml/pyprobml	G	2026-09	git ls-remote succeeded
+https://github.com/py-why/EconML	G	2026-09	git clone succeeded
+https://github.com/pyg-team/pytorch_geometric	G	2026-09	git ls-remote succeeded
+https://github.com/rasbt/LLMs-from-scratch	G	2026-09	git clone succeeded
+https://github.com/rasbt/deeplearning-models	G	2026-09	git ls-remote succeeded
+https://github.com/rasbt/reasoning-from-scratch	G	2026-09	git ls-remote succeeded
+https://github.com/recommenders-team/recommenders	G	2026-09	git ls-remote succeeded
+https://github.com/rmcelreath/stat_rethinking_2026	G	2026-09	git ls-remote succeeded
+https://github.com/rougier/numpy-100	G	2026-09	git ls-remote succeeded
+https://github.com/scikit-learn-contrib/MAPIE	G	2026-09	git ls-remote succeeded
+https://github.com/shap/shap	G	2026-09	git clone succeeded
+https://github.com/srush/Autodiff-Puzzles	G	2026-09	git ls-remote succeeded
+https://github.com/srush/GPU-Puzzles	G	2026-09	git ls-remote succeeded
+https://github.com/srush/LLM-Training-Puzzles	G	2026-09	git ls-remote succeeded
+https://github.com/srush/Tensor-Puzzles	G	2026-09	git ls-remote succeeded
+https://github.com/srush/raspy	G	2026-09	git ls-remote succeeded
+https://github.com/stanford-cs336/assignment1-basics	G	2026-09	git ls-remote succeeded
+https://github.com/stanford-cs336/assignment2-systems	G	2026-09	git ls-remote succeeded
+https://github.com/stas00/ml-engineering	G	2026-09	git ls-remote succeeded
+https://github.com/tensara/problems	G	2026-09	git ls-remote succeeded
+https://github.com/udlbook/udlbook	G	2026-09	git ls-remote succeeded
+https://github.com/ultralytics/ultralytics	G	2026-09	git ls-remote succeeded
+https://github.com/unslothai/unsloth	G	2026-09	git ls-remote succeeded
+https://github.com/visenger/awesome-mlops	G	2026-09	git clone succeeded
+https://github.com/vllm-project/vllm	G	2026-09	git clone succeeded
+https://github.com/vwxyzjn/cleanrl	G	2026-09	git ls-remote succeeded
+https://github.com/yzhao062/pyod	G	2026-09	git ls-remote succeeded
+https://github.com/zenml-io/zenml	G	2026-09	git ls-remote succeeded
+https://greenteapress.com/wp/think-bayes/	S	2026-09	exact URL in web search results
+https://greenteapress.com/wp/think-stats-3e/	S	2026-09	exact URL in web search results
+https://hamel.dev/blog/posts/evals-faq/	S	2026-09	exact URL in web search results
+https://hamel.dev/blog/posts/evals/	S	2026-09	exact URL in web search results
+https://hanlab.mit.edu/courses/2026-fall-65940	S	2026-09	exact URL in web search results
+https://hastie.su.domains/ElemStatLearn/	S	2026-09	exact URL in web search results
+https://hastie.su.domains/ISLP/ISLP_website.pdf.download.html	S	2026-09	exact URL in web search results
+https://horace.io/brrr_intro.html	S	2026-09	exact URL in web search results
+https://huggingface.co/blog/4bit-transformers-bitsandbytes	R	2026-09	source .md present in huggingface/blog
+https://huggingface.co/blog/annotated-diffusion	R	2026-09	source .md present in huggingface/blog
+https://huggingface.co/blog/assisted-generation	R	2026-09	source .md present in huggingface/blog
+https://huggingface.co/blog/deep-rl-ppo	R	2026-09	source .md present in huggingface/blog
+https://huggingface.co/blog/designing-positional-encoding	R	2026-09	source .md present in huggingface/blog
+https://huggingface.co/blog/dpo-trl	R	2026-09	source .md present in huggingface/blog
+https://huggingface.co/blog/embedding-quantization	R	2026-09	source .md present in huggingface/blog
+https://huggingface.co/blog/evaluation-structured-outputs	R	2026-09	source .md present in huggingface/blog
+https://huggingface.co/blog/gptq-integration	R	2026-09	source .md present in huggingface/blog
+https://huggingface.co/blog/hf-bitsandbytes-integration	R	2026-09	source .md present in huggingface/blog
+https://huggingface.co/blog/how-to-generate	R	2026-09	source .md present in huggingface/blog
+https://huggingface.co/blog/intro-graphml	R	2026-09	source .md present in huggingface/blog
+https://huggingface.co/blog/kv-cache	R	2026-09	source .md present in huggingface/blog
+https://huggingface.co/blog/moe	R	2026-09	source .md present in huggingface/blog
+https://huggingface.co/blog/mteb	R	2026-09	source .md present in huggingface/blog
+https://huggingface.co/blog/open-r1	R	2026-09	source .md present in huggingface/blog
+https://huggingface.co/blog/optimize-llm	R	2026-09	source .md present in huggingface/blog
+https://huggingface.co/blog/peft	R	2026-09	source .md present in huggingface/blog
+https://huggingface.co/blog/putting_rl_back_in_rlhf_with_rloo	R	2026-09	source .md present in huggingface/blog
+https://huggingface.co/blog/rlhf	R	2026-09	source .md present in huggingface/blog
+https://huggingface.co/blog/stable_diffusion	R	2026-09	source .md present in huggingface/blog
+https://huggingface.co/blog/vision_language_pretraining	R	2026-09	source .md present in huggingface/blog
+https://huggingface.co/blog/vlms	R	2026-09	source .md present in huggingface/blog
+https://huggingface.co/learn/agents-course/unit0/introduction	S	2026-09	exact URL in web search results
+https://huggingface.co/learn/audio-course/chapter0/introduction	S	2026-09	exact URL in web search results
+https://huggingface.co/learn/computer-vision-course/en/unit0/welcome/welcome	S	2026-09	exact URL in web search results
+https://huggingface.co/learn/deep-rl-course/unit0/introduction	S	2026-09	exact URL in web search results
+https://huggingface.co/learn/llm-course/chapter1/1	S	2026-09	exact URL in web search results
+https://huggingface.co/spaces/nanotron/ultrascale-playbook	S	2026-09	exact URL in web search results
+https://huyenchip.com/2024/07/25/genai-platform.html	S	2026-09	exact URL in web search results
+https://huyenchip.com/2025/01/16/ai-engineering-pitfalls.html	S	2026-09	exact URL in web search results
+https://huyenchip.com/ml-interviews-book/	S	2026-09	exact URL in web search results
+https://imbalanced-learn.org/stable/common_pitfalls.html	S	2026-09	exact URL in web search results
+https://inria.github.io/scikit-learn-mooc/	S	2026-09	exact URL in web search results
+https://jalammar.github.io/gentle-visual-intro-to-data-analysis-python-pandas/	R	2026-09	post present in jalammar/jalammar.github.io _posts
+https://jalammar.github.io/illustrated-bert/	S	2026-09	search result
+https://jalammar.github.io/illustrated-gpt2/	S	2026-09	search result
+https://jalammar.github.io/illustrated-stable-diffusion/	S	2026-09	search result
+https://jalammar.github.io/illustrated-transformer/	S	2026-09	search result
+https://jalammar.github.io/illustrated-word2vec/	S	2026-09	search result
+https://jalammar.github.io/skipgram-recommender-talk/	R	2026-09	post present in jalammar/jalammar.github.io _posts
+https://jalammar.github.io/visual-interactive-guide-basics-neural-networks/	R	2026-09	post present in jalammar/jalammar.github.io _posts
+https://jalammar.github.io/visual-numpy/	R	2026-09	post present in jalammar/jalammar.github.io _posts
+https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/	R	2026-09	post present in jalammar/jalammar.github.io _posts
+https://jax-ml.github.io/scaling-book/	S	2026-09	exact URL in web search results
+https://karpathy.github.io/2015/05/21/rnn-effectiveness/	R	2026-09	post present in karpathy/karpathy.github.io _posts
+https://karpathy.github.io/2016/05/31/rl/	R	2026-09	post present in karpathy/karpathy.github.io _posts
+https://karpathy.github.io/2026/02/12/microgpt/	R	2026-09	post present in karpathy/karpathy.github.io _posts
+https://leetgpu.com/	S	2026-09	exact URL in web search results
+https://lilianweng.github.io/posts/2017-08-20-gan/	R	2026-09	post dir present in lilianweng/lilianweng.github.io
+https://lilianweng.github.io/posts/2017-10-15-word-embedding/	R	2026-09	post dir present in lilianweng/lilianweng.github.io
+https://lilianweng.github.io/posts/2017-10-29-object-recognition-part-1/	R	2026-09	post dir present in lilianweng/lilianweng.github.io
+https://lilianweng.github.io/posts/2017-12-15-object-recognition-part-2/	R	2026-09	post dir present in lilianweng/lilianweng.github.io
+https://lilianweng.github.io/posts/2017-12-31-object-recognition-part-3/	R	2026-09	post dir present in lilianweng/lilianweng.github.io
+https://lilianweng.github.io/posts/2018-01-23-multi-armed-bandit/	R	2026-09	post dir present in lilianweng/lilianweng.github.io
+https://lilianweng.github.io/posts/2018-02-19-rl-overview/	R	2026-09	post dir present in lilianweng/lilianweng.github.io
+https://lilianweng.github.io/posts/2018-04-08-policy-gradient/	R	2026-09	post dir present in lilianweng/lilianweng.github.io
+https://lilianweng.github.io/posts/2018-06-24-attention/	R	2026-09	post dir present in lilianweng/lilianweng.github.io
+https://lilianweng.github.io/posts/2018-08-12-vae/	R	2026-09	post dir present in lilianweng/lilianweng.github.io
+https://lilianweng.github.io/posts/2018-10-13-flow-models/	R	2026-09	post dir present in lilianweng/lilianweng.github.io
+https://lilianweng.github.io/posts/2018-12-27-object-recognition-part-4/	R	2026-09	post dir present in lilianweng/lilianweng.github.io
+https://lilianweng.github.io/posts/2019-01-31-lm/	R	2026-09	post dir present in lilianweng/lilianweng.github.io
+https://lilianweng.github.io/posts/2019-03-14-overfit/	R	2026-09	post dir present in lilianweng/lilianweng.github.io
+https://lilianweng.github.io/posts/2019-11-10-self-supervised/	R	2026-09	post dir present in lilianweng/lilianweng.github.io
+https://lilianweng.github.io/posts/2020-06-07-exploration-drl/	R	2026-09	post dir present in lilianweng/lilianweng.github.io
+https://lilianweng.github.io/posts/2020-10-29-odqa/	R	2026-09	post dir present in lilianweng/lilianweng.github.io
+https://lilianweng.github.io/posts/2021-05-31-contrastive/	R	2026-09	post dir present in lilianweng/lilianweng.github.io
+https://lilianweng.github.io/posts/2021-07-11-diffusion-models/	R	2026-09	post dir present in lilianweng/lilianweng.github.io
+https://lilianweng.github.io/posts/2021-09-25-train-large/	R	2026-09	post dir present in lilianweng/lilianweng.github.io
+https://lilianweng.github.io/posts/2021-12-05-semi-supervised/	R	2026-09	post dir present in lilianweng/lilianweng.github.io
+https://lilianweng.github.io/posts/2022-02-20-active-learning/	R	2026-09	post dir present in lilianweng/lilianweng.github.io
+https://lilianweng.github.io/posts/2022-06-09-vlm/	R	2026-09	post dir present in lilianweng/lilianweng.github.io
+https://lilianweng.github.io/posts/2023-01-10-inference-optimization/	R	2026-09	post dir present in lilianweng/lilianweng.github.io
+https://lilianweng.github.io/posts/2023-01-27-the-transformer-family-v2/	R	2026-09	post dir present in lilianweng/lilianweng.github.io
+https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/	R	2026-09	post dir present in lilianweng/lilianweng.github.io
+https://lilianweng.github.io/posts/2023-06-23-agent/	R	2026-09	post dir present in lilianweng/lilianweng.github.io
+https://lilianweng.github.io/posts/2023-10-25-adv-attack-llm/	R	2026-09	post dir present in lilianweng/lilianweng.github.io
+https://lilianweng.github.io/posts/2024-02-05-human-data-quality/	R	2026-09	post dir present in lilianweng/lilianweng.github.io
+https://lilianweng.github.io/posts/2024-04-12-diffusion-video/	R	2026-09	post dir present in lilianweng/lilianweng.github.io
+https://lilianweng.github.io/posts/2024-07-07-hallucination/	R	2026-09	post dir present in lilianweng/lilianweng.github.io
+https://lilianweng.github.io/posts/2024-11-28-reward-hacking/	R	2026-09	post dir present in lilianweng/lilianweng.github.io
+https://lilianweng.github.io/posts/2025-05-01-thinking/	R	2026-09	post dir present in lilianweng/lilianweng.github.io
+https://lilianweng.github.io/posts/2026-06-24-scaling-laws/	R	2026-09	post dir present in lilianweng/lilianweng.github.io
+https://lilianweng.github.io/posts/2026-07-04-harness/	R	2026-09	post dir present in lilianweng/lilianweng.github.io
+https://madewithml.com/	S	2026-09	exact URL in web search results
+https://magazine.sebastianraschka.com/p/practical-tips-for-finetuning-llms	S	2026-09	exact URL in web search results
+https://magazine.sebastianraschka.com/p/the-big-llm-architecture-comparison	S	2026-09	exact URL in web search results
+https://magazine.sebastianraschka.com/p/understanding-and-coding-self-attention	S	2026-09	exact URL in web search results
+https://magazine.sebastianraschka.com/p/understanding-reasoning-llms	S	2026-09	exact URL in web search results
+https://matheusfacure.github.io/python-causality-handbook/	S	2026-09	exact URL in web search results
+https://mitpress.mit.edu/9780262048972/foundations-of-computer-vision/	S	2026-09	exact URL in web search results
+https://mixtape.scunning.com/	S	2026-09	exact URL in web search results
+https://mlu-explain.github.io/bias-variance/	S	2026-09	search result
+https://mlu-explain.github.io/decision-tree/	R	2026-09	listed in aws-samples/aws-mlu-explain README
+https://mlu-explain.github.io/double-descent/	R	2026-09	listed in aws-samples/aws-mlu-explain README
+https://mlu-explain.github.io/double-descent2/	R	2026-09	listed in aws-samples/aws-mlu-explain README
+https://mlu-explain.github.io/linear-regression/	R	2026-09	listed in aws-samples/aws-mlu-explain README
+https://mlu-explain.github.io/logistic-regression/	R	2026-09	listed in aws-samples/aws-mlu-explain README
+https://mlu-explain.github.io/precision-recall/	R	2026-09	listed in aws-samples/aws-mlu-explain README
+https://mlu-explain.github.io/random-forest/	R	2026-09	listed in aws-samples/aws-mlu-explain README
+https://mlu-explain.github.io/roc-auc/	R	2026-09	listed in aws-samples/aws-mlu-explain README
+https://mlu-explain.github.io/train-test-validation/	R	2026-09	listed in aws-samples/aws-mlu-explain README
+https://mml-book.github.io/	S	2026-09	exact URL in web search results
+https://mml-book.github.io/book/mml-book.pdf	S	2026-09	exact URL in web search results
+https://modelcontextprotocol.io/	S	2026-09	exact URL in web search results
+https://newsletter.languagemodels.co/p/the-illustrated-deepseek-r1	S	2026-09	exact URL in web search results
+https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-quantization	S	2026-09	exact URL in web search results
+https://nlp.seas.harvard.edu/annotated-transformer/	S	2026-09	exact URL in web search results
+https://nlp.stanford.edu/IR-book/html/htmledition/irbook.html	S	2026-09	exact URL in web search results
+https://otexts.com/fpp3/	S	2026-09	exact URL in web search results
+https://otexts.com/fpppy/	S	2026-09	exact URL in web search results
+https://pair-code.github.io/understanding-umap/	S	2026-09	exact URL in web search results
+https://papers.neurips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems.pdf	S	2026-09	exact URL in web search results
+https://poloclub.github.io/cnn-explainer/	S	2026-09	exact URL in web search results
+https://poloclub.github.io/transformer-explainer/	S	2026-09	exact URL in web search results
+https://probml.github.io/pml-book/	S	2026-09	exact URL in web search results
+https://pytorch.org/tutorials/beginner/basics/intro.html	R	2026-09	tutorial source present in pytorch/tutorials
+https://pytorch.org/tutorials/beginner/ddp_series_intro.html	R	2026-09	tutorial source present in pytorch/tutorials
+https://pytorch.org/tutorials/intermediate/FSDP_tutorial.html	R	2026-09	tutorial source present in pytorch/tutorials
+https://pytorch.org/tutorials/intermediate/ddp_tutorial.html	R	2026-09	tutorial source present in pytorch/tutorials
+https://pytorch.org/tutorials/intermediate/torch_compile_tutorial.html	R	2026-09	tutorial source present in pytorch/tutorials
+https://pytorch.org/tutorials/recipes/recipes/profiler_recipe.html	R	2026-09	tutorial source present in pytorch/tutorials
+https://pytorch.org/tutorials/recipes/recipes/tuning_guide.html	R	2026-09	tutorial source present in pytorch/tutorials
+https://rail.eecs.berkeley.edu/deeprlcourse-fa22	S	2026-09	exact URL in web search results
+https://research.google/pubs/the-ml-test-score-a-rubric-for-ml-production-readiness-and-technical-debt-reduction/	S	2026-09	exact URL in web search results
+https://rlhfbook.com/	S	2026-09	exact URL in web search results
+https://sbert.net/	S	2026-09	exact URL in web search results
+https://scikit-learn.org/stable/common_pitfalls.html	S	2026-09	exact URL in web search results
+https://scikit-learn.org/stable/modules/calibration.html	R	2026-09	doc/modules/*.rst present in scikit-learn repo
+https://scikit-learn.org/stable/modules/classification_threshold.html	R	2026-09	doc/modules/*.rst present in scikit-learn repo
+https://scikit-learn.org/stable/modules/clustering.html	R	2026-09	doc/modules/*.rst present in scikit-learn repo
+https://scikit-learn.org/stable/modules/compose.html	R	2026-09	doc/modules/*.rst present in scikit-learn repo
+https://scikit-learn.org/stable/modules/cross_validation.html	R	2026-09	doc/modules/*.rst present in scikit-learn repo
+https://scikit-learn.org/stable/modules/decomposition.html	R	2026-09	doc/modules/*.rst present in scikit-learn repo
+https://scikit-learn.org/stable/modules/density.html	R	2026-09	doc/modules/*.rst present in scikit-learn repo
+https://scikit-learn.org/stable/modules/ensemble.html	R	2026-09	doc/modules/*.rst present in scikit-learn repo
+https://scikit-learn.org/stable/modules/feature_selection.html	R	2026-09	doc/modules/*.rst present in scikit-learn repo
+https://scikit-learn.org/stable/modules/gaussian_process.html	R	2026-09	doc/modules/*.rst present in scikit-learn repo
+https://scikit-learn.org/stable/modules/grid_search.html	R	2026-09	doc/modules/*.rst present in scikit-learn repo
+https://scikit-learn.org/stable/modules/impute.html	R	2026-09	doc/modules/*.rst present in scikit-learn repo
+https://scikit-learn.org/stable/modules/kernel_approximation.html	R	2026-09	doc/modules/*.rst present in scikit-learn repo
+https://scikit-learn.org/stable/modules/learning_curve.html	R	2026-09	doc/modules/*.rst present in scikit-learn repo
+https://scikit-learn.org/stable/modules/linear_model.html	R	2026-09	doc/modules/*.rst present in scikit-learn repo
+https://scikit-learn.org/stable/modules/manifold.html	R	2026-09	doc/modules/*.rst present in scikit-learn repo
+https://scikit-learn.org/stable/modules/mixture.html	R	2026-09	doc/modules/*.rst present in scikit-learn repo
+https://scikit-learn.org/stable/modules/model_evaluation.html	R	2026-09	doc/modules/*.rst present in scikit-learn repo
+https://scikit-learn.org/stable/modules/naive_bayes.html	R	2026-09	doc/modules/*.rst present in scikit-learn repo
+https://scikit-learn.org/stable/modules/neighbors.html	R	2026-09	doc/modules/*.rst present in scikit-learn repo
+https://scikit-learn.org/stable/modules/outlier_detection.html	R	2026-09	doc/modules/*.rst present in scikit-learn repo
+https://scikit-learn.org/stable/modules/partial_dependence.html	R	2026-09	doc/modules/*.rst present in scikit-learn repo
+https://scikit-learn.org/stable/modules/permutation_importance.html	R	2026-09	doc/modules/*.rst present in scikit-learn repo
+https://scikit-learn.org/stable/modules/preprocessing.html	R	2026-09	doc/modules/*.rst present in scikit-learn repo
+https://scikit-learn.org/stable/modules/semi_supervised.html	R	2026-09	doc/modules/*.rst present in scikit-learn repo
+https://scikit-learn.org/stable/modules/svm.html	R	2026-09	doc/modules/*.rst present in scikit-learn repo
+https://scikit-learn.org/stable/modules/tree.html	R	2026-09	doc/modules/*.rst present in scikit-learn repo
+https://scikit-learn.org/stable/user_guide.html	S	2026-09	exact URL in web search results
+https://seeing-theory.brown.edu/	S	2026-09	exact URL in web search results
+https://setosa.io/ev/principal-component-analysis/	S	2026-09	exact URL in web search results
+https://simonwillison.net/series/prompt-injection/	S	2026-09	exact URL in web search results
+https://snap-stanford.github.io/cs224w-notes/	S	2026-09	exact URL in web search results
+https://spinningup.openai.com/en/latest/user/introduction.html	S	2026-09	exact URL in web search results
+https://stanford-cs329s.github.io/	S	2026-09	exact URL in web search results
+https://stat110.hsites.harvard.edu/	S	2026-09	exact URL in web search results
+https://szeliski.org/Book/	S	2026-09	exact URL in web search results
+https://themlbook.com/	S	2026-09	exact URL in web search results
+https://timdettmers.com/2023/01/30/which-gpu-for-deep-learning/	S	2026-09	exact URL in web search results
+https://transformer-circuits.pub/2021/exercises/index.html	S	2026-09	exact URL in web search results
+https://transformer-circuits.pub/2021/framework/index.html	S	2026-09	exact URL in web search results
+https://udlbook.github.io/udlbook/	S	2026-09	exact URL in web search results
+https://uvadlc-notebooks.readthedocs.io/	S	2026-09	exact URL in web search results
+https://web.stanford.edu/class/cs224n/	S	2026-09	exact URL in web search results
+https://web.stanford.edu/~boyd/cvxbook/	S	2026-09	exact URL in web search results
+https://web.stanford.edu/~jurafsky/slp3/	S	2026-09	exact URL in web search results
+https://www.3blue1brown.com/lessons/attention/	S	2026-09	exact URL in web search results
+https://www.3blue1brown.com/lessons/backpropagation-calculus/	S	2026-09	exact URL in web search results
+https://www.3blue1brown.com/lessons/gpt/	S	2026-09	exact URL in web search results
+https://www.3blue1brown.com/lessons/gradient-descent/	S	2026-09	exact URL in web search results
+https://www.3blue1brown.com/lessons/neural-networks/	S	2026-09	exact URL in web search results
+https://www.alexirpan.com/2018/02/14/rl-hard.html	S	2026-09	exact URL in web search results
+https://www.anthropic.com/engineering/building-effective-agents	S	2026-09	exact URL in web search results
+https://www.bishopbook.com/	S	2026-09	exact URL in web search results
+https://www.bradyneal.com/causal-inference-course	S	2026-09	exact URL in web search results
+https://www.cs.mcgill.ca/~wlh/grl_book/	S	2026-09	exact URL in web search results
+https://www.deep-ml.com/problems	S	2026-09	exact URL in web search results
+https://www.deeplearningbook.org/	S	2026-09	exact URL in web search results
+https://www.evidentlyai.com/llm-evaluations-course	S	2026-09	exact URL in web search results
+https://www.evidentlyai.com/ml-observability-course	S	2026-09	exact URL in web search results
+https://www.evidentlyai.com/ml-system-design	S	2026-09	exact URL in web search results
+https://www.kaggle.com/learn	S	2026-09	exact URL in web search results
+https://www.kaggle.com/learn/feature-engineering	S	2026-09	exact URL in web search results
+https://www.kaggle.com/learn/intermediate-machine-learning	S	2026-09	exact URL in web search results
+https://www.kaggle.com/learn/machine-learning-explainability	S	2026-09	exact URL in web search results
+https://www.kaggle.com/learn/time-series	S	2026-09	exact URL in web search results
+https://www.learnpytorch.io/	S	2026-09	exact URL in web search results
+https://www.learnpytorch.io/00_pytorch_fundamentals/	S	2026-09	exact URL in web search results
+https://www.learnpytorch.io/01_pytorch_workflow/	S	2026-09	exact URL in web search results
+https://www.learnpytorch.io/04_pytorch_custom_datasets/	R	2026-09	listed in mrdbourke/pytorch-deep-learning README
+https://www.learnpytorch.io/06_pytorch_transfer_learning/	R	2026-09	listed in mrdbourke/pytorch-deep-learning README
+https://www.learnpytorch.io/07_pytorch_experiment_tracking/	R	2026-09	listed in mrdbourke/pytorch-deep-learning README
+https://www.learnpytorch.io/08_pytorch_paper_replicating/	R	2026-09	listed in mrdbourke/pytorch-deep-learning README
+https://www.learnpytorch.io/09_pytorch_model_deployment/	R	2026-09	listed in mrdbourke/pytorch-deep-learning README
+https://www.martinfowler.com/articles/cd4ml.html	S	2026-09	exact URL in web search results
+https://www.microsoft.com/en-us/research/publication/pattern-recognition-machine-learning/	S	2026-09	exact URL in web search results
+https://www.oreilly.com/library/view/ai-engineering/9781098166298/	S	2026-09	exact URL in web search results
+https://www.oreilly.com/library/view/designing-machine-learning/9781098107956/	S	2026-09	exact URL in web search results
+https://www.statlearning.com/	S	2026-09	exact URL in web search results
+https://www.statlearning.com/resources-python	S	2026-09	exact URL in web search results
+https://www.youtube.com/playlist?list=PLZ5DHV9_5h9vQwAImmNi1RfoTtSuOUjwM	S	2026-09	exact URL in web search results
+https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr	S	2026-09	exact URL in web search results
+https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab	S	2026-09	exact URL in web search results
+https://www.youtube.com/playlist?list=PLoROMvodv4rOY23Y0BoGoBGgQ1zmU_MT_	S	2026-09	exact URL in web search results
+https://www.youtube.com/playlist?list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ	S	2026-09	exact URL in web search results
+https://www.youtube.com/watch?v=7xTGNNLPyMI	S	2026-09	exact URL in web search results
+https://www.youtube.com/watch?v=PaCmpygFfXo	S	2026-09	exact URL in web search results
+https://www.youtube.com/watch?v=VMj-3S1tku0	S	2026-09	exact URL in web search results
+https://www.youtube.com/watch?v=kCc8FmEb1nY	S	2026-09	exact URL in web search results
+https://www.youtube.com/watch?v=zduSFxRajkE	S	2026-09	exact URL in web search results
+https://www.youtube.com/watch?v=zjkBMFhNj_g	S	2026-09	exact URL in web search results
+https://yang-song.net/blog/2021/score/	S	2026-09	exact URL in web search results
+https://youtu.be/P6sfmUTpUmc	S	2026-09	exact URL in web search results
+https://youtu.be/TCH_1BHY58I	S	2026-09	exact URL in web search results

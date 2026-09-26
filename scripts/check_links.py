@@ -46,7 +46,7 @@ def extract(files: list[pathlib.Path]) -> dict[str, list[str]]:
     for f in files:
         for n, line in enumerate(f.read_text(encoding="utf-8").splitlines(), 1):
             for u in URL_RE.findall(line):
-                u = u.rstrip(".,;:*_")
+                u = u.rstrip(".,;:*")
                 urls.setdefault(u, []).append(f"{f.relative_to(ROOT)}:{n}")
     return urls
 

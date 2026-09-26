@@ -1,0 +1,21 @@
+# Toolbox 10: Reinforcement Learning
+
+[← Toolbox](README.md) · Guided version: [EL-03](../lessons/electives/03-reinforcement-learning.md) · Papers: [08 RL](../papers/08-reinforcement-learning.md)
+
+**Whole-field resources:** [Sutton & Barto](http://incompleteideas.net/book/the-book-2nd.html) (textbook) · [David Silver's UCL course](https://davidstarsilver.wordpress.com/teaching/) ([videos](https://www.youtube.com/playlist?list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ)) · [Spinning Up](https://spinningup.openai.com/en/latest/user/introduction.html) · [HF Deep RL Course](https://huggingface.co/learn/deep-rl-course/unit0/introduction) · [Berkeley CS285](https://rail.eecs.berkeley.edu/deeprlcourse-fa22) (advanced)
+
+| Concept | Start here | Go deeper | Practice | Paper |
+|---|---|---|---|---|
+| Overview & vocabulary | [Lilian Weng: A (Long) Peek into RL](https://lilianweng.github.io/posts/2018-02-19-rl-overview/) | [Spinning Up Part 1](https://spinningup.openai.com/en/latest/user/introduction.html) | — | — |
+| Multi-armed bandits, exploration | [Lilian Weng: The Multi-Armed Bandit Problem](https://lilianweng.github.io/posts/2018-01-23-multi-armed-bandit/) | [Sutton & Barto](http://incompleteideas.net/book/the-book-2nd.html) Ch. 2 | ε-greedy vs UCB vs Thompson sampling simulation | — |
+| MDPs & Bellman equations | Silver Lecture 2 | [Sutton & Barto](http://incompleteideas.net/book/the-book-2nd.html) Ch. 3 | Write down the Bellman equations for GridWorld | — |
+| Dynamic programming (policy/value iteration) | Silver Lecture 3 | [Sutton & Barto](http://incompleteideas.net/book/the-book-2nd.html) Ch. 4 | Value iteration on FrozenLake ([Gymnasium](https://github.com/Farama-Foundation/Gymnasium)) | — |
+| Monte Carlo & TD, SARSA, Q-learning | Silver Lectures 4–5 | [Sutton & Barto](http://incompleteideas.net/book/the-book-2nd.html) Ch. 5–6 | [HF Deep RL Unit 2](https://huggingface.co/learn/deep-rl-course/unit0/introduction) | — |
+| Function approximation & DQN | [HF Deep RL Unit 3](https://huggingface.co/learn/deep-rl-course/unit0/introduction) | [Sutton & Barto](http://incompleteideas.net/book/the-book-2nd.html) Ch. 9–11 | DQN on CartPole ([CleanRL](https://github.com/vwxyzjn/cleanrl) single-file reference) | [DQN](https://arxiv.org/abs/1312.5602), [Rainbow](https://arxiv.org/abs/1710.02298) |
+| Policy gradients (REINFORCE) | [Karpathy: Deep RL: Pong from Pixels](https://karpathy.github.io/2016/05/31/rl/) | [Spinning Up Part 3](https://spinningup.openai.com/en/latest/user/introduction.html) · [Lilian Weng: Policy Gradient Algorithms](https://lilianweng.github.io/posts/2018-04-08-policy-gradient/) | REINFORCE from scratch on CartPole | — |
+| Actor-critic, GAE, PPO | [HF: Proximal Policy Optimization](https://huggingface.co/blog/deep-rl-ppo) | [Lilian Weng: Policy Gradient Algorithms](https://lilianweng.github.io/posts/2018-04-08-policy-gradient/) | PPO with [Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3), then read CleanRL's `ppo.py` line by line | [PPO](https://arxiv.org/abs/1707.06347), [GAE](https://arxiv.org/abs/1506.02438), [TRPO](https://arxiv.org/abs/1502.05477) |
+| Continuous control (DDPG, SAC) | — | [Spinning Up algorithm docs](https://spinningup.openai.com/en/latest/user/introduction.html) | SAC on Pendulum | [DDPG](https://arxiv.org/abs/1509.02971), [SAC](https://arxiv.org/abs/1801.01290) |
+| Exploration in deep RL | — | [Lilian Weng: Exploration Strategies in Deep RL](https://lilianweng.github.io/posts/2020-06-07-exploration-drl/) | — | — |
+| Model-based RL, planning, MCTS | Silver Lecture 8 | [Sutton & Barto](http://incompleteideas.net/book/the-book-2nd.html) Ch. 8 | MCTS for tic-tac-toe | [World Models](https://arxiv.org/abs/1803.10122), [AlphaZero](https://arxiv.org/abs/1712.01815), [MuZero](https://arxiv.org/abs/1911.08265) |
+| RL ↔ LLMs (RLHF, GRPO, reward hacking) | [HF: Illustrating RLHF](https://huggingface.co/blog/rlhf) | [RLHF Book](https://rlhfbook.com/) · [Lilian Weng: Reward Hacking](https://lilianweng.github.io/posts/2024-11-28-reward-hacking/) | GRPO on a small math dataset with TRL | [InstructGPT](https://arxiv.org/abs/2203.02155), [GRPO](https://arxiv.org/abs/2402.03300) |
+| Why deep RL is hard (reality check) | [Alex Irpan: Deep RL Doesn't Work Yet](https://www.alexirpan.com/2018/02/14/rl-hard.html) | — | Run PPO with 5 seeds, and report mean ± std | — |
