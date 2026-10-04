@@ -14,7 +14,7 @@ The lessons tell you **what to study and where** (the best chapter, essay, or no
 - **Answer sketches** for every *Check your understanding* question in the lesson (folded, so you can try first).
 - **Where this leads:** the bridge to the next note.
 
-All 53 notes together take about **51 hours** of reading. That's about one hour per lesson.
+All 58 notes together take about **57 hours** of reading. That's about one hour per lesson.
 
 ---
 
@@ -34,7 +34,8 @@ If a note feels too fast, follow its **"You need"** links back to the exact sect
 The notes follow the same order as the [paths](../paths/), and each one links to the next, so you can read them start to finish like a book:
 
 ```
-MATH-01 → MATH-02 → MATH-03
+PY-01 … PY-05                                  (Path 0, optional: Python for ML)
+   → MATH-01 → MATH-02 → MATH-03
    → CORE-01 … CORE-12                         (Path 1)
    → DL-01 … DL-09                             (Path 2)
    → GEN-01 → 02 → 03 → 05 → 06 → 09           (Path 3, Part A: building LLM apps)
@@ -50,6 +51,15 @@ The math notes are written so you can also dip into them *just in time*. Every l
 ---
 
 ## Index
+
+### Path 0 · Python for ML (optional)
+| ID | Notes | Read | What you'll understand |
+|---|---|---|---|
+| PY-01 | [Python for ML Engineers](python/01-python-for-ml-engineers.md) | 60 min | Names vs objects, mutable defaults, generators, closures, decorators, context managers, dataclasses, the data model behind `Dataset` and `model(x)` |
+| PY-02 | [NumPy & Vectorized Thinking](python/02-numpy-vectorized-thinking.md) | 70 min | Views vs copies and strides, the broadcasting rules, axes and `keepdims`, stable softmax, cancellation, `uint8` wraparound, `einsum` |
+| PY-03 | [pandas & Data Wrangling](python/03-pandas-data-wrangling.md) | 70 min | Index alignment, chained assignment, agg vs transform, merges that multiply rows, past-only time features |
+| PY-04 | [EDA & Visualization](python/04-eda-visualization.md) | 60 min | A five-check audit, robust statistics, Anscombe's quartet, Simpson's paradox, correlation vs dependence, choosing charts |
+| PY-05 | [Engineering ML Code](python/05-engineering-ml-code.md) | 60 min | Project layout, what to test in ML code, explicit seeding, hash-based stable splits, profiling |
 
 ### Math foundations
 | ID | Notes | Read | What you'll understand |

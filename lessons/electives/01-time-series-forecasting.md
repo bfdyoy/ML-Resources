@@ -51,3 +51,4 @@ using rolling-origin CV.
 - **Reference shelf:** [Toolbox 12: Specialized topics](../../toolbox/12-specialized-topics.md), for every concept in this lesson, with alternatives.
 - **Papers:** [Tabular, time series, recsys & causal](../../papers/09-tabular-timeseries-recsys-causal.md). Start with the ⭐ ones.
 - **Drills:** [Deep-ML](https://www.deep-ml.com/problems) problems on this topic · more in [exercises/](../../exercises/README.md).
+- **Playbook:** [classical vs GBM vs deep forecasting](../../playbook/01-choosing-algorithms.md#10-forecasting-classical-vs-gbm-with-lags-vs-deep-models) · [naive baselines](../../playbook/05-outside-the-box.md#1-the-no-model-baselines).

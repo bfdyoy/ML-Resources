@@ -1,6 +1,15 @@
 # Toolbox 03: Data, Features & Evaluation
 
-[← Toolbox](README.md) · **Taught in:** [CORE-01](../lessons/core-ml/01-ml-workflow-end-to-end.md) · [CORE-03](../lessons/core-ml/03-classification-and-metrics.md) · [CORE-04](../lessons/core-ml/04-generalization-validation-regularization.md) · [CORE-07](../lessons/core-ml/07-feature-engineering-pipelines-leakage.md) · [CORE-08](../lessons/core-ml/08-interpretability-and-responsible-ml.md) · [CORE-10](../lessons/core-ml/10-data-centric-ml.md) · [CORE-11](../lessons/core-ml/11-uncertainty-calibration-conformal.md) · [CORE-12](../lessons/core-ml/12-hyperparameter-optimization.md)
+[← Toolbox](README.md) · **Taught in:** [PY-01…PY-05](../paths/00-python-for-ml.md) · [CORE-01](../lessons/core-ml/01-ml-workflow-end-to-end.md) · [CORE-03](../lessons/core-ml/03-classification-and-metrics.md) · [CORE-04](../lessons/core-ml/04-generalization-validation-regularization.md) · [CORE-07](../lessons/core-ml/07-feature-engineering-pipelines-leakage.md) · [CORE-08](../lessons/core-ml/08-interpretability-and-responsible-ml.md) · [CORE-10](../lessons/core-ml/10-data-centric-ml.md) · [CORE-11](../lessons/core-ml/11-uncertainty-calibration-conformal.md) · [CORE-12](../lessons/core-ml/12-hyperparameter-optimization.md)
+
+## Python, NumPy & pandas foundations
+| Concept | Start here | Go deeper | Practice |
+|---|---|---|---|
+| Python for data work (iterators, generators, decorators, classes) | [Python Like You Mean It](https://www.pythonlikeyoumeanit.com/) (Module 2) | [Python tutorial §9 Classes](https://docs.python.org/3/tutorial/classes.html) · [Functional Programming HOWTO](https://docs.python.org/3/howto/functional.html) | [Kaggle Learn: Python](https://www.kaggle.com/learn/python) · PY-01 |
+| NumPy & vectorization (broadcasting, views, strides) | [NumPy: Broadcasting](https://numpy.org/doc/stable/user/basics.broadcasting.html) | [From Python to NumPy](https://www.labri.fr/perso/nrougier/from-python-to-numpy/) · [Scientific Python Lectures](https://lectures.scientific-python.org/index.html) (Advanced NumPy) | [numpy-100](https://github.com/rougier/numpy-100) · [Lab 01](../labs/01-numpy-vectorization/README.md) |
+| pandas (alignment, groupby, merges, reshaping) | [10 minutes to pandas](https://pandas.pydata.org/docs/user_guide/10min.html) | [Python for Data Analysis, 3rd ed.](https://wesmckinney.com/book/) (Ch. 5, 8, 10) · [pandas User Guide](https://pandas.pydata.org/docs/user_guide/index.html) | [Kaggle Learn: pandas](https://www.kaggle.com/learn/pandas) · [Lab 02](../labs/02-pandas-wrangling/README.md) |
+| Visualization & EDA | [Fundamentals of Data Visualization](https://clauswilke.com/dataviz/) (Ch. 5, Directory of visualizations) | [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) (Matplotlib chapter) | [Kaggle Learn: Data Visualization](https://www.kaggle.com/learn/data-visualization) · PY-04 |
+| Engineering research code (layout, tests, reproducibility) | [The Good Research Code Handbook](https://goodresearch.dev/) | [The Missing Semester](https://missing.csail.mit.edu/) (git, debugging & profiling) · [pytest: Get Started](https://docs.pytest.org/en/stable/getting-started.html) | Package one notebook with tests · PY-05 |
 
 ## Problem framing & data work
 | Concept | Start here | Go deeper | Practice |

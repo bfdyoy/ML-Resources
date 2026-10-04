@@ -55,3 +55,5 @@ XGBoost, or LightGBM) with early stopping. Report CV scores and training time, p
 - **Papers:** [Tabular, time series, recsys & causal](../../papers/09-tabular-timeseries-recsys-causal.md). Start with the ⭐ ones.
 - **Implement it yourself:** [from-scratch ladder](../../exercises/from-scratch-ladder.md), rungs 10–12.
 - **Drills:** [Deep-ML](https://www.deep-ml.com/problems) problems on this topic · more in [exercises/](../../exercises/README.md).
+- **Lab:** [Lab 05, part B: Gini and the best split](../../labs/05-trees-and-cross-validation/README.md) (stubs + `pytest`).
+- **Playbook:** [linear vs GBM vs kNN](../../playbook/01-choosing-algorithms.md#1-tabular-data-linear-model-vs-tree-ensemble-vs-knn-vs-neural-net) · [RF vs GBM](../../playbook/01-choosing-algorithms.md#2-random-forest-vs-gradient-boosting) · [monotone constraints](../../playbook/02-tabular-tricks.md#5-monotone-constraints-encode-what-you-already-know) · [residual boosting](../../playbook/02-tabular-tricks.md#7-boost-the-residuals-of-a-simple-model).

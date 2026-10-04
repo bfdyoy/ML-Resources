@@ -1,0 +1,44 @@
+#separator:tab
+#html:true
+#tags column:3
+<small>MATH-01</small><br>Matrix-vector product	\(Ax = \sum_j x_j a_j\) · A combination of the columns	MATH-01 math cheat-sheet
+<small>MATH-01</small><br>Dot product	\(a^\top b = \lVert a\rVert\lVert b\rVert\cos\theta\) · Alignment	MATH-01 math cheat-sheet
+<small>MATH-01</small><br>Projection onto \(a\)	\(\frac{a^\top b}{a^\top a}a\) · Closest point on a line	MATH-01 math cheat-sheet
+<small>MATH-01</small><br>Normal equations	\(X^\top X w = X^\top y\) · Residual ⟂ column space	MATH-01 math cheat-sheet
+<small>MATH-01</small><br>Eigenpair	\(Av = \lambda v\) · A direction that is only stretched	MATH-01 math cheat-sheet
+<small>MATH-01</small><br>Spectral theorem	\(A = Q\Lambda Q^\top\) (symmetric \(A\)) · Rotate, stretch, rotate back	MATH-01 math cheat-sheet
+<small>MATH-01</small><br>SVD	\(X = U\Sigma V^\top\) · Works for any matrix	MATH-01 math cheat-sheet
+<small>MATH-01</small><br>Best rank-\(k\) approximation	Keep the top \(k\) singular triplets · Error \(=\sum_{i&gt;k}\sigma_i^2\)	MATH-01 math cheat-sheet
+<small>MATH-01</small><br>Condition number	\(\sigma_{\max}/\sigma_{\min}\) · How much errors get amplified	MATH-01 math cheat-sheet
+<small>MATH-01 · self-check</small><br>What does it mean geometrically for a matrix to have rank 1?	All outputs lie on a single line through the origin (the column space is 1-D). The matrix is an outer product \(uv^\top\): it measures the component of the input along \(v\) and outputs that many copies of \(u\). Everything orthogonal to \(v\) is sent to zero.	MATH-01 math self-check
+<small>MATH-01 · self-check</small><br>Why is the least-squares solution a projection?	All possible predictions \(Xw\) form the column space of \(X\). The least-squares prediction is the point in that subspace closest to \(y\), and the closest point in a subspace is the orthogonal projection: the residual is perpendicular to the subspace, \(X^\top(y - X\hat w) = 0\).	MATH-01 math self-check
+<small>MATH-01 · self-check</small><br>What do the singular values of a data matrix tell you about PCA?	For centered \(X\), \(\sigma_i^2/(N-1)\) is the variance along the \(i\)-th principal direction, so \(\sigma_i^2/\sum_j\sigma_j^2\) is the explained-variance ratio. A fast drop-off means the data is close to low-dimensional. The number of non-zero singular values is the rank.	MATH-01 math self-check
+<small>MATH-02</small><br>Linear approximation	\(f(x+h) \approx f(x) + \nabla f(x)^\top h\)	MATH-02 math cheat-sheet
+<small>MATH-02</small><br>Chain rule	multiply along paths, add across paths	MATH-02 math cheat-sheet
+<small>MATH-02</small><br>Least-squares gradient	\(\nabla_w \lVert Xw-y\rVert^2 = 2X^\top(Xw-y)\)	MATH-02 math cheat-sheet
+<small>MATH-02</small><br>Sigmoid derivative	\(\sigma'(z) = \sigma(z)(1-\sigma(z))\)	MATH-02 math cheat-sheet
+<small>MATH-02</small><br>Gradient descent	\(w \leftarrow w - \eta\nabla L\)	MATH-02 math cheat-sheet
+<small>MATH-02</small><br>Stability limit	\(\eta &lt; 2/\lambda_{\max}(H)\)	MATH-02 math cheat-sheet
+<small>MATH-02</small><br>Convergence rate (quadratic)	about \((\kappa-1)/(\kappa+1)\) per step at the best \(\eta\)	MATH-02 math cheat-sheet
+<small>MATH-02</small><br>Momentum	\(v \leftarrow \beta v + \nabla L\), then \(w \leftarrow w - \eta v\)	MATH-02 math cheat-sheet
+<small>MATH-02</small><br>Numeric gradient	\(\frac{L(w+h)-L(w-h)}{2h}\)	MATH-02 math cheat-sheet
+<small>MATH-02</small><br>Lagrange condition	\(\nabla f = \lambda \nabla g\)	MATH-02 math cheat-sheet
+<small>MATH-02 · self-check</small><br>Compute ∂L/∂w for <code>L = (σ(w·x) − y)²</code> using the chain rule.	With \(z = w^\top x\) and \(s = \sigma(z)\): \(\nabla_w L = 2(s - y)\, s(1-s)\, x\). The scalar case and its numbers are worked in §A5. Notice the factor \(s(1-s)\): when \(s\) saturates near 0 or 1, the gradient almost vanishes, even if the prediction is badly wrong. That is why classification uses cross-entropy instead of squared error (CORE-03 notes): with cross-entropy, the \(s(1-s)\) factor cancels.	MATH-02 math self-check
+<small>MATH-02 · self-check</small><br>Why does a convex loss guarantee that gradient descent finds the global minimum (with a suitable step size)?	For a convex \(L\), the tangent plane at any point lies below the graph: \(L(v) \ge L(w) + \nabla L(w)^\top (v - w)\). If \(\nabla L(w) = 0\), this says \(L(v) \ge L(w)\) for every \(v\), so any stationary point is a global minimum. With \(\eta\) below \(2/L\), where \(L\) is the gradient's Lipschitz constant, each GD step strictly decreases the loss until the gradient vanishes, so GD converges to that global minimum.	MATH-02 math self-check
+<small>MATH-02 · self-check</small><br>What does the Hessian's condition number say about how fast gradient descent converges?	The step size is capped by the steepest direction (\(\eta &lt; 2/\lambda_{\max}\)), while progress in the flattest direction is about \(\eta\lambda_{\min}\) per step. So the number of iterations grows roughly linearly with \(\kappa = \lambda_{\max}/\lambda_{\min}\) (and with \(\sqrt{\kappa}\) under momentum). The code cell above shows it.	MATH-02 math self-check
+<small>MATH-03</small><br>Bayes	\(p(H\mid D) = p(D\mid H)p(H)/p(D)\)	MATH-03 math cheat-sheet
+<small>MATH-03</small><br>Variance of a mean	\(\sigma^2/n\)	MATH-03 math cheat-sheet
+<small>MATH-03</small><br>MLE	\(\arg\min_\theta -\sum_i \log p(y_i\mid x_i,\theta)\)	MATH-03 math cheat-sheet
+<small>MATH-03</small><br>Gaussian NLL	MSE + const	MATH-03 math cheat-sheet
+<small>MATH-03</small><br>Bernoulli NLL	\(-[y\log p + (1-y)\log(1-p)]\)	MATH-03 math cheat-sheet
+<small>MATH-03</small><br>MAP with Gaussian / Laplace prior	L2 / L1 regularization	MATH-03 math cheat-sheet
+<small>MATH-03</small><br>Cross-entropy	\(H(p,q) = H(p) + \mathrm{KL}(p\Vert q)\)	MATH-03 math cheat-sheet
+<small>MATH-03</small><br>Perplexity	\(\exp(\text{mean cross-entropy})\)	MATH-03 math cheat-sheet
+<small>MATH-03</small><br>SE of accuracy	\(\sqrt{a(1-a)/n}\)	MATH-03 math cheat-sheet
+<small>MATH-03</small><br>Bonferroni	test at \(\alpha/m\)	MATH-03 math cheat-sheet
+<small>MATH-03</small><br>A/B sample size (80% power)	\(n \approx 16\,p(1-p)/\delta^2\) per arm	MATH-03 math cheat-sheet
+<small>MATH-03 · self-check</small><br>Use Bayes' rule on a test with 99% sensitivity and 1% prevalence. What's P(disease | positive)?	Assuming 99% specificity too: \(0.99\cdot0.01 / (0.99\cdot0.01 + 0.01\cdot0.99) = 0.5\). See §A2. With 95% specificity it drops to about 17%.	MATH-03 math self-check
+<small>MATH-03 · self-check</small><br>Why does minimizing MSE correspond to MLE under Gaussian noise?	The Gaussian log-density is \(-(y-f(x))^2/(2\sigma^2)\) + const, so the negative log-likelihood of the data set is the sum of squared errors, up to a positive scale and a constant. Same minimizer (§B2).	MATH-03 math self-check
+<small>MATH-03 · self-check</small><br>KL divergence is not symmetric. Give an intuition for what KL(p‖q) vs KL(q‖p) penalizes.	\(\mathrm{KL}(p\Vert q)\) heavily penalizes \(q \approx 0\) where \(p &gt; 0\), so it is mass-covering. \(\mathrm{KL}(q\Vert p)\) penalizes \(q &gt; 0\) where \(p \approx 0\), so it is mode-seeking (§C3).	MATH-03 math self-check
+<small>MATH-03 · self-check</small><br>Model B beats model A by 0.4% accuracy on 2,000 test examples. How would you check whether that's real (bootstrap or a paired test)?	0.4% is 8 examples. Run a paired analysis on the disagreements. In the code example, 30 vs 38 disagreements gives McNemar p ≈ 0.40, and the paired-bootstrap CI includes 0, so it's not convincing. You'd need many more test examples, or a bigger gap.	MATH-03 math self-check
+<small>MATH-03 · self-check</small><br>You compared 40 feature sets and 3 look "significant" at p &lt; 0.05. What should you conclude?	You'd expect about 2 by chance alone. Correct for multiple comparisons (Bonferroni: p &lt; 0.00125; or BH for the FDR), and confirm on fresh data before believing any of them.	MATH-03 math self-check

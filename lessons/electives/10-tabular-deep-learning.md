@@ -47,3 +47,4 @@ By the end you can:
 - **Papers:** [Tabular, time series, recsys & causal](../../papers/09-tabular-timeseries-recsys-causal.md) (tabular & boosting section).
 - **Implement it yourself:** an entity-embedding MLP in PyTorch. Feed its embeddings into a GBM and measure the gain.
 - **Drills:** more in [exercises/](../../exercises/README.md).
+- **Playbook:** [tabular model choice](../../playbook/01-choosing-algorithms.md#1-tabular-data-linear-model-vs-tree-ensemble-vs-knn-vs-neural-net) · [tabular tricks](../../playbook/02-tabular-tricks.md).

@@ -56,3 +56,5 @@ Report recall@5/10, MRR, NDCG@10, and p95 latency for each.
 - **Papers:** [Retrieval & RAG](../../papers/05-retrieval-rag.md). Start with the ⭐ ones.
 - **Implement it yourself:** [from-scratch ladder](../../exercises/from-scratch-ladder.md), rungs 37–39.
 - **Drills:** more in [exercises/](../../exercises/README.md).
+- **Lab:** [Lab 11: BM25, ranking metrics & RRF](../../labs/11-retrieval-metrics/README.md) (stubs + `pytest`).
+- **Playbook:** [hybrid → rerank → contextual chunks](../../playbook/04-llm-and-retrieval-tricks.md#4-retrieval-hybrid-first-rerank-second-and-contextualize-chunks) · [lost in the middle](../../playbook/04-llm-and-retrieval-tricks.md#6-mind-the-middle-of-the-context) · [BM25 vs dense vs hybrid](../../playbook/01-choosing-algorithms.md#9-search-bm25-vs-dense-embeddings-vs-hybrid).

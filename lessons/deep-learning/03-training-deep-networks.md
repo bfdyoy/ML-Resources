@@ -52,3 +52,4 @@ logging the effect of each change.
 - **Papers:** [Optimization, training & generalization](../../papers/01-optimization-training-generalization.md). Start with the ⭐ ones.
 - **Implement it yourself:** [from-scratch ladder](../../exercises/from-scratch-ladder.md), rungs 20–22.
 - **Drills:** [Deep-ML](https://www.deep-ml.com/problems) problems on this topic · more in [exercises/](../../exercises/README.md).
+- **Playbook:** [DL tricks §1–§4 and §7](../../playbook/03-deep-learning-tricks.md) · [SGD vs AdamW](../../playbook/01-choosing-algorithms.md#7-optimizers-sgd--momentum-vs-adamw) · [debugging training](../../playbook/06-debugging-playbook.md#b-deep-learning-training).

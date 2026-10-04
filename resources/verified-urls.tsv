@@ -65,6 +65,7 @@ https://arxiv.org/abs/1704.04110	S	2026-09	arXiv abs page in search results with
 https://arxiv.org/abs/1704.04861	I	2026-09	arXiv ID+title cited in curated GitHub lists
 https://arxiv.org/abs/1705.07874	I	2026-09	arXiv ID+title cited in curated GitHub lists
 https://arxiv.org/abs/1706.02216	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1706.02677	S	2026-10-04	search: "[1706.02677] Accurate, Large Minibatch SGD: Training ImageNet in 1 Hour"
 https://arxiv.org/abs/1706.03461	I	2026-09	arXiv ID+title cited in curated GitHub lists
 https://arxiv.org/abs/1706.03741	I	2026-09	arXiv ID+title cited in curated GitHub lists
 https://arxiv.org/abs/1706.03762	I	2026-09	arXiv ID+title cited in curated GitHub lists
@@ -86,6 +87,7 @@ https://arxiv.org/abs/1801.06146	I	2026-09	arXiv ID+title cited in curated GitHu
 https://arxiv.org/abs/1802.03426	I	2026-09	arXiv ID+title cited in curated GitHub lists
 https://arxiv.org/abs/1802.05365	I	2026-09	arXiv ID+title cited in curated GitHub lists
 https://arxiv.org/abs/1803.03635	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/1803.05407	S	2026-10-04	search: "[1803.05407] Averaging Weights Leads to Wider Optima and Better Generalization"
 https://arxiv.org/abs/1803.08494	I	2026-09	arXiv ID+title cited in curated GitHub lists
 https://arxiv.org/abs/1803.09010	S	2026-09	arXiv abs page in search results with matching title
 https://arxiv.org/abs/1803.09820	S	2026-09	arXiv abs page in search results with matching title
@@ -102,9 +104,11 @@ https://arxiv.org/abs/1812.01187	S	2026-09	arXiv abs page in search results with
 https://arxiv.org/abs/1812.04948	I	2026-09	arXiv ID+title cited in curated GitHub lists
 https://arxiv.org/abs/1902.00751	S	2026-09	arXiv abs page in search results with matching title
 https://arxiv.org/abs/1904.06690	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/1905.04899	S	2026-10-04	search: "[1905.04899] CutMix"
 https://arxiv.org/abs/1905.10437	S	2026-09	arXiv abs page in search results with matching title
 https://arxiv.org/abs/1905.11946	I	2026-09	arXiv ID+title cited in curated GitHub lists
 https://arxiv.org/abs/1906.00091	S	2026-09	arXiv abs page in search results with matching title
+https://arxiv.org/abs/1906.02629	S	2026-10-04	search: "[1906.02629] When Does Label Smoothing Help?"
 https://arxiv.org/abs/1907.10902	S	2026-09	arXiv abs page in search results with matching title
 https://arxiv.org/abs/1908.10084	I	2026-09	arXiv ID+title cited in curated GitHub lists
 https://arxiv.org/abs/1909.08053	I	2026-09	arXiv ID+title cited in curated GitHub lists
@@ -135,6 +139,7 @@ https://arxiv.org/abs/2006.16668	I	2026-09	arXiv ID+title cited in curated GitHu
 https://arxiv.org/abs/2009.01325	S	2026-09	arXiv abs page in search results with matching title
 https://arxiv.org/abs/2009.03300	I	2026-09	arXiv ID+title cited in curated GitHub lists
 https://arxiv.org/abs/2009.06732	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2010.01412	S	2026-10-04	search: "[2010.01412] Sharpness-Aware Minimization for Efficiently Improving Generalization"
 https://arxiv.org/abs/2010.11929	I	2026-09	arXiv ID+title cited in curated GitHub lists
 https://arxiv.org/abs/2011.09926	I	2026-09	arXiv ID+title cited in curated GitHub lists
 https://arxiv.org/abs/2011.13456	I	2026-09	arXiv ID+title cited in curated GitHub lists
@@ -165,6 +170,7 @@ https://arxiv.org/abs/2201.02177	S	2026-09	arXiv abs page in search results with
 https://arxiv.org/abs/2201.03545	I	2026-09	arXiv ID+title cited in curated GitHub lists
 https://arxiv.org/abs/2201.11903	I	2026-09	arXiv ID+title cited in curated GitHub lists
 https://arxiv.org/abs/2203.02155	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2203.05482	S	2026-10-04	search: "[2203.05482] Model soups"
 https://arxiv.org/abs/2203.11171	I	2026-09	arXiv ID+title cited in curated GitHub lists
 https://arxiv.org/abs/2203.14465	I	2026-09	arXiv ID+title cited in curated GitHub lists
 https://arxiv.org/abs/2203.15556	I	2026-09	arXiv ID+title cited in curated GitHub lists
@@ -195,6 +201,7 @@ https://arxiv.org/abs/2211.17192	I	2026-09	arXiv ID+title cited in curated GitHu
 https://arxiv.org/abs/2212.03533	I	2026-09	arXiv ID+title cited in curated GitHub lists
 https://arxiv.org/abs/2212.04356	I	2026-09	arXiv ID+title cited in curated GitHub lists
 https://arxiv.org/abs/2212.08073	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://arxiv.org/abs/2212.09410	S	2026-10-04	search: "[2212.09410] Less is More: Parameter-Free Text Classification with Gzip"
 https://arxiv.org/abs/2212.09748	I	2026-09	arXiv ID+title cited in curated GitHub lists
 https://arxiv.org/abs/2212.10496	I	2026-09	arXiv ID+title cited in curated GitHub lists
 https://arxiv.org/abs/2301.12597	I	2026-09	arXiv ID+title cited in curated GitHub lists
@@ -260,9 +267,11 @@ https://arxiv.org/abs/2411.15124	I	2026-09	arXiv ID+title cited in curated GitHu
 https://arxiv.org/abs/2412.06264	I	2026-09	arXiv ID+title cited in curated GitHub lists
 https://arxiv.org/abs/2412.19437	I	2026-09	arXiv ID+title cited in curated GitHub lists
 https://arxiv.org/abs/2501.12948	I	2026-09	arXiv ID+title cited in curated GitHub lists
+https://augmentingcognition.com/ltm.html	S	2026-10-04	search: "Augmenting Long-term Memory"
 https://bookdown.org/max/FES	S	2026-09	exact URL in web search results
 https://christophm.github.io/interpretable-ml-book/	S	2026-09	exact URL in web search results
 https://christophm.github.io/interpretable-ml-book/shap.html	S	2026-09	exact URL in web search results
+https://clauswilke.com/dataviz/	S	2026-10-04	search: "Fundamentals of Data Visualization"
 https://colah.github.io/posts/2015-08-Backprop/	S	2026-09	exact URL in web search results
 https://colah.github.io/posts/2015-08-Understanding-LSTMs/	S	2026-09	exact URL in web search results
 https://course.fast.ai/	S	2026-09	exact URL in web search results
@@ -270,10 +279,14 @@ https://cs224w.stanford.edu/	S	2026-09	exact URL in web search results
 https://cs229.stanford.edu/main_notes.pdf	S	2026-09	exact URL in web search results
 https://cs231n.github.io/	S	2026-09	exact URL in web search results
 https://cs336.stanford.edu/	S	2026-09	exact URL in web search results
+https://cs50.harvard.edu/python/syllabus/	S	2026-10-04	search: "Syllabus - CS50's Introduction to Programming with Python"
 https://d2l.ai/	S	2026-09	exact URL in web search results
 https://davidstarsilver.wordpress.com/teaching/	S	2026-09	exact URL in web search results
 https://dcai.csail.mit.edu/	S	2026-09	exact URL in web search results
 https://deepgenerativemodels.github.io/notes/	S	2026-09	exact URL in web search results
+https://deeplearning.neuromatch.io/projects/README.html	S	2026-10-04	search: "Introduction to projects — Neuromatch Academy: Deep Learning"
+https://deeplearning.neuromatch.io/tutorials/intro.html	S	2026-10-04	search: deeplearning.neuromatch.io intro
+https://developer.nvidia.com/blog/the-kaggle-grandmasters-playbook-7-battle-tested-modeling-techniques-for-tabular-data	S	2026-10-04	search: "The Kaggle Grandmasters Playbook: 7 Battle-Tested Modeling Techniques for Tabular Data"
 https://developers.google.com/machine-learning/crash-course	S	2026-09	exact URL in web search results
 https://developers.google.com/machine-learning/crash-course/fairness	S	2026-09	exact URL in web search results
 https://developers.google.com/machine-learning/guides/rules-of-ml	S	2026-09	exact URL in web search results
@@ -285,9 +298,14 @@ https://distill.pub/2016/misread-tsne/	S	2026-09	exact URL in web search results
 https://distill.pub/2017/feature-visualization/	S	2026-09	exact URL in web search results
 https://distill.pub/2017/momentum/	S	2026-09	exact URL in web search results
 https://distill.pub/2018/building-blocks/	S	2026-09	exact URL in web search results
+https://distill.pub/2019/visual-exploration-gaussian-processes/	S	2026-09	exact URL in web search results
 https://distill.pub/2021/gnn-intro/	S	2026-09	exact URL in web search results
 https://distill.pub/2021/understanding-gnns/	S	2026-09	exact URL in web search results
 https://docs.cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning	S	2026-09	exact URL in web search results
+https://docs.pytest.org/en/stable/getting-started.html	S	2026-10-04	search: "Get Started - pytest documentation"
+https://docs.python.org/3/howto/functional.html	S	2026-10-04	search: "Functional Programming HOWTO"
+https://docs.python.org/3/tutorial/	S	2026-10-04	search: "The Python Tutorial"
+https://docs.python.org/3/tutorial/classes.html	S	2026-10-04	search: "9. Classes — Python documentation"
 https://eugeneyan.com/writing/llm-patterns/	S	2026-09	exact URL in web search results
 https://explained.ai/gradient-boosting/	S	2026-09	exact URL in web search results
 https://explained.ai/matrix-calculus/	S	2026-09	exact URL in web search results
@@ -307,10 +325,13 @@ https://github.com/GokuMohandas/Made-With-ML	G	2026-09	git ls-remote succeeded
 https://github.com/HandsOnLLM/Hands-On-Large-Language-Models	G	2026-09	git ls-remote succeeded
 https://github.com/Hannibal046/Awesome-LLM	G	2026-09	git clone succeeded
 https://github.com/LeoGrin/tabular-benchmark	G	2026-09	git clone succeeded
+https://github.com/MITDeepLearning/introtodeeplearning	S	2026-10-04	search: "Lab Materials for MIT 6.S191"
+https://github.com/NeuromatchAcademy/course-content-dl	G	2026-10-04	git clone succeeded
 https://github.com/NirDiamant/GenAI_Agents	G	2026-09	git ls-remote succeeded
 https://github.com/NirDiamant/RAG_Techniques	G	2026-09	git ls-remote succeeded
 https://github.com/TransformerLensOrg/TransformerLens	G	2026-09	git ls-remote succeeded
 https://github.com/aangelopoulos/conformal-prediction	G	2026-09	git ls-remote succeeded
+https://github.com/abhishekkrthakur/approachingalmost	G	2026-10-04	git clone succeeded
 https://github.com/ageron/handson-ml3	G	2026-09	git ls-remote succeeded
 https://github.com/ageron/handson-mlp	G	2026-09	git ls-remote succeeded
 https://github.com/alirezadir/Machine-Learning-Interviews	G	2026-09	git ls-remote succeeded
@@ -326,6 +347,7 @@ https://github.com/chiphuyen/dmls-book	G	2026-09	git ls-remote succeeded
 https://github.com/chiphuyen/ml-interviews-book	G	2026-09	git ls-remote succeeded
 https://github.com/cleanlab/cleanlab	G	2026-09	git ls-remote succeeded
 https://github.com/cure-lab/LTSF-Linear	G	2026-09	git clone succeeded
+https://github.com/d2l-ai/d2l-en	G	2026-10-04	git clone succeeded
 https://github.com/dair-ai/ML-Papers-Explained	G	2026-09	git clone succeeded
 https://github.com/dair-ai/ML-Papers-of-the-Week	G	2026-09	git clone succeeded
 https://github.com/dair-ai/Prompt-Engineering-Guide	G	2026-09	git ls-remote succeeded
@@ -335,12 +357,15 @@ https://github.com/evidentlyai/evidently	G	2026-09	git ls-remote succeeded
 https://github.com/facebookresearch/detectron2	G	2026-09	git ls-remote succeeded
 https://github.com/facebookresearch/faiss	G	2026-09	git ls-remote succeeded
 https://github.com/facebookresearch/flow_matching	G	2026-09	git clone succeeded
+https://github.com/fastai/course22	G	2026-10-04	git clone succeeded
 https://github.com/fastai/fastbook	G	2026-09	git ls-remote succeeded
 https://github.com/feast-dev/feast	G	2026-09	git ls-remote succeeded
 https://github.com/google-research/timesfm	G	2026-09	git clone succeeded
 https://github.com/google-research/tuning_playbook	G	2026-09	git ls-remote succeeded
 https://github.com/gpu-mode/lectures	G	2026-09	git ls-remote succeeded
 https://github.com/guipsamora/pandas_exercises	G	2026-09	git ls-remote succeeded
+https://github.com/gvwilson/teachtogether.tech	G	2026-10-04	git clone succeeded
+https://github.com/huggingface/course	G	2026-10-04	git clone succeeded
 https://github.com/huggingface/diffusion-models-class	G	2026-09	git ls-remote succeeded
 https://github.com/huggingface/evaluation-guidebook	G	2026-09	git ls-remote succeeded
 https://github.com/huggingface/peft	G	2026-09	git ls-remote succeeded
@@ -374,6 +399,7 @@ https://github.com/rasbt/deeplearning-models	G	2026-09	git ls-remote succeeded
 https://github.com/rasbt/reasoning-from-scratch	G	2026-09	git ls-remote succeeded
 https://github.com/recommenders-team/recommenders	G	2026-09	git ls-remote succeeded
 https://github.com/rmcelreath/stat_rethinking_2026	G	2026-09	git ls-remote succeeded
+https://github.com/rougier/from-python-to-numpy	G	2026-10-04	git clone succeeded
 https://github.com/rougier/numpy-100	G	2026-09	git ls-remote succeeded
 https://github.com/scikit-learn-contrib/MAPIE	G	2026-09	git ls-remote succeeded
 https://github.com/shap/shap	G	2026-09	git clone succeeded
@@ -385,6 +411,7 @@ https://github.com/srush/raspy	G	2026-09	git ls-remote succeeded
 https://github.com/stanford-cs336/assignment1-basics	G	2026-09	git ls-remote succeeded
 https://github.com/stanford-cs336/assignment2-systems	G	2026-09	git ls-remote succeeded
 https://github.com/stas00/ml-engineering	G	2026-09	git ls-remote succeeded
+https://github.com/swcarpentry/python-novice-inflammation	G	2026-10-04	git clone succeeded
 https://github.com/tensara/problems	G	2026-09	git ls-remote succeeded
 https://github.com/udlbook/udlbook	G	2026-09	git ls-remote succeeded
 https://github.com/ultralytics/ultralytics	G	2026-09	git ls-remote succeeded
@@ -394,6 +421,7 @@ https://github.com/vllm-project/vllm	G	2026-09	git clone succeeded
 https://github.com/vwxyzjn/cleanrl	G	2026-09	git ls-remote succeeded
 https://github.com/yzhao062/pyod	G	2026-09	git ls-remote succeeded
 https://github.com/zenml-io/zenml	G	2026-09	git ls-remote succeeded
+https://goodresearch.dev/	S	2026-10-04	search: "The Good Research Code Handbook"
 https://greenteapress.com/wp/think-bayes/	S	2026-09	exact URL in web search results
 https://greenteapress.com/wp/think-stats-3e/	S	2026-09	exact URL in web search results
 https://hamel.dev/blog/posts/evals-faq/	S	2026-09	exact URL in web search results
@@ -401,6 +429,7 @@ https://hamel.dev/blog/posts/evals/	S	2026-09	exact URL in web search results
 https://hanlab.mit.edu/courses/2026-fall-65940	S	2026-09	exact URL in web search results
 https://hastie.su.domains/ElemStatLearn/	S	2026-09	exact URL in web search results
 https://hastie.su.domains/ISLP/ISLP_website.pdf.download.html	S	2026-09	exact URL in web search results
+https://home-wordpress.deeplearning.ai/wp-content/uploads/2022/03/andrew-ng-machine-learning-yearning.pdf	S	2026-10-04	search: official deeplearning.ai-hosted PDF of Machine Learning Yearning
 https://horace.io/brrr_intro.html	S	2026-09	exact URL in web search results
 https://huggingface.co/blog/4bit-transformers-bitsandbytes	R	2026-09	source .md present in huggingface/blog
 https://huggingface.co/blog/annotated-diffusion	R	2026-09	source .md present in huggingface/blog
@@ -436,6 +465,8 @@ https://huyenchip.com/2025/01/16/ai-engineering-pitfalls.html	S	2026-09	exact UR
 https://huyenchip.com/ml-interviews-book/	S	2026-09	exact URL in web search results
 https://imbalanced-learn.org/stable/common_pitfalls.html	S	2026-09	exact URL in web search results
 https://inria.github.io/scikit-learn-mooc/	S	2026-09	exact URL in web search results
+https://introtodeeplearning.com/	S	2026-10-04	search: "MIT Deep Learning 6.S191"
+https://jakevdp.github.io/PythonDataScienceHandbook/	S	2026-10-04	search: "Python Data Science Handbook"
 https://jalammar.github.io/gentle-visual-intro-to-data-analysis-python-pandas/	R	2026-09	post present in jalammar/jalammar.github.io _posts
 https://jalammar.github.io/illustrated-bert/	S	2026-09	search result
 https://jalammar.github.io/illustrated-gpt2/	S	2026-09	search result
@@ -450,6 +481,8 @@ https://jax-ml.github.io/scaling-book/	S	2026-09	exact URL in web search results
 https://karpathy.github.io/2015/05/21/rnn-effectiveness/	R	2026-09	post present in karpathy/karpathy.github.io _posts
 https://karpathy.github.io/2016/05/31/rl/	R	2026-09	post present in karpathy/karpathy.github.io _posts
 https://karpathy.github.io/2026/02/12/microgpt/	R	2026-09	post present in karpathy/karpathy.github.io _posts
+https://kenschutte.com/gzip-knn-paper/	S	2026-10-04	search: "Bad numbers in the "gzip beats BERT" paper?"
+https://lectures.scientific-python.org/index.html	S	2026-10-04	search: "Scientific Python Lectures"
 https://leetgpu.com/	S	2026-09	exact URL in web search results
 https://lilianweng.github.io/posts/2017-08-20-gan/	R	2026-09	post dir present in lilianweng/lilianweng.github.io
 https://lilianweng.github.io/posts/2017-10-15-word-embedding/	R	2026-09	post dir present in lilianweng/lilianweng.github.io
@@ -492,6 +525,8 @@ https://magazine.sebastianraschka.com/p/the-big-llm-architecture-comparison	S	20
 https://magazine.sebastianraschka.com/p/understanding-and-coding-self-attention	S	2026-09	exact URL in web search results
 https://magazine.sebastianraschka.com/p/understanding-reasoning-llms	S	2026-09	exact URL in web search results
 https://matheusfacure.github.io/python-causality-handbook/	S	2026-09	exact URL in web search results
+https://matheusfacure.github.io/python-causality-handbook/21-Meta-Learners.html	S	2026-09	exact URL in web search results
+https://missing.csail.mit.edu/	S	2026-10-04	search: "The Missing Semester of Your CS Education"
 https://mitpress.mit.edu/9780262048972/foundations-of-computer-vision/	S	2026-09	exact URL in web search results
 https://mixtape.scunning.com/	S	2026-09	exact URL in web search results
 https://mlu-explain.github.io/bias-variance/	S	2026-09	search result
@@ -511,9 +546,13 @@ https://newsletter.languagemodels.co/p/the-illustrated-deepseek-r1	S	2026-09	exa
 https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-quantization	S	2026-09	exact URL in web search results
 https://nlp.seas.harvard.edu/annotated-transformer/	S	2026-09	exact URL in web search results
 https://nlp.stanford.edu/IR-book/html/htmledition/irbook.html	S	2026-09	exact URL in web search results
+https://notes.andymatuschak.org/Writing_good_spaced_repetition_memory_prompts_is_hard	S	2026-10-04	search: "Writing good spaced repetition memory prompts is hard"
+https://numpy.org/doc/stable/user/basics.broadcasting.html	S	2026-10-04	search: "Broadcasting — NumPy Manual"
 https://otexts.com/fpp3/	S	2026-09	exact URL in web search results
 https://otexts.com/fpppy/	S	2026-09	exact URL in web search results
 https://pair-code.github.io/understanding-umap/	S	2026-09	exact URL in web search results
+https://pandas.pydata.org/docs/user_guide/10min.html	S	2026-10-04	search: "10 minutes to pandas"
+https://pandas.pydata.org/docs/user_guide/index.html	S	2026-10-04	search: "User Guide — pandas"
 https://papers.neurips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems.pdf	S	2026-09	exact URL in web search results
 https://poloclub.github.io/cnn-explainer/	S	2026-09	exact URL in web search results
 https://poloclub.github.io/transformer-explainer/	S	2026-09	exact URL in web search results
@@ -565,7 +604,9 @@ https://snap-stanford.github.io/cs224w-notes/	S	2026-09	exact URL in web search 
 https://spinningup.openai.com/en/latest/user/introduction.html	S	2026-09	exact URL in web search results
 https://stanford-cs329s.github.io/	S	2026-09	exact URL in web search results
 https://stat110.hsites.harvard.edu/	S	2026-09	exact URL in web search results
+https://swcarpentry.github.io/python-novice-inflammation/	S	2026-10-04	search: "Programming with Python: Summary and Setup" (Software Carpentry)
 https://szeliski.org/Book/	S	2026-09	exact URL in web search results
+https://teachtogether.tech/	S	2026-10-04	search: "Teaching Tech Together"
 https://themlbook.com/	S	2026-09	exact URL in web search results
 https://timdettmers.com/2023/01/30/which-gpu-for-deep-learning/	S	2026-09	exact URL in web search results
 https://transformer-circuits.pub/2021/exercises/index.html	S	2026-09	exact URL in web search results
@@ -575,6 +616,7 @@ https://uvadlc-notebooks.readthedocs.io/	S	2026-09	exact URL in web search resul
 https://web.stanford.edu/class/cs224n/	S	2026-09	exact URL in web search results
 https://web.stanford.edu/~boyd/cvxbook/	S	2026-09	exact URL in web search results
 https://web.stanford.edu/~jurafsky/slp3/	S	2026-09	exact URL in web search results
+https://wesmckinney.com/book/	S	2026-10-04	search: "Python for Data Analysis, 3E" open-access HTML
 https://www.3blue1brown.com/lessons/attention/	S	2026-09	exact URL in web search results
 https://www.3blue1brown.com/lessons/backpropagation-calculus/	S	2026-09	exact URL in web search results
 https://www.3blue1brown.com/lessons/gpt/	S	2026-09	exact URL in web search results
@@ -582,19 +624,28 @@ https://www.3blue1brown.com/lessons/gradient-descent/	S	2026-09	exact URL in web
 https://www.3blue1brown.com/lessons/neural-networks/	S	2026-09	exact URL in web search results
 https://www.alexirpan.com/2018/02/14/rl-hard.html	S	2026-09	exact URL in web search results
 https://www.anthropic.com/engineering/building-effective-agents	S	2026-09	exact URL in web search results
+https://www.anthropic.com/engineering/contextual-retrieval	S	2026-10-04	search: "Contextual Retrieval in AI Systems \ Anthropic"
 https://www.bishopbook.com/	S	2026-09	exact URL in web search results
 https://www.bradyneal.com/causal-inference-course	S	2026-09	exact URL in web search results
 https://www.cs.mcgill.ca/~wlh/grl_book/	S	2026-09	exact URL in web search results
 https://www.deep-ml.com/problems	S	2026-09	exact URL in web search results
+https://www.deeplearning.ai/specializations/deep-learning	S	2026-10-04	search: "Deep Learning Specialization - DeepLearning.AI"
+https://www.deeplearning.ai/specializations/machine-learning	S	2026-10-04	search: "Machine Learning Specialization - DeepLearning.AI"
 https://www.deeplearningbook.org/	S	2026-09	exact URL in web search results
 https://www.evidentlyai.com/llm-evaluations-course	S	2026-09	exact URL in web search results
 https://www.evidentlyai.com/ml-observability-course	S	2026-09	exact URL in web search results
 https://www.evidentlyai.com/ml-system-design	S	2026-09	exact URL in web search results
 https://www.kaggle.com/learn	S	2026-09	exact URL in web search results
+https://www.kaggle.com/learn/data-visualization	S	2026-10-04	search: "Learn Data Visualization Tutorials" (Kaggle)
 https://www.kaggle.com/learn/feature-engineering	S	2026-09	exact URL in web search results
 https://www.kaggle.com/learn/intermediate-machine-learning	S	2026-09	exact URL in web search results
 https://www.kaggle.com/learn/machine-learning-explainability	S	2026-09	exact URL in web search results
+https://www.kaggle.com/learn/pandas	S	2026-10-04	search: "Learn Pandas Tutorials" (Kaggle)
+https://www.kaggle.com/learn/python	S	2026-10-04	search: "Learn Python Tutorials" (Kaggle)
 https://www.kaggle.com/learn/time-series	S	2026-09	exact URL in web search results
+https://www.labri.fr/perso/nrougier/from-python-to-numpy/	S	2026-10-04	search: "From Python to Numpy" (Rougier)
+https://www.learningscientists.org/blog/2016/8/18-1	S	2026-10-04	search: "Six Strategies for Effective Learning — The Learning Scientists"
+https://www.learningscientists.org/posters	S	2026-10-04	search: "Posters — The Learning Scientists"
 https://www.learnpytorch.io/	S	2026-09	exact URL in web search results
 https://www.learnpytorch.io/00_pytorch_fundamentals/	S	2026-09	exact URL in web search results
 https://www.learnpytorch.io/01_pytorch_workflow/	S	2026-09	exact URL in web search results
@@ -607,6 +658,7 @@ https://www.martinfowler.com/articles/cd4ml.html	S	2026-09	exact URL in web sear
 https://www.microsoft.com/en-us/research/publication/pattern-recognition-machine-learning/	S	2026-09	exact URL in web search results
 https://www.oreilly.com/library/view/ai-engineering/9781098166298/	S	2026-09	exact URL in web search results
 https://www.oreilly.com/library/view/designing-machine-learning/9781098107956/	S	2026-09	exact URL in web search results
+https://www.pythonlikeyoumeanit.com/	S	2026-10-04	search: "Python Like You Mean It"
 https://www.statlearning.com/	S	2026-09	exact URL in web search results
 https://www.statlearning.com/resources-python	S	2026-09	exact URL in web search results
 https://www.youtube.com/playlist?list=PLZ5DHV9_5h9vQwAImmNi1RfoTtSuOUjwM	S	2026-09	exact URL in web search results
@@ -617,12 +669,10 @@ https://www.youtube.com/playlist?list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ	S	2026-
 https://www.youtube.com/watch?v=7xTGNNLPyMI	S	2026-09	exact URL in web search results
 https://www.youtube.com/watch?v=PaCmpygFfXo	S	2026-09	exact URL in web search results
 https://www.youtube.com/watch?v=VMj-3S1tku0	S	2026-09	exact URL in web search results
+https://www.youtube.com/watch?v=efR1C6CvhmE	S	2026-09	exact URL in web search results (StatQuest SVM Part 1)
 https://www.youtube.com/watch?v=kCc8FmEb1nY	S	2026-09	exact URL in web search results
 https://www.youtube.com/watch?v=zduSFxRajkE	S	2026-09	exact URL in web search results
 https://www.youtube.com/watch?v=zjkBMFhNj_g	S	2026-09	exact URL in web search results
 https://yang-song.net/blog/2021/score/	S	2026-09	exact URL in web search results
 https://youtu.be/P6sfmUTpUmc	S	2026-09	exact URL in web search results
 https://youtu.be/TCH_1BHY58I	S	2026-09	exact URL in web search results
-https://distill.pub/2019/visual-exploration-gaussian-processes/	S	2026-09	exact URL in web search results
-https://matheusfacure.github.io/python-causality-handbook/21-Meta-Learners.html	S	2026-09	exact URL in web search results
-https://www.youtube.com/watch?v=efR1C6CvhmE	S	2026-09	exact URL in web search results (StatQuest SVM Part 1)

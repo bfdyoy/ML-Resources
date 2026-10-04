@@ -51,3 +51,4 @@ a cost/latency dashboard, caching, and the GEN-09 red-team suite.
 - **Papers:** [ML in production](../../papers/11-ml-in-production.md) · [Post-training, reasoning & agents](../../papers/04-alignment-reasoning-agents.md) (evaluating LLMs).
 - **Implement it yourself:** a semantic cache (embed the query, similarity threshold, TTL). Measure the hit rate and the wrong-answer rate on your eval set.
 - **Drills:** more in [exercises/](../../exercises/README.md).
+- **Playbook:** [prefix caching](../../playbook/04-llm-and-retrieval-tricks.md#5-put-the-stable-part-of-the-prompt-first) · [debugging LLM apps](../../playbook/06-debugging-playbook.md#c-llm-applications-and-rag).

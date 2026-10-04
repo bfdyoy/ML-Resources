@@ -52,3 +52,4 @@ same network in pure NumPy with vectorised backprop, and check that its gradient
 - **Papers:** [Optimization, training & generalization](../../papers/01-optimization-training-generalization.md). Start with the ⭐ ones.
 - **Implement it yourself:** [from-scratch ladder](../../exercises/from-scratch-ladder.md), rungs 18–19.
 - **Drills:** [Deep-ML](https://www.deep-ml.com/problems) problems on this topic · more in [exercises/](../../exercises/README.md).
+- **Lab:** [Lab 07: micrograd](../../labs/07-micrograd/README.md) · [Lab 08: MLP backprop with a gradient check](../../labs/08-mlp-backprop/README.md) (stubs + `pytest`).

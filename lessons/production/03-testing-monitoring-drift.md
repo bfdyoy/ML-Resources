@@ -51,3 +51,5 @@ Add a daily drift and data-quality job, and simulate a shift to show it catching
 - **Papers:** [ML in production](../../papers/11-ml-in-production.md). Start with the ⭐ ones.
 - **Implement it yourself:** a population-stability-index (PSI) and KS-test drift checker in NumPy. Compare it with Evidently's output.
 - **Drills:** [MLOps Zoomcamp](https://github.com/DataTalksClub/mlops-zoomcamp) monitoring homework · more in [exercises/](../../exercises/README.md).
+- **Lab:** [Lab 12, part C: PSI](../../labs/12-calibration-conformal-drift/README.md) (stubs + `pytest`).
+- **Playbook:** [classifier two-sample tests for drift](../../playbook/05-outside-the-box.md#2-a-classifier-is-a-two-sample-test) · [debugging production](../../playbook/06-debugging-playbook.md#d-production).

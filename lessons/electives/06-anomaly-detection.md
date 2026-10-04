@@ -49,3 +49,4 @@ the few labels you have. Write up when you'd use each.
 - **Papers:** [Interpretability, uncertainty & responsible ML](../../papers/10-interpretability-uncertainty-responsible.md) (conformal prediction gives principled anomaly thresholds).
 - **Implement it yourself:** an isolation forest (random splits + path length) in NumPy. Compare its scores with sklearn's.
 - **Drills:** more in [exercises/](../../exercises/README.md).
+- **Playbook:** [choosing a detector](../../playbook/01-choosing-algorithms.md#11-anomaly-detection-which-detector).

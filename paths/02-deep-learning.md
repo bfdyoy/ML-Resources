@@ -4,6 +4,8 @@
 **Duration:** ~76 h (≈ 10 weeks) · **Level:** L2→L3 · **Primary book:** *Understanding Deep Learning* (Prince, free) + Karpathy's *Zero to Hero* for building
 
 > 📘 **Study notes:** every lesson starts with its written explanation (step 0, ~1 h): the math step by step, worked examples, runnable code, and answers to the self-check. Read in order, the notes form one continuous walkthrough: [notes index](../notes/README.md).
+>
+> 🗓️ **As a course:** [Course 2: Deep Learning](../courses/02-deep-learning.md) turns this path into a week-by-week plan: warm-ups, [labs](../labs/README.md), [playbook](../playbook/README.md) readings, project milestones, a midterm, and a capstone rubric.
 
 **Prerequisites:** CORE-02, CORE-03, CORE-04 (or equivalent), comfortable Python/NumPy.
 

@@ -54,3 +54,5 @@ and show a calibration plot before and after `CalibratedClassifierCV`.
 - **Papers:** [Interpretability, uncertainty & responsible ML](../../papers/10-interpretability-uncertainty-responsible.md). Start with the ⭐ ones.
 - **Implement it yourself:** [from-scratch ladder](../../exercises/from-scratch-ladder.md), rungs 4–6.
 - **Drills:** [Deep-ML](https://www.deep-ml.com/problems) problems on this topic · more in [exercises/](../../exercises/README.md).
+- **Lab:** [Lab 04: Logistic regression & metrics](../../labs/04-logistic-regression-metrics/README.md) (stubs + `pytest`).
+- **Playbook:** [choosing a metric](../../playbook/01-choosing-algorithms.md#6-classification-metrics-roc-auc-vs-pr-auc-vs-log-loss-vs-f1).

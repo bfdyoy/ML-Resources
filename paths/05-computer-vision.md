@@ -4,6 +4,8 @@
 **Duration:** ~34 h (≈ 4–5 weeks) · **Level:** L2→L3 · **Primary resources:** D2L and Lilian Weng's detection series, UvA DL tutorials, CLIP/VLM papers with HF explainers, Szeliski
 
 > 📘 **Study notes:** every lesson starts with its written explanation (step 0, ~1 h): the math step by step, worked examples, runnable code, and answers to the self-check. Read in order, the notes form one continuous walkthrough: [notes index](../notes/README.md).
+>
+> 🗓️ **As a course:** [Course 5: Computer Vision](../courses/05-computer-vision.md) turns this path into a week-by-week plan: warm-ups, [labs](../labs/README.md), [playbook](../playbook/README.md) readings, project milestones, a midterm, and a capstone rubric.
 
 **Prerequisites:** [Path 2](02-deep-learning.md), at least DL-03, DL-04, DL-06. CV-03 also uses [GEN-01](../lessons/llms-genai/01-how-llms-are-built.md).
 

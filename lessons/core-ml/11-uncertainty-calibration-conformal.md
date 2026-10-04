@@ -53,3 +53,5 @@ then wrap both with conformal prediction sets at 90%. Report coverage and averag
 - **Papers:** [Interpretability, uncertainty & responsible ML](../../papers/10-interpretability-uncertainty-responsible.md). Start with the ⭐ ones.
 - **Implement it yourself:** write ECE and split-conformal from scratch (≈30 lines each). Check them against MAPIE.
 - **Drills:** more in [exercises/](../../exercises/README.md).
+- **Lab:** [Lab 12, parts A–B: ECE and split conformal](../../labs/12-calibration-conformal-drift/README.md) (stubs + `pytest`).
+- **Playbook:** [pinball loss for asymmetric costs](../../playbook/05-outside-the-box.md#6-asymmetric-costs-change-the-loss-not-the-threshold) · [confidence cascades](../../playbook/05-outside-the-box.md#11-route-by-confidence-cascades).

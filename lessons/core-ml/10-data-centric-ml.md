@@ -56,3 +56,4 @@ Then simulate an active-learning loop (start with 50 labels, add 25 per round by
 - **Papers:** [Tabular, time series, recsys & causal](../../papers/09-tabular-timeseries-recsys-causal.md) (SMOTE) · [Interpretability, uncertainty & responsible ML](../../papers/10-interpretability-uncertainty-responsible.md) (datasheets).
 - **Implement it yourself:** [from-scratch ladder](../../exercises/from-scratch-ladder.md), rungs 6–7 (metrics and stratified splits). Then write a 20-line uncertainty-sampling loop.
 - **Drills:** [dcai-lab](https://github.com/dcai-course/dcai-lab) · more in [exercises/](../../exercises/README.md).
+- **Playbook:** [imbalance: weights vs resampling vs threshold](../../playbook/01-choosing-algorithms.md#13-imbalanced-classes-class-weights-vs-resampling-vs-moving-the-threshold) · [LLM labelers measured with κ](../../playbook/04-llm-and-retrieval-tricks.md#2-use-an-llm-as-a-labeler-then-measure-it-like-one).

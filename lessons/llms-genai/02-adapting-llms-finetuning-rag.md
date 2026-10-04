@@ -50,3 +50,4 @@ is prompt-only. Version 2 adds RAG. Write 20 test questions with reference answe
 - **Papers:** [Efficiency & systems](../../papers/06-efficiency-systems.md). Start with the ⭐ ones.
 - **Implement it yourself:** [from-scratch ladder](../../exercises/from-scratch-ladder.md), rungs 33–36, 37–40.
 - **Drills:** [Deep-ML](https://www.deep-ml.com/problems) problems on this topic · more in [exercises/](../../exercises/README.md).
+- **Playbook:** [prompting vs RAG vs fine-tuning](../../playbook/01-choosing-algorithms.md#4-prompting-vs-rag-vs-fine-tuning) · [reasoning then answer](../../playbook/04-llm-and-retrieval-tricks.md#3-ask-for-reasoning-first-and-the-answer-in-a-fixed-format) · [few-shot from failures](../../playbook/04-llm-and-retrieval-tricks.md#8-few-shot-examples-from-your-failures).

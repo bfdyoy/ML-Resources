@@ -54,3 +54,4 @@ and the speed-up from speculative decoding with a small draft model.
 - **Papers:** [Efficiency & systems](../../papers/06-efficiency-systems.md). Start with the ⭐ ones.
 - **Implement it yourself:** [from-scratch ladder](../../exercises/from-scratch-ladder.md), rungs 31 and 36 (KV cache, INT8 quantization).
 - **Drills:** more in [exercises/](../../exercises/README.md).
+- **Playbook:** [prefix-cache-friendly prompts](../../playbook/04-llm-and-retrieval-tricks.md#5-put-the-stable-part-of-the-prompt-first) · [distilling a pipeline](../../playbook/04-llm-and-retrieval-tricks.md#7-distill-the-expensive-pipeline-into-a-cheap-model).

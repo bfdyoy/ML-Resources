@@ -58,3 +58,4 @@ GP regressor to a 1-D noisy function and show how the uncertainty shrinks as you
 - **Papers:** the kernel section of this lesson is textbook material. For GPs used as a tuner, see [Practical Bayesian Optimization](https://arxiv.org/abs/1206.2944) (CORE-12).
 - **Implement it yourself:** [from-scratch ladder](../../exercises/from-scratch-ladder.md), rung 8 (vectorized kNN).
 - **Drills:** [Deep-ML](https://www.deep-ml.com/problems) (kNN, kernel, and SVM problems) · more in [exercises/](../../exercises/README.md).
+- **Playbook:** [compression as similarity](../../playbook/05-outside-the-box.md#3-compression-is-a-similarity-measure) · [kNN features](../../playbook/02-tabular-tricks.md#6-nearest-neighbour-features).

@@ -48,3 +48,4 @@ its caveats), three individual predictions explained, and a group-fairness check
 - **Papers:** [Interpretability, uncertainty & responsible ML](../../papers/10-interpretability-uncertainty-responsible.md). Start with the ⭐ ones.
 - **Implement it yourself:** [from-scratch ladder](../../exercises/from-scratch-ladder.md), rung 16.
 - **Drills:** [Deep-ML](https://www.deep-ml.com/problems) problems on this topic · more in [exercises/](../../exercises/README.md).
+- **Playbook:** [choosing an explanation method](../../playbook/01-choosing-algorithms.md#14-explaining-a-model-coefficients-vs-permutation-importance-vs-shap-vs-pdpale) · [error models for slice discovery](../../playbook/05-outside-the-box.md#5-train-a-model-on-your-models-errors).

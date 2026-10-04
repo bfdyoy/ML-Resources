@@ -1,6 +1,6 @@
 # MATH-01 notes: Linear Algebra for ML
 
-[← Lesson MATH-01](../../lessons/math/01-linear-algebra.md) · [All notes](../README.md) · [Notation](../notation.md) · Next: [MATH-02 notes →](02-calculus-optimization.md)
+[← Lesson MATH-01](../../lessons/math/01-linear-algebra.md) · [All notes](../README.md) · [Notation](../notation.md) · [← PY-05 notes](../python/05-engineering-ml-code.md) (optional Path 0) · Next: [MATH-02 notes →](02-calculus-optimization.md)
 
 > **Reading time** ≈ 60 min (in three blocks, matching the lesson). **You need:** high-school algebra and a little Python.
 > Run the code cells as you go. Every number on this page is printed by the code.

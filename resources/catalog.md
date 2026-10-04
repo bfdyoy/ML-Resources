@@ -313,3 +313,41 @@ Papers linked from lessons are catalogued in the [papers library](../papers/READ
 | [Hugging Face Audio Course](https://huggingface.co/learn/audio-course/chapter0/introduction) | EL-09 | S 2026-09 |
 | [Hugging Face Transformers (Whisper docs)](https://github.com/huggingface/transformers) | EL-09 | G 2026-09 |
 | [tabular-benchmark](https://github.com/LeoGrin/tabular-benchmark) | EL-10 | G 2026-09 |
+
+## 10. Python for ML (Path 0)
+
+Used by PY-01…PY-05. Book chapters first, documentation for the "Build" steps.
+
+| Resource | Author(s) | Why it's here | Type | Cost | Level | Used in | Verified |
+|---|---|---|---|---|---|---|---|
+| [Python for Data Analysis, 3rd ed.](https://wesmckinney.com/book/) | Wes McKinney (creator of pandas) | The open-access edition of the standard pandas book: data structures, wrangling, groupby, time series | book | free-online/paid-print | L1–L2 | PY-01, PY-02, PY-03, PY-04 | S 2026-10 |
+| [From Python to NumPy](https://www.labri.fr/perso/nrougier/from-python-to-numpy/) · [repo](https://github.com/rougier/from-python-to-numpy) | Nicolas Rougier | The best text on *thinking* in arrays: memory layout, views, and code vs problem vectorization | book | free | L2 | PY-02 | S + G 2026-10 |
+| [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) | Jake VanderPlas | Clear, runnable chapters on NumPy, pandas and Matplotlib | book | free | L1–L2 | PY-02, PY-03, PY-04 | S 2026-10 |
+| [Python Like You Mean It](https://www.pythonlikeyoumeanit.com/) | Ryan Soklaski | Python essentials written for people heading into NumPy and ML, with exercises | book | free | L1 | PY-01 | S 2026-10 |
+| [Fundamentals of Data Visualization](https://clauswilke.com/dataviz/) | Claus O. Wilke | Which chart for which question, and the principles that keep plots honest | book | free-online/paid-print | L1–L2 | PY-04 | S 2026-10 |
+| [The Good Research Code Handbook](https://goodresearch.dev/) | Patrick Mineault | Short, practical guide to project layout, decoupled code, and testing for researchers | book | free | L1–L2 | PY-05 | S 2026-10 |
+| [Scientific Python Lectures](https://lectures.scientific-python.org/index.html) | Scientific Python community | NumPy, Matplotlib and advanced NumPy as lecture notes | course-notes | free | L1–L3 | Go deeper (PY-02, PY-04) | S 2026-10 |
+| [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/) | MIT | The tools courses assume: shell, git, debugging, profiling | course-notes | free | L1 | PY-05 | S 2026-10 |
+| [CS50's Introduction to Programming with Python](https://cs50.harvard.edu/python/syllabus/) | Harvard (David Malan) | Auto-graded problem sets, including unit tests and OOP | course | free | L1 | Go deeper (PY-01, PY-05) | S 2026-10 |
+| [Software Carpentry: Programming with Python](https://swcarpentry.github.io/python-novice-inflammation/) | The Carpentries | One dataset through every episode; "Defensive Programming" and "Debugging" | course-notes | free | L1 | PY-05 | S 2026-10 |
+| [The Python Tutorial](https://docs.python.org/3/tutorial/) · [§9 Classes](https://docs.python.org/3/tutorial/classes.html) · [Functional Programming HOWTO](https://docs.python.org/3/howto/functional.html) | Python Software Foundation | The official explanation of scopes, iterators and generators | docs | free | L1–L2 | PY-01 | S 2026-10 |
+| [NumPy: Broadcasting](https://numpy.org/doc/stable/user/basics.broadcasting.html) | NumPy developers | The two broadcasting rules, with figures | docs | free | L1 | PY-02 | S 2026-10 |
+| [10 minutes to pandas](https://pandas.pydata.org/docs/user_guide/10min.html) · [pandas User Guide](https://pandas.pydata.org/docs/user_guide/index.html) | pandas developers | A map of the API, then the groupby and merge details | docs | free | L1–L2 | PY-03 | S 2026-10 |
+| [pytest: Get Started](https://docs.pytest.org/en/stable/getting-started.html) | pytest developers | The testing tool used by every lab in this repo | docs | free | L1 | PY-05 | S 2026-10 |
+| [Kaggle Learn](https://www.kaggle.com/learn): [Python](https://www.kaggle.com/learn/python), [pandas](https://www.kaggle.com/learn/pandas), [Data Visualization](https://www.kaggle.com/learn/data-visualization) | Kaggle | Short lessons with graded exercise notebooks, in the browser | interactive | free | L1 | PY-01, PY-03, PY-04 | S 2026-10 |
+
+## 11. Courses studied, pedagogy, and the playbook's sources
+
+The courses analysed in [courses/README.md](../courses/README.md), the learning-science sources behind the syllabi, and the sources cited by the [playbook](../playbook/README.md).
+
+| Resource | Used in | Verified |
+|---|---|---|
+| [fast.ai course22 repo](https://github.com/fastai/course22) · [Neuromatch DL](https://deeplearning.neuromatch.io/tutorials/intro.html) ([projects](https://deeplearning.neuromatch.io/projects/README.html), [repo](https://github.com/NeuromatchAcademy/course-content-dl)) · [HF course repo](https://github.com/huggingface/course) · [Made With ML repo](https://github.com/GokuMohandas/Made-With-ML) · [LLM course (Labonne)](https://github.com/mlabonne/llm-course) · [D2L repo](https://github.com/d2l-ai/d2l-en) · [MIT 6.S191](https://introtodeeplearning.com/) ([labs](https://github.com/MITDeepLearning/introtodeeplearning)) | courses/README | G/S 2026-10 |
+| [DeepLearning.AI ML Specialization](https://www.deeplearning.ai/specializations/machine-learning) · [DL Specialization](https://www.deeplearning.ai/specializations/deep-learning) | courses/README | S 2026-10 |
+| [Teaching Tech Together](https://teachtogether.tech/) ([repo](https://github.com/gvwilson/teachtogether.tech)) · [The Learning Scientists: six strategies](https://www.learningscientists.org/blog/2016/8/18-1) ([posters](https://www.learningscientists.org/posters)) | courses/README | S/G 2026-10 |
+| [Augmenting Long-term Memory](https://augmentingcognition.com/ltm.html) (Nielsen) · [Writing good spaced repetition prompts](https://notes.andymatuschak.org/Writing_good_spaced_repetition_memory_prompts_is_hard) (Matuschak) | courses/README, courses/flashcards | S 2026-10 |
+| [Machine Learning Yearning](https://home-wordpress.deeplearning.ai/wp-content/uploads/2022/03/andrew-ng-machine-learning-yearning.pdf) (Ng, official PDF) | courses/README, playbook 01, 04 | S 2026-10 |
+| [The Kaggle Grandmasters Playbook](https://developer.nvidia.com/blog/the-kaggle-grandmasters-playbook-7-battle-tested-modeling-techniques-for-tabular-data) (NVIDIA) | playbook 02 | S 2026-10 |
+| [Contextual Retrieval](https://www.anthropic.com/engineering/contextual-retrieval) (Anthropic) | playbook 04 | S 2026-10 |
+| [Bad numbers in the "gzip beats BERT" paper?](https://kenschutte.com/gzip-knn-paper/) (Schutte) | playbook 05 | S 2026-10 |
+| Papers cited by the playbook: [gzip kNN](https://arxiv.org/abs/2212.09410), [SWA](https://arxiv.org/abs/1803.05407), [model soups](https://arxiv.org/abs/2203.05482), [label smoothing](https://arxiv.org/abs/1906.02629), [large-minibatch SGD](https://arxiv.org/abs/1706.02677), [CutMix](https://arxiv.org/abs/1905.04899), [SAM](https://arxiv.org/abs/2010.01412) | playbook 03, 05 | S 2026-10 |

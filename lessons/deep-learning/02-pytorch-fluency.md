@@ -49,3 +49,5 @@ prose and do *all* the exercises. The exercises are where the fluency comes from
 - **Papers:** [Optimization, training & generalization](../../papers/01-optimization-training-generalization.md). Start with the ⭐ ones.
 - **Implement it yourself:** [from-scratch ladder](../../exercises/from-scratch-ladder.md), rung 20.
 - **Drills:** [Deep-ML](https://www.deep-ml.com/problems) problems on this topic · more in [exercises/](../../exercises/README.md).
+- **Lab:** [Lab 08 (redo it with nn.Module and compare the gradients)](../../labs/08-mlp-backprop/README.md) (stubs + `pytest`).
+- **Playbook:** [the 5-minute DL sanity checks](../../playbook/06-debugging-playbook.md#b-deep-learning-training).

@@ -24,7 +24,7 @@ Everything is free unless marked `[paid]`. Every link was verified (see [`resour
 |---|---|---|
 | 01 | [Math & statistics](01-math-and-stats.md) | linear algebra, calculus, matrix calculus, probability, statistics, information theory, optimization |
 | 02 | [Classical ML algorithms](02-classical-ml.md) | linear/logistic regression, GLMs, kNN, naive Bayes, SVMs & kernels, trees, bagging, boosting, clustering, mixtures, dimensionality reduction, Gaussian processes |
-| 03 | [Data, features & evaluation](03-data-features-evaluation.md) | EDA, cleaning, encoding, leakage, imbalance, validation schemes, metrics, calibration, conformal prediction, HPO, data-centric AI, fairness |
+| 03 | [Data, features & evaluation](03-data-features-evaluation.md) | Python, NumPy & pandas foundations, EDA, cleaning, encoding, leakage, imbalance, validation schemes, metrics, calibration, conformal prediction, HPO, data-centric AI, fairness |
 | 04 | [Deep learning fundamentals](04-deep-learning-fundamentals.md) | backprop, autodiff, losses, initialization, optimizers, schedules, normalization, regularization, debugging, mixed precision, PyTorch |
 | 05 | [Architectures](05-architectures.md) | MLPs, CNNs, ResNets, RNN/LSTM, attention, transformers, positional encodings, MoE, state-space models, GNNs, autoencoders |
 | 06 | [Computer vision](06-computer-vision.md) | augmentation, transfer learning, detection, segmentation, ViTs, self-supervised learning, CLIP & VLMs, 3D |

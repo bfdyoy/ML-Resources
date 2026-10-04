@@ -4,6 +4,8 @@
 **Duration:** ~84 h (≈ 11 weeks at 7–8 h/week) · **Level:** L1→L2 · **Primary books:** ISLP (free) + Géron's notebooks (free)
 
 > 📘 **Study notes:** every lesson starts with its written explanation (step 0, ~1 h): the math step by step, worked examples, runnable code, and answers to the self-check. Read in order, the notes form one continuous walkthrough: [notes index](../notes/README.md).
+>
+> 🗓️ **As a course:** [Course 1: Core ML](../courses/01-core-ml.md) turns this path into a week-by-week plan: warm-ups, [labs](../labs/README.md), [playbook](../playbook/README.md) readings, project milestones, a midterm, and a capstone rubric.
 
 > **Fast-track for intermediate learners:** Before each lesson, try its *Check your understanding* questions.
 > If you can answer ≥ 80% confidently, do only the mini-project and move on.

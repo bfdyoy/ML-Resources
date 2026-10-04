@@ -23,7 +23,8 @@ Every lesson file follows `templates/lesson-template.md`. Non-negotiables:
 7. **Go deeper**: optional alternatives and advanced material, max 5 items.
 8. **Math refresher** (if needed): link to a `lessons/math/` file with the specific section.
 9. **Toolbox, papers & practice**: links to the matching `toolbox/` page, `papers/` page, the
-   relevant rungs of `exercises/from-scratch-ladder.md`, and a drill source.
+   relevant rungs of `exercises/from-scratch-ladder.md`, and a drill source. Add a **Lab** line when a `labs/` lab covers the lesson,
+   and a **Playbook** line pointing to the relevant `playbook/` sections (see `.claude/rules/practice-layers.md`).
 10. **Time** in the header includes the ~1 h primer.
 
 Style:

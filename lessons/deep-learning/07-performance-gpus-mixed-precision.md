@@ -55,3 +55,4 @@ and pinned memory → channels_last → AMP (BF16) → `torch.compile` → a big
 - **Papers:** [Efficiency & systems](../../papers/06-efficiency-systems.md). Start with the ⭐ ones.
 - **Implement it yourself:** [from-scratch ladder](../../exercises/from-scratch-ladder.md), rung 24 (ResNet with AMP and a cosine schedule).
 - **Drills:** [GPU-Puzzles](https://github.com/srush/GPU-Puzzles) · more in [exercises/](../../exercises/README.md).
+- **Playbook:** [gradient accumulation (and its BatchNorm caveat)](../../playbook/03-deep-learning-tricks.md#9-progressive-resizing-and-gradient-accumulation).

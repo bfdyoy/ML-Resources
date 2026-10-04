@@ -35,6 +35,12 @@
 | [Mixed Precision Training](https://arxiv.org/abs/1710.03740) | 2017 | FP16/BF16 training with loss scaling, which every large model uses. | L2 | DL-03 |
 | [Training Deep Nets with Sublinear Memory Cost (gradient checkpointing)](https://arxiv.org/abs/1604.06174) | 2016 | Trade compute for memory. | L2 | DL-07 |
 | [Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531) | 2015 | ⭐ Knowledge distillation: soft targets and temperature. | L2 | DL-03 |
+| [Accurate, Large Minibatch SGD: Training ImageNet in 1 Hour](https://arxiv.org/abs/1706.02677) | 2017 | The linear LR-scaling rule plus gradual warmup, and zero-init of the last BN in each residual block. See [playbook 3 §2](../playbook/03-deep-learning-tricks.md#2-warm-up-then-decay-one-cycle-or-cosine). | L2 | DL-03 |
+| [When Does Label Smoothing Help?](https://arxiv.org/abs/1906.02629) | 2019 | Why smoothing improves calibration, and why smoothed teachers distill worse ([playbook 3 §5](../playbook/03-deep-learning-tricks.md#5-label-smoothing)). | L2 | DL-04 |
+| [CutMix](https://arxiv.org/abs/1905.04899) | 2019 | Paste patches between images and mix the labels by area: mixup's stronger sibling for vision. | L2 | DL-04 |
+| [Averaging Weights Leads to Wider Optima (SWA)](https://arxiv.org/abs/1803.05407) | 2018 | Averaging the tail of SGD's iterates finds flatter, better-generalizing solutions, almost for free ([playbook 3 §7](../playbook/03-deep-learning-tricks.md#7-average-the-weights-ema-swa-model-soups)). | L2 | DL-03 |
+| [Model soups](https://arxiv.org/abs/2203.05482) | 2022 | Average the *weights* of several fine-tunes from one pretrained model: ensemble-like gains at single-model cost. | L2 | CV-02 |
+| [Sharpness-Aware Minimization (SAM)](https://arxiv.org/abs/2010.01412) | 2020 | Descend from the worst nearby point to seek flat minima, at about 2× the compute per step. | L3 | DL-03 |
 
 ## Generalization: what's actually going on
 | Paper | Year | Why read it | Level | After |

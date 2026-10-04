@@ -54,3 +54,5 @@ chosen by CV. Plot coefficient paths, and report test performance using a correc
 - **Papers:** [Optimization, training & generalization](../../papers/01-optimization-training-generalization.md). Start with the ⭐ ones.
 - **Implement it yourself:** [from-scratch ladder](../../exercises/from-scratch-ladder.md), rungs 3, 7, 17.
 - **Drills:** [Deep-ML](https://www.deep-ml.com/problems) problems on this topic · more in [exercises/](../../exercises/README.md).
+- **Lab:** [Lab 05, part A: CV splitters](../../labs/05-trees-and-cross-validation/README.md) (stubs + `pytest`).
+- **Playbook:** [shuffled-label test](../../playbook/05-outside-the-box.md#9-shuffle-the-labels-a-lie-detector-for-your-pipeline) · [adversarial validation](../../playbook/02-tabular-tricks.md#1-adversarial-validation-can-a-model-tell-train-from-test).

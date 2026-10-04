@@ -4,6 +4,8 @@
 **Duration:** ~46 h + capstone (≈ 6–7 weeks) · **Level:** L2 · **Primary resources:** Rules of ML, Chip Huyen's DMLS, Made With ML, MLOps Zoomcamp
 
 > 📘 **Study notes:** every lesson starts with its written explanation (step 0, ~1 h): the math step by step, worked examples, runnable code, and answers to the self-check. Read in order, the notes form one continuous walkthrough: [notes index](../notes/README.md).
+>
+> 🗓️ **As a course:** [Course 4: ML in Production](../courses/04-ml-in-production.md) turns this path into a week-by-week plan: warm-ups, [labs](../labs/README.md), [playbook](../playbook/README.md) readings, project milestones, a midterm, and a capstone rubric.
 
 **Prerequisites:** [Path 1](01-core-ml-practitioner.md). Git, basic Docker, and some command-line comfort.
 

@@ -1,0 +1,43 @@
+#separator:tab
+#html:true
+#tags column:3
+<small>Playbook 1: Choosing algorithms, A vs B</small><br>Tabular model	GBM · Few rows or extrapolation → linear; similarity is the product → kNN	playbook-01 playbook
+<small>Playbook 1: Choosing algorithms, A vs B</small><br>Clustering	k-means · Odd shapes or noise → HDBSCAN; soft membership → GMM	playbook-01 playbook
+<small>Playbook 1: Choosing algorithms, A vs B</small><br>LLM adaptation	Prompting · Missing knowledge → RAG; missing behaviour → LoRA	playbook-01 playbook
+<small>Playbook 1: Choosing algorithms, A vs B</small><br>Rare-positive metric	PR-AUC + expected cost · Balanced classes → ROC-AUC; probabilities matter → log loss	playbook-01 playbook
+<small>Playbook 1: Choosing algorithms, A vs B</small><br>Optimizer	AdamW + warmup + cosine · Known CNN recipe → SGD + momentum	playbook-01 playbook
+<small>Playbook 1: Choosing algorithms, A vs B</small><br>Vision with few labels	Frozen features + linear probe · More labels → fine-tune	playbook-01 playbook
+<small>Playbook 1: Choosing algorithms, A vs B</small><br>Search	Hybrid + rerank · Pure-identifier lookups → BM25 alone	playbook-01 playbook
+<small>Playbook 2: Tabular tricks</small><br>CV and leaderboard disagree	Adversarial validation (§1)	playbook-02 playbook
+<small>Playbook 2: Tabular tricks</small><br>A high-cardinality category	Out-of-fold target encoding (§2), then check it against the noise null (§3)	playbook-02 playbook
+<small>Playbook 2: Tabular tricks</small><br>Skewed positive target	Train on <code>log1p(y)</code> (§4)	playbook-02 playbook
+<small>Playbook 2: Tabular tricks</small><br>"Can't be decreasing" domain rule	Monotone constraints (§5)	playbook-02 playbook
+<small>Playbook 2: Tabular tricks</small><br>Test range beyond train range	Linear base + GBM on its residuals (§7)	playbook-02 playbook
+<small>Playbook 2: Tabular tricks</small><br>Several models of similar quality	Hill-climbing blend on OOF predictions (§8)	playbook-02 playbook
+<small>Playbook 2: Tabular tricks</small><br>A range is needed, not a point	Quantile GBM or conformal (§10)	playbook-02 playbook
+<small>Playbook 2: Tabular tricks</small><br>Entity-level data	Past-only group aggregates (§11)	playbook-02 playbook
+<small>Playbook 3: Deep learning tricks</small><br>New model or data	LR range test (§1) → one-cycle or warmup + cosine (§2)	playbook-03 playbook
+<small>Playbook 3: Deep learning tricks</small><br>Imbalanced classes, or a slow start	Output bias = log prior (§3); check the initial loss ≈ ln K	playbook-03 playbook
+<small>Playbook 3: Deep learning tricks</small><br>Very deep residual net	Zero-init the last γ in each branch (§4)	playbook-03 playbook
+<small>Playbook 3: Deep learning tricks</small><br>Overconfident or overfitting classifier	Label smoothing (§5), mixup/CutMix (§6)	playbook-03 playbook
+<small>Playbook 3: Deep learning tricks</small><br>Free gains at the end	EMA/SWA, soups for fine-tunes (§7), TTA (§8)	playbook-03 playbook
+<small>Playbook 3: Deep learning tricks</small><br>Batch doesn't fit in memory	Gradient accumulation, and beware of BatchNorm (§9)	playbook-03 playbook
+<small>Playbook 3: Deep learning tricks</small><br>Fine-tuning	Discriminative LRs, or freeze then unfreeze (§10)	playbook-03 playbook
+<small>Playbook 3: Deep learning tricks</small><br>Deployment is too slow	Distillation (§12)	playbook-03 playbook
+<small>Playbook 4: LLM &amp; retrieval tricks</small><br>Checkable answers, and accuracy matters more than cost	Self-consistency voting (§1), measured; correlated errors cap the gain	playbook-04 playbook
+<small>Playbook 4: LLM &amp; retrieval tricks</small><br>Need many labels	LLM labeler validated with κ against your labels (§2)	playbook-04 playbook
+<small>Playbook 4: LLM &amp; retrieval tricks</small><br>Wrong answers that sound right	Reasoning before the answer, in a structured format (§3)	playbook-04 playbook
+<small>Playbook 4: LLM &amp; retrieval tricks</small><br>Bad RAG answers	Hybrid retrieval → rerank → contextual chunks (§4)	playbook-04 playbook
+<small>Playbook 4: LLM &amp; retrieval tricks</small><br>Cost or latency	Stable prefix first, for cache hits (§5); distill (§7)	playbook-04 playbook
+<small>Playbook 4: LLM &amp; retrieval tricks</small><br>Many chunks in the context	Fewer chunks; best at the edges (§6)	playbook-04 playbook
+<small>Playbook 4: LLM &amp; retrieval tricks</small><br>A repeated failure type	Few-shot from failures, then re-run the full eval (§8)	playbook-04 playbook
+<small>Playbook 5: Outside the box</small><br>Is my model any good?	Compare with no-model baselines (§1)	playbook-05 playbook
+<small>Playbook 5: Outside the box</small><br>Did the data change? Is there a leak?	Train a classifier to tell the datasets apart (§2)	playbook-05 playbook
+<small>Playbook 5: Outside the box</small><br>Need a similarity, and have no model?	Compression distance (§3), random projections (§7)	playbook-05 playbook
+<small>Playbook 5: Outside the box</small><br>Stuck on the problem as stated?	Reframe it around the decision (§4)	playbook-05 playbook
+<small>Playbook 5: Outside the box</small><br>Where does my model fail?	Fit a shallow tree on its errors (§5)	playbook-05 playbook
+<small>Playbook 5: Outside the box</small><br>Costs are asymmetric?	Quantile/pinball loss at <code>c_u / (c_u + c_o)</code> (§6)	playbook-05 playbook
+<small>Playbook 5: Outside the box</small><br>Images, text, or audio with few labels?	Frozen embeddings + logistic regression (§8)	playbook-05 playbook
+<small>Playbook 5: Outside the box</small><br>Is my pipeline honest?	Shuffled labels must score chance (§9)	playbook-05 playbook
+<small>Playbook 5: Outside the box</small><br>Does this method work at all?	Plant a known signal (§10)	playbook-05 playbook
+<small>Playbook 5: Outside the box</small><br>Too slow or expensive?	Confidence cascades (§11)	playbook-05 playbook

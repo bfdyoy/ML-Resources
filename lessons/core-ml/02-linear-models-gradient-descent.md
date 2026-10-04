@@ -58,3 +58,4 @@ curves for each and explain what you see.
 - **Papers:** [Optimization, training & generalization](../../papers/01-optimization-training-generalization.md). Start with the ⭐ ones.
 - **Implement it yourself:** [from-scratch ladder](../../exercises/from-scratch-ladder.md), rungs 1–3.
 - **Drills:** [Deep-ML](https://www.deep-ml.com/problems) problems on this topic · more in [exercises/](../../exercises/README.md).
+- **Lab:** [Lab 03: Linear regression three ways](../../labs/03-linear-regression/README.md) (stubs + `pytest`).

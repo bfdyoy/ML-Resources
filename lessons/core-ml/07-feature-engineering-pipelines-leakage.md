@@ -52,3 +52,5 @@ show (with CV) which of them actually helped. Then plant a deliberate leak and s
 - **Papers:** [Tabular, time series, recsys & causal](../../papers/09-tabular-timeseries-recsys-causal.md). Start with the ⭐ ones.
 - **Implement it yourself:** [from-scratch ladder](../../exercises/from-scratch-ladder.md), rung 7.
 - **Drills:** [Deep-ML](https://www.deep-ml.com/problems) problems on this topic · more in [exercises/](../../exercises/README.md).
+- **Lab:** [Lab 05, part C: out-of-fold target encoding](../../labs/05-trees-and-cross-validation/README.md) (stubs + `pytest`).
+- **Playbook:** [tabular tricks (the whole page)](../../playbook/02-tabular-tricks.md) · [classifier two-sample test](../../playbook/05-outside-the-box.md#2-a-classifier-is-a-two-sample-test).

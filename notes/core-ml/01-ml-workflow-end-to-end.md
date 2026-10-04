@@ -175,10 +175,12 @@ by PR-AUC on a time-based holdout, against the rule 'no login for 14 days'".
 
 ## Cheat sheet
 
-- Risk $R(f)$ = expected loss on new data. Training error underestimates it, and the test set estimates it, used once.
-- Split to mimic deployment: stratify for rare classes, group for related rows, split by time for forecasting.
-- Baseline first. If you can't beat it, suspect a bug.
-- Anything that calls `fit` goes in the `Pipeline`, and the `Pipeline` goes inside CV.
+| Item | Rule |
+|---|---|
+| Risk $R(f)$ | Expected loss on new data. Training error underestimates it; the test set estimates it, used once |
+| How to split | Mimic deployment: stratify for rare classes, group for related rows, split by time for forecasting |
+| Baseline | Build it first. If a real model can't beat it, suspect a bug |
+| Leakage rule | Anything that calls `fit` goes in the `Pipeline`, and the `Pipeline` goes inside CV |
 
 ## Answer sketches for the lesson's self-check
 

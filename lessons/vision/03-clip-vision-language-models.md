@@ -51,3 +51,4 @@ on 30 hand-written queries. Then compare CLIP with a SigLIP model.
 - **Papers:** [Computer vision](../../papers/02-computer-vision.md) (vision + language section).
 - **Implement it yourself:** the symmetric CLIP loss in 10 lines of PyTorch; verify it on a toy batch.
 - **Drills:** more in [exercises/](../../exercises/README.md).
+- **Playbook:** [frozen embeddings as a baseline](../../playbook/05-outside-the-box.md#8-frozen-embeddings--a-linear-model-is-a-strong-baseline-for-anything).

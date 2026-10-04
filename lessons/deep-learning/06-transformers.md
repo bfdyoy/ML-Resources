@@ -56,3 +56,4 @@ try one architectural change (e.g. more heads vs more layers, or RoPE vs learned
 - **Papers:** [NLP, transformers & LLMs](../../papers/03-nlp-transformers-llms.md). Start with the ⭐ ones.
 - **Implement it yourself:** [from-scratch ladder](../../exercises/from-scratch-ladder.md), rungs 27–28.
 - **Drills:** [Deep-ML](https://www.deep-ml.com/problems) problems on this topic · more in [exercises/](../../exercises/README.md).
+- **Lab:** [Lab 09: attention & multi-head self-attention](../../labs/09-attention/README.md) (stubs + `pytest`).

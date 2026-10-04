@@ -9,6 +9,7 @@
 | [Enriching Word Vectors with Subword Information (fastText)](https://arxiv.org/abs/1607.04606) | 2016 | Subword n-grams handle rare words. | L2 | DL-05 |
 | [Neural Machine Translation of Rare Words with Subword Units (BPE)](https://arxiv.org/abs/1508.07909) | 2015 | ⭐ Byte-pair encoding, the basis of GPT tokenizers. | L1 | GEN-01 |
 | [SentencePiece](https://arxiv.org/abs/1808.06226) | 2018 | Language-independent tokenization, used by Llama, T5, and others. | L2 | GEN-01 |
+| [Less is More: Parameter-Free Text Classification with Gzip](https://arxiv.org/abs/2212.09410) | 2022 | A compression distance as a training-free text classifier. Read it together with [Ken Schutte's critique](https://kenschutte.com/gzip-knn-paper/) of its evaluation ([playbook 5 §3](../playbook/05-outside-the-box.md#3-compression-is-a-similarity-measure)). | L1 | CORE-09 |
 
 ## Sequence models → attention → transformers
 | Paper | Year | Why read it | Level | After |

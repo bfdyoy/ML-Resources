@@ -52,3 +52,4 @@ supervised baseline and with frozen DINOv2 features (via `transformers`).
 - **Papers:** [Computer vision](../../papers/02-computer-vision.md) (self-supervised section).
 - **Implement it yourself:** the InfoNCE/NT-Xent loss from scratch. Check it against a reference implementation on a fixed batch.
 - **Drills:** more in [exercises/](../../exercises/README.md).
+- **Playbook:** [frozen embeddings + linear probe](../../playbook/05-outside-the-box.md#8-frozen-embeddings--a-linear-model-is-a-strong-baseline-for-anything).

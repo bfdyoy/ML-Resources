@@ -57,3 +57,4 @@ Compare token counts per word, and inspect odd merges. Then load a small open mo
 - **Papers:** [NLP, transformers & LLMs](../../papers/03-nlp-transformers-llms.md). Start with the ⭐ ones.
 - **Implement it yourself:** [from-scratch ladder](../../exercises/from-scratch-ladder.md), rungs 29–32.
 - **Drills:** [Deep-ML](https://www.deep-ml.com/problems) problems on this topic · more in [exercises/](../../exercises/README.md).
+- **Lab:** [Lab 10: byte-level BPE tokenizer](../../labs/10-bpe-tokenizer/README.md) (stubs + `pytest`).

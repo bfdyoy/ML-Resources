@@ -46,3 +46,5 @@ By the end you can:
 - **Papers:** [<topic>](../../papers/NN-<topic>.md). Start with the ⭐ ones.
 - **Implement it yourself:** [from-scratch ladder](../../exercises/from-scratch-ladder.md), rungs <n–m>.
 - **Drills:** <drill source> · more in [exercises/](../../exercises/README.md).
+- **Lab:** [Lab NN: <title>](../../labs/NN-<name>/README.md) (stubs + `pytest`), if one exists.
+- **Playbook:** [<trick or decision guide>](../../playbook/NN-<page>.md#<section>), if relevant.

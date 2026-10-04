@@ -49,3 +49,4 @@ data → features → model baseline → serving → monitoring → risks.
 - **Reference shelf:** [Toolbox 11: MLOps, systems & scale](../../toolbox/11-mlops-and-systems.md), for every concept in this lesson, with alternatives.
 - **Papers:** [ML in production](../../papers/11-ml-in-production.md). Start with the ⭐ ones.
 - **Drills:** [Deep-ML](https://www.deep-ml.com/problems) problems on this topic · more in [exercises/](../../exercises/README.md).
+- **Playbook:** [reframing the problem](../../playbook/05-outside-the-box.md#4-reframe-the-problem) · [cascades](../../playbook/05-outside-the-box.md#11-route-by-confidence-cascades).

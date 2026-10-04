@@ -52,3 +52,4 @@ and choose whom to target under a budget. If you simulated the data, compare the
 - **Papers:** [Tabular, time series, recsys & causal](../../papers/09-tabular-timeseries-recsys-causal.md) (causal ML section).
 - **Implement it yourself:** IPW and T-learner estimators from scratch. Check them against EconML on simulated data with a known effect.
 - **Drills:** more in [exercises/](../../exercises/README.md).
+- **Playbook:** [plant a known effect](../../playbook/05-outside-the-box.md#10-plant-a-signal-you-know).

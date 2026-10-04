@@ -49,3 +49,5 @@ By the end you can:
 - **Papers:** [Tabular, time series, recsys & causal](../../papers/09-tabular-timeseries-recsys-causal.md). Start with the ⭐ ones.
 - **Implement it yourself:** [from-scratch ladder](../../exercises/from-scratch-ladder.md), rungs 13–15.
 - **Drills:** [Deep-ML](https://www.deep-ml.com/problems) problems on this topic · more in [exercises/](../../exercises/README.md).
+- **Lab:** [Lab 06: k-means & PCA via SVD](../../labs/06-kmeans-pca/README.md) (stubs + `pytest`).
+- **Playbook:** [choosing a clustering method](../../playbook/01-choosing-algorithms.md#3-clustering-k-means-vs-gmm-vs-dbscanhdbscan-vs-hierarchical) · [choosing a dimensionality reduction](../../playbook/01-choosing-algorithms.md#5-dimensionality-reduction-pca-vs-t-sneumap-vs-autoencoder-vs-random-projection) · [random projections](../../playbook/05-outside-the-box.md#7-random-projections-are-almost-free-dimensionality-reduction).

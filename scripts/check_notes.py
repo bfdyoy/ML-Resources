@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Validate the study notes in notes/.
 
-Checks, for every notes/**/*.md file (or the files/directories given):
-  1. Structure: required sections exist, every <details> block is closed.
+Checks, for every notes/**/*.md file (or the files/directories given, e.g. playbook/ or courses/):
+  1. Structure: required sections exist in per-lesson notes (notes/<track>/*.md), every <details> block is closed.
   2. Relative links resolve to existing files.
   3. Math is safe for GitHub's renderer: no $$ (use ```math blocks), paired inline $,
      no \\{ or \\} inline (use \\lbrace/\\rbrace), no "<letter" inline (use \\lt), no "|" inside
@@ -43,23 +43,39 @@ def note_files(args: list[str]) -> list[pathlib.Path]:
 
 def check_structure(f: pathlib.Path, text: str) -> list[str]:
     errs = []
-    if f.parent.name != "notes":                        # per-lesson notes, not README/notation
+    if f.parent.parent.name == "notes":                 # per-lesson notes (notes/<track>/*.md), not README/notation/playbook
         errs += [f"missing section '{h}'" for h in REQUIRED if h not in text]
     if text.count("<details>") != text.count("</details>"):
         errs.append("unbalanced <details> blocks")
     return errs
 
 
+def strip_code(text: str) -> str:
+    prose = re.sub(r"^(```|~~~).*?^(```|~~~)\s*$", "", text, flags=re.S | re.M)   # drop fenced code
+    return re.sub(r"`[^`\n]*`", "", prose)                                          # drop inline code
+
+
+def anchors(path: pathlib.Path) -> set[str]:
+    """GitHub-style heading slugs: lowercase, drop punctuation except - and _, spaces -> '-'."""
+    slugs = set()
+    no_fences = re.sub(r"^(```|~~~).*?^(```|~~~)\s*$", "", path.read_text(encoding="utf-8"), flags=re.S | re.M)
+    for h in re.findall(r"^#{1,6}\s+(.+?)\s*$", no_fences, flags=re.M):
+        h = re.sub(r"[`*]|\[([^\]]*)\]\([^)]*\)", r"\1", h)         # unwrap links, drop emphasis/code marks
+        slugs.add(re.sub(r"[^\w\- ]", "", h.strip().lower()).replace(" ", "-"))
+    return slugs
+
+
 def check_links(f: pathlib.Path, text: str) -> list[str]:
     errs = []
-    prose = re.sub(r"^(```|~~~).*?^(```|~~~)\s*$", "", text, flags=re.S | re.M)   # drop fenced code
-    prose = re.sub(r"`[^`\n]*`", "", prose)                                           # drop inline code
-    for target in LINK_RE.findall(prose):
-        if target.startswith(("http://", "https://", "#", "mailto:")):
+    for target in LINK_RE.findall(strip_code(text)):
+        if target.startswith(("http://", "https://", "mailto:")):
             continue
-        path = target.split("#")[0]
-        if path and not (f.parent / path).exists():
+        path, _, frag = target.partition("#")
+        dest = (f.parent / path) if path else f
+        if not dest.exists():
             errs.append(f"broken link -> {target}")
+        elif frag and dest.suffix == ".md" and frag not in anchors(dest):
+            errs.append(f"broken anchor -> {target}")
     return errs
 
 

@@ -1,0 +1,25 @@
+name: Labs
+
+on:
+  push:
+    paths: ["labs/**", "scripts/make_lab_stubs.py"]
+  pull_request:
+    paths: ["labs/**", "scripts/make_lab_stubs.py"]
+  workflow_dispatch:
+
+jobs:
+  labs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: |
+          pip install numpy scipy scikit-learn pandas pytest
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+      - name: Reference solutions pass every test
+        run: LAB_IMPL=solution python3 -m pytest labs/
+      - name: Exercise stubs are in sync with the solutions
+        run: python3 scripts/make_lab_stubs.py --check

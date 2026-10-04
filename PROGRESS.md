@@ -3,6 +3,14 @@
 Tick lessons off as you go (`[x]`). Add a date and a link to your mini-project, so you can see your own portfolio grow.
 Each lesson starts with its [study notes](notes/README.md) (step 0). When you tick a lesson, you should be able to answer its self-check without opening the answer sketches.
 
+## Path 0: Python for ML (optional)
+- [ ] PY-01 Python for ML Engineers · project:
+- [ ] PY-02 NumPy & Vectorized Thinking · project:
+- [ ] PY-03 pandas & Data Wrangling · project:
+- [ ] PY-04 EDA & Visualization · project:
+- [ ] PY-05 Engineering ML Code · project:
+- [ ] **Mini-capstone:** reproducible mini-analysis repo · repo:
+
 ## Path 1: Core ML Practitioner
 - [ ] CORE-01 The ML Workflow, End to End · project:
 - [ ] CORE-02 Linear Models & Gradient Descent · project:
@@ -73,6 +81,16 @@ Each lesson starts with its [study notes](notes/README.md) (step 0). When you ti
 - [ ] MATH-01 A · [ ] B · [ ] C
 - [ ] MATH-02 A · [ ] B
 - [ ] MATH-03 A · [ ] B · [ ] C · [ ] D
+
+## Labs ([labs/](labs/README.md)): tick when `pytest` is green on your own `exercise.py`
+- [ ] 01 NumPy vectorization · [ ] 02 pandas wrangling
+- [ ] 03 Linear regression · [ ] 04 Logistic regression & metrics · [ ] 05 CV, trees & target encoding · [ ] 06 k-means & PCA
+- [ ] 07 micrograd · [ ] 08 MLP backprop · [ ] 09 Attention
+- [ ] 10 BPE tokenizer · [ ] 11 Retrieval metrics · [ ] 12 Calibration, conformal & drift · [ ] 13 Detection metrics
+
+## Courses ([courses/](courses/README.md)): midterms and capstones
+- [ ] Course 0 mini-capstone · [ ] Course 1 midterm · [ ] Course 2 midterm · [ ] Course 3 midterm · [ ] Course 4 demo-day check
+- Flashcards: deck(s) imported into Anki on: ____ · daily-review streak: ____
 
 ## From-scratch ladder ([exercises/from-scratch-ladder.md](exercises/from-scratch-ladder.md))
 Tick the rung numbers as their checks pass:

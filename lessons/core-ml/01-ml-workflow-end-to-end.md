@@ -54,3 +54,4 @@ House Prices](https://www.kaggle.com/learn/intermediate-machine-learning) data u
 - **Papers:** [ML in production](../../papers/11-ml-in-production.md). Start with the ⭐ ones.
 - **Implement it yourself:** [from-scratch ladder](../../exercises/from-scratch-ladder.md), rungs 1, 7.
 - **Drills:** [Deep-ML](https://www.deep-ml.com/problems) problems on this topic · more in [exercises/](../../exercises/README.md).
+- **Playbook:** [no-model baselines](../../playbook/05-outside-the-box.md#1-the-no-model-baselines) · [debugging tabular ML](../../playbook/06-debugging-playbook.md#a-tabular-and-classical-ml).

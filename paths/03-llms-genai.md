@@ -4,6 +4,8 @@
 **Duration:** ~91 h (≈ 12 weeks; Part A alone ≈ 52 h) · **Level:** L2→L3 · **Primary resources:** Raschka's *LLMs from Scratch* code, Hugging Face courses, UDL
 
 > 📘 **Study notes:** every lesson starts with its written explanation (step 0, ~1 h): the math step by step, worked examples, runnable code, and answers to the self-check. Read in order, the notes form one continuous walkthrough: [notes index](../notes/README.md).
+>
+> 🗓️ **As a course:** [Course 3: LLMs & Generative AI](../courses/03-llms-genai.md) turns this path into a week-by-week plan: warm-ups, [labs](../labs/README.md), [playbook](../playbook/README.md) readings, project milestones, a midterm, and a capstone rubric.
 
 **Prerequisites:** [Path 2](02-deep-learning.md), at least DL-02, DL-03, DL-05, DL-06.
 

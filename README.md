@@ -6,22 +6,28 @@ It picks the best free resources on the internet (book chapters with worked exam
 essays, runnable notebooks, and videos where they're genuinely the best explanation) and puts them in order as
 **lessons** and **learning paths**. Every lesson also has its own **study notes**: a written explanation of the
 ideas and the math, step by step, with worked examples and runnable code, so the route from one topic to the next is smooth.
+On top of that, **courses** turn each path into a week-by-week plan modeled on how the best ML courses teach, **labs** let you build each core algorithm
+yourself against automatic tests, and a **playbook** collects the tips, tricks and "algorithm A vs B" judgment that textbooks rarely write down.
 
 It's built for an **intermediate learner**: you know Python, you've trained a model or two, and you want real
 understanding, not another "What is ML?" intro.
 
-## Five layers
+## What's inside
 
 | Layer | What it is | Size |
 |---|---|---|
-| 🧭 **[Paths](#learning-paths) → [Lessons](#lesson-index)** | The guided route. What to study next, in what order, and how to check yourself. | 5 paths + electives · 53 lessons |
-| 📘 **[Study notes](notes/README.md)** | The explanations, written for this repo: intuition, the math derived step by step, worked numbers, runnable code, pitfalls, cheat sheets, and answers to every self-check question. One per lesson, each bridging to the next. | 53 notes (~51 h) + [notation guide](notes/notation.md) |
+| 🧭 **[Paths](#learning-paths) → [Lessons](#lesson-index)** | The guided route. What to study next, in what order, and how to check yourself. | 6 paths + electives · 58 lessons |
+| 📘 **[Study notes](notes/README.md)** | The explanations, written for this repo: intuition, the math derived step by step, worked numbers, runnable code, pitfalls, cheat sheets, and answers to every self-check question. One per lesson, each bridging to the next. | 58 notes (~57 h) + [notation guide](notes/notation.md) |
 | 🧰 **[Toolbox](toolbox/README.md)** | The reference shelf. Every concept in ML/DL/LLMs/MLOps, each mapped to *intuition → deeper reading → practice → paper*. | 12 domains · 29 free books |
 | 📄 **[Papers](papers/README.md)** | Primary sources with verified arXiv links, a 30-paper must-read list, and a "read after lesson X" for each. | ~250 papers |
 | 🏋️ **[Exercises](exercises/README.md)** | Practice at every scale: drills, puzzles, a 45-rung from-scratch ladder, university assignments, projects, interview prep. | 5 practice banks |
+| 🗓️ **[Courses](courses/README.md)** | How to study it. An analysis of how 20 top Python/ML/DL courses teach, plus week-by-week syllabi with warm-ups, labs, project milestones, midterms, and capstone rubrics. | 6 syllabi (5–14 weeks each) |
+| 🧪 **[Labs](labs/README.md)** | Build it yourself, test-driven (CS336/ARENA style): function stubs plus a failing `pytest` suite that checks you against scikit-learn, PyTorch, and hand-computed answers. | 13 labs · 70 tests |
+| 🎯 **[Playbook](playbook/README.md)** | Judgment: A-vs-B decision guides, tabular/DL/LLM tricks, outside-the-box uses of familiar tools, and a symptom → cause debugging guide. Every claim comes with a runnable demo. | 6 pages · 60+ tricks |
+| 🃏 **[Flashcards](courses/flashcards/README.md)** | Spaced repetition: Anki decks generated from every cheat sheet and self-check answer. | 777 cards · 9 decks |
 
-Use the lessons as your spine. Each one starts with its study notes (step 0) and ends with links into the toolbox, the papers, and the exercises for its topic.
-Every one of the 600+ links in this repo has a verification record ([`resources/verified-urls.tsv`](resources/verified-urls.tsv)).
+Use the lessons as your spine, and a [course syllabus](courses/README.md) as your weekly schedule. Each lesson starts with its study notes (step 0) and ends with links into the toolbox, the papers, the exercises, the labs and the playbook for its topic.
+Every one of the 650+ links in this repo has a verification record ([`resources/verified-urls.tsv`](resources/verified-urls.tsv)).
 
 ---
 
@@ -41,12 +47,17 @@ staring at a list of 12 links wondering where to start.
 > **Intermediate fast-track:** Before each lesson, try its *Check your understanding* questions. If you can answer
 > most of them confidently, do only the mini-project and move on.
 
+**How each week works** (from the [courses analysis](courses/README.md#32-the-weekly-loop-about-8-hours)): a 15-minute **warm-up quiz** on older material →
+the **notes** → the **lesson** → a **lab** → the **self-check from memory** → **explain it back** in five sentences → a **project milestone**, plus 10 minutes of **flashcards** a day.
+Every big idea is visited three times: *use it* (whole game, week 1), *understand it* (notes + lesson), and *build it* (lab).
+
 ---
 
 ## Learning paths
 
 | Path | For | Lessons | Time |
 |---|---|---|---|
+| [0. Python for ML](paths/00-python-for-ml.md) *(optional)* | Python features ML libraries rely on, NumPy vectorization, safe pandas, EDA, and engineering habits (tests, reproducibility) | 5 | ~32 h |
 | [1. Core ML Practitioner](paths/01-core-ml-practitioner.md) | Classical ML done properly: workflow, metrics, validation, trees, features, interpretability, kernels, data quality, uncertainty, tuning | 12 | ~84 h |
 | [2. Deep Learning Foundations](paths/02-deep-learning.md) | Backprop from scratch → PyTorch → training craft → CNNs → transformers → performance, modern architectures, GNNs | 9 | ~76 h |
 | [3. LLMs & Generative AI](paths/03-llms-genai.md) | LLM apps (fine-tuning, RAG, retrieval, agents, evals, security), post-training & inference, diffusion & flow matching | 10 | ~91 h |
@@ -57,6 +68,8 @@ staring at a list of 12 links wondering where to start.
 ### Recommended route
 
 ```
+            Path 0: Python for ML (optional on-ramp)
+                          │
           ┌───────────────────────────────────────────┐
           │ Path 1: Core ML  (fast-track what you know)│
           └───────────────┬───────────────────────────┘
@@ -86,6 +99,15 @@ Track your progress in [PROGRESS.md](PROGRESS.md).
 ---
 
 ## Lesson index
+
+### Python for ML
+| ID | Lesson | Notes | Primary resources |
+|---|---|---|---|
+| PY-01 | [Python for ML Engineers](lessons/python/01-python-for-ml-engineers.md) | [📘](notes/python/01-python-for-ml-engineers.md) | Python Like You Mean It · Python tutorial §9 · Functional HOWTO · McKinney Ch. 3 |
+| PY-02 | [NumPy & Vectorized Thinking](lessons/python/02-numpy-vectorized-thinking.md) | [📘](notes/python/02-numpy-vectorized-thinking.md) | NumPy broadcasting · *From Python to NumPy* · VanderPlas Ch. 2 · numpy-100 |
+| PY-03 | [pandas & Data Wrangling](lessons/python/03-pandas-data-wrangling.md) | [📘](notes/python/03-pandas-data-wrangling.md) | 10 minutes to pandas · McKinney Ch. 5, 8, 10 · pandas User Guide · Kaggle Learn |
+| PY-04 | [EDA & Visualization](lessons/python/04-eda-visualization.md) | [📘](notes/python/04-eda-visualization.md) | Wilke's *Fundamentals of Data Visualization* · VanderPlas Ch. 4 · Kaggle Learn |
+| PY-05 | [Engineering ML Code](lessons/python/05-engineering-ml-code.md) | [📘](notes/python/05-engineering-ml-code.md) | Good Research Code Handbook · pytest · Missing Semester · Software Carpentry |
 
 ### Core ML
 | ID | Lesson | Notes | Primary resources |
@@ -195,18 +217,23 @@ PROGRESS.md                personal checklist
 paths/                     learning paths (ordered lessons + capstones)
 lessons/                   one file per lesson, grouped by track
 notes/                     study notes: one written explanation per lesson (math, worked examples, code, answers)
+courses/                   how top courses teach + week-by-week syllabi per path; flashcards/ = Anki decks
+labs/                      test-driven build-it-yourself labs (exercise stubs, reference solutions, pytest)
+playbook/                  A-vs-B decision guides, tricks, outside-the-box ideas, debugging guide
 toolbox/                   12-domain reference shelf + free bookshelf
 papers/                    ~250 verified papers by topic + must-read list + how to read papers
 exercises/                 drills, from-scratch ladder, assignments, projects, interview prep
 resources/catalog.md       resources used in lessons, typed and tagged
-resources/verified-urls.tsv  how each of the 600+ URLs was verified
+resources/verified-urls.tsv  how each of the 650+ URLs was verified
 templates/                 lesson and study-notes templates
 scripts/check_links.py     live link checker (also runs weekly in GitHub Actions)
 scripts/audit_urls.py      fails if any URL lacks a verification record
-scripts/check_notes.py     runs every code cell in the notes and lints their math
+scripts/check_notes.py     runs every code cell in the notes/playbook, checks links + anchors, lints the math
+scripts/make_lab_stubs.py  generates each lab's exercise.py from its solution.py
+scripts/make_flashcards.py builds the Anki decks from the notes and the playbook
 CLAUDE.md                  project instructions for Claude Code
 .claude/rules/             quality bar, lesson format, link policy
-.claude/skills/            research-resources · build-lesson · write-notes · expand-toolbox · check-links · review-path
+.claude/skills/            research-resources · build-lesson · write-notes · build-lab · expand-toolbox · check-links · review-path
 .claude/agents/            resource-scout · curriculum-architect · link-auditor · pedagogy-reviewer
 ```
 
@@ -218,6 +245,7 @@ This repo is set up so Claude Code can keep it growing and up to date:
 - *"Write a lesson **DL-07 Graph Neural Networks**"* → `build-lesson` skill
 - *"Write or update the **study notes** for DL-08"* → `write-notes` skill
 - *"Add papers and resources on **model merging** to the toolbox"* → `expand-toolbox` skill
+- *"Write a **lab** for k-nearest neighbours"* or *"add a **playbook** trick"* → `build-lab` skill (rules in `.claude/rules/practice-layers.md`)
 - *"Check all links"* → `check-links` skill / `link-auditor` agent (also runs weekly in CI)
 - *"Review Path 2 for gaps"* → `review-path` skill / `pedagogy-reviewer` agent
 

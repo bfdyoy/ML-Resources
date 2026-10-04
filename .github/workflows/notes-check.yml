@@ -2,9 +2,9 @@ name: Notes check
 
 on:
   push:
-    paths: ["notes/**", "scripts/check_notes.py", "scripts/katex_check.mjs"]
+    paths: ["notes/**", "playbook/**", "courses/**", "labs/**/README.md", "scripts/check_notes.py", "scripts/katex_check.mjs", "scripts/make_flashcards.py", "lessons/**"]
   pull_request:
-    paths: ["notes/**", "scripts/check_notes.py", "scripts/katex_check.mjs"]
+    paths: ["notes/**", "playbook/**", "courses/**", "labs/**/README.md", "scripts/check_notes.py", "scripts/katex_check.mjs", "scripts/make_flashcards.py", "lessons/**"]
   workflow_dispatch:
 
 jobs:
@@ -24,4 +24,6 @@ jobs:
           pip install torch --index-url https://download.pytorch.org/whl/cpu
           npm install --no-save katex
       - name: Structure, links, math, and code in every note
-        run: python3 scripts/check_notes.py notes/
+        run: python3 scripts/check_notes.py notes/ playbook/ courses/ labs/
+      - name: Flashcard decks are up to date
+        run: python3 scripts/make_flashcards.py --check

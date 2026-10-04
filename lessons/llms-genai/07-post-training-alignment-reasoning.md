@@ -53,3 +53,4 @@ Evaluate the base, SFT, and DPO versions on a held-out set with both an LLM judg
 - **Papers:** [Post-training, reasoning & agents](../../papers/04-alignment-reasoning-agents.md). Start with the ⭐ ones.
 - **Implement it yourself:** [from-scratch ladder](../../exercises/from-scratch-ladder.md), rungs 34–35 (loss masking, DPO loss).
 - **Drills:** [ARENA](https://github.com/callummcdougall/ARENA_3.0) RLHF exercises · more in [exercises/](../../exercises/README.md).
+- **Playbook:** [self-consistency and correlated errors](../../playbook/04-llm-and-retrieval-tricks.md#1-sample-several-answers-and-vote-self-consistency).

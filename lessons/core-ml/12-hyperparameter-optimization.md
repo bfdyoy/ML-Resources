@@ -52,3 +52,4 @@ score, the test score, and the wall-clock time. Log every trial (CSV or MLflow).
 - **Papers:** [Tabular, time series, recsys & causal](../../papers/09-tabular-timeseries-recsys-causal.md) (hyperparameter optimization section).
 - **Implement it yourself:** a 40-line successive-halving loop around any sklearn estimator.
 - **Drills:** more in [exercises/](../../exercises/README.md).
+- **Playbook:** [choosing a search strategy](../../playbook/01-choosing-algorithms.md#12-hyperparameter-search-grid-vs-random-vs-bayesian-vs-successive-halving) · [hill-climbing blends](../../playbook/02-tabular-tricks.md#8-blend-by-hill-climbing-on-out-of-fold-predictions).

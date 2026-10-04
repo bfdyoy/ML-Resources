@@ -51,3 +51,4 @@ cases with a hypothesis for each. Then train a small U-Net on a public segmentat
 - **Papers:** [Computer vision](../../papers/02-computer-vision.md) (detection & segmentation). Start with the ⭐ ones.
 - **Implement it yourself:** IoU, NMS, and mAP from scratch in NumPy. Check them against `torchvision.ops`.
 - **Drills:** [Deep-ML](https://www.deep-ml.com/problems) computer-vision problems · more in [exercises/](../../exercises/README.md).
+- **Lab:** [Lab 13: IoU, NMS & average precision](../../labs/13-detection-metrics/README.md) (stubs + `pytest`).

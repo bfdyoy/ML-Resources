@@ -51,3 +51,4 @@ and 10 misclassified examples.
 - **Papers:** [Computer vision](../../papers/02-computer-vision.md). Start with the ⭐ ones.
 - **Implement it yourself:** [from-scratch ladder](../../exercises/from-scratch-ladder.md), rungs 23–24.
 - **Drills:** [Deep-ML](https://www.deep-ml.com/problems) problems on this topic · more in [exercises/](../../exercises/README.md).
+- **Playbook:** [DL tricks §5–§8 and §10](../../playbook/03-deep-learning-tricks.md#5-label-smoothing) · [scratch vs fine-tune vs linear probe](../../playbook/01-choosing-algorithms.md#8-vision-train-from-scratch-vs-fine-tune-vs-linear-probe-and-cnn-vs-vit).

@@ -49,3 +49,4 @@ measured agreement, and a single summary score. Change one thing (the prompt, ch
 - **Papers:** [Post-training, reasoning & agents](../../papers/04-alignment-reasoning-agents.md). Start with the ⭐ ones.
 - **Implement it yourself:** [from-scratch ladder](../../exercises/from-scratch-ladder.md), rungs 39–40.
 - **Drills:** [Deep-ML](https://www.deep-ml.com/problems) problems on this topic · more in [exercises/](../../exercises/README.md).
+- **Playbook:** [validating LLM judges with κ](../../playbook/04-llm-and-retrieval-tricks.md#2-use-an-llm-as-a-labeler-then-measure-it-like-one) · [eval set first](../../playbook/04-llm-and-retrieval-tricks.md#9-make-the-eval-set-first-and-make-it-adversarial) · [debugging LLM apps](../../playbook/06-debugging-playbook.md#c-llm-applications-and-rag).
