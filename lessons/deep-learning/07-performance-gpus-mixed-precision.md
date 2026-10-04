@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| Deep Learning | ~6 h | L2→L3 | DL-02, DL-03 |
+| Deep Learning | ~7 h | L2→L3 | DL-02, DL-03 |
 
 ## Why this matters
 The same model can train 2–5× faster with the right precision, batch size, data loading, and compilation. That's the difference
@@ -21,6 +21,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: Making Training Fast: GPUs, Mixed Precision, Compilation](../../notes/deep-learning/07-performance-gpus-mixed-precision.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Read** | [Horace He: Making Deep Learning Go Brrrr From First Principles](https://horace.io/brrr_intro.html) | The whole post (compute, memory bandwidth, overhead, operator fusion) | 45 min |
 | 2 | **Read** | [PyTorch: Performance Tuning Guide](https://pytorch.org/tutorials/recipes/recipes/tuning_guide.html) | The whole guide: data loading, AMP, cuDNN settings, and more | 45 min |
 | 3 | **Build** | [PyTorch: torch.compile tutorial](https://pytorch.org/tutorials/intermediate/torch_compile_tutorial.html) | Compile a model and measure the speed-up (with a warm-up) | 1 h |

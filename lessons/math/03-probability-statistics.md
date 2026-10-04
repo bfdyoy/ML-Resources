@@ -2,7 +2,9 @@
 
 | Track | Time | Level | Used by |
 |---|---|---|---|
-| Math | ~9 h (in pieces) | L1→L2 | CORE-03, CORE-04, CORE-11, GEN-04, EL-02, EL-03, EL-05 |
+| Math | ~10 h (in pieces) | L1→L2 | CORE-03, CORE-04, CORE-11, GEN-04, EL-02, EL-03, EL-05 |
+
+> 📘 **Start here:** [Study notes: Probability & Statistics for ML](../../notes/math/03-probability-statistics.md) (~1 h). All the blocks below are explained with derivations, worked examples, runnable code, and answers to the self-check.
 
 ## Block A: Probability basics, Bayes, and distributions (for CORE-03)
 | Step | Resource | Scope | Time |

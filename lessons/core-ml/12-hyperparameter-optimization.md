@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| Core ML | ~5 h | L2 | CORE-04, CORE-05 (CORE-09 helps for the GP part) |
+| Core ML | ~6 h | L2 | CORE-04, CORE-05 (CORE-09 helps for the GP part) |
 
 ## Why this matters
 Tuning is where many people either waste weeks or quietly overfit their validation set. A good search strategy (random search,
@@ -21,6 +21,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: Hyperparameter Optimization](../../notes/core-ml/12-hyperparameter-optimization.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Read + Build** | [Inria scikit-learn MOOC](https://inria.github.io/scikit-learn-mooc/) | Module "Hyperparameter tuning" (grid and random search, nested CV) and its exercises | 1.5 h |
 | 2 | **Read** | [sklearn: Tuning the hyper-parameters of an estimator](https://scikit-learn.org/stable/modules/grid_search.html) | Randomized search, successive halving (`HalvingRandomSearchCV`), and the tips section | 45 min |
 | 3 | **Read** | [Practical Bayesian Optimization of ML Algorithms](https://arxiv.org/abs/1206.2944) | §1–3: the GP surrogate and expected improvement. Skim the experiments. | 1 h |

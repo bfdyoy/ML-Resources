@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| LLMs & GenAI | ~8 h | L2→L3 | DL-04, CORE-06 · math: [MATH-03](../math/03-probability-statistics.md) (Gaussians, KL divergence) |
+| LLMs & GenAI | ~9 h | L2→L3 | DL-04, CORE-06 · math: [MATH-03](../math/03-probability-statistics.md) (Gaussians, KL divergence) |
 
 ## Why this matters
 Image, audio, and video generation run on diffusion models, and the ideas behind them (latent spaces, variational
@@ -20,6 +20,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: Generative Models: VAEs, GANs & Diffusion](../../notes/llms-genai/04-generative-models-diffusion.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Read** | [UDL](https://udlbook.github.io/udlbook/) (Prince) | Ch. 14 "Unsupervised Learning" (the taxonomy), Ch. 17 "Variational Autoencoders", Ch. 15 "Generative Adversarial Networks" | 2.5 h |
 | 2 | **Read** | [UDL](https://udlbook.github.io/udlbook/) | Ch. 18 "Diffusion Models", with the notebooks | 2 h |
 | 3 | **Intuition** | [The Illustrated Stable Diffusion](https://jalammar.github.io/illustrated-stable-diffusion/) (Alammar) | The whole post | 45 min |

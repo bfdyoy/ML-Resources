@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| Elective | ~9 h | L2 | CORE-04, DL-02 (DL-06 for the sequential part) |
+| Elective | ~10 h | L2 | CORE-04, DL-02 (DL-06 for the sequential part) |
 
 ## Why this matters
 Recommenders drive most of what people see online: feeds, shops, video, music. They combine embeddings, ranking, large-scale retrieval,
@@ -20,6 +20,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: Recommender Systems](../../notes/electives/04-recommender-systems.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Read** | [Google: Recommendation Systems course](https://developers.google.com/machine-learning/recommendation) | The whole course: overview, candidate generation, matrix factorization, DNN models, retrieval/scoring/re-ranking | 2.5 h |
 | 2 | **Read + Build** | [fastbook](https://github.com/fastai/fastbook) | Ch. 8 "Collaborative Filtering" (dot product → embeddings → neural CF) | 2 h |
 | 3 | **Intuition** | [Jay Alammar: Skip-gram for recommendations](https://jalammar.github.io/skipgram-recommender-talk/) | The talk write-up: word2vec ideas applied to items | 30 min |

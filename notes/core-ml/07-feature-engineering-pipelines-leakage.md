@@ -130,7 +130,7 @@ n = 5000
 cat = rng.integers(0, 1000, n).reshape(-1, 1)         # 1,000 levels, about 5 rows each
 y = rng.integers(0, 2, n)                              # pure noise target
 naive = pd.Series(y).groupby(cat[:, 0]).transform("mean").to_numpy().reshape(-1, 1)
-oof = TargetEncoder(random_state=0).fit_transform(cat, y)   # cross-fitted (out-of-fold)
+oof = TargetEncoder().fit_transform(cat, y)                 # cross-fitted (out-of-fold)
 for name, enc in [("naive in-sample", naive), ("out-of-fold", oof)]:
     m = LogisticRegression().fit(enc, y)
     print(f"{name:16s} training AUC = {roc_auc_score(y, m.predict_proba(enc)[:, 1]):.3f}")

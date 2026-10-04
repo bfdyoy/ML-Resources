@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| Elective | ~10 h | L3 | DL-07 |
+| Elective | ~11 h | L3 | DL-07 |
 
 ## Why this matters
 FlashAttention, fused optimizers, and quantized matmuls are all custom kernels, and they often give bigger speed-ups than any model change.
@@ -21,6 +21,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: GPU Programming for ML](../../notes/electives/08-gpu-programming.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Read** | [Horace He: Making Deep Learning Go Brrrr](https://horace.io/brrr_intro.html) | Reread it with kernels in mind (memory bandwidth, fusion) | 30 min |
 | 2 | **Build** | [GPU-Puzzles](https://github.com/srush/GPU-Puzzles) | All puzzles (map → zip → guards → shared memory → pooling → dot product → matmul) | 3 h |
 | 3 | **Watch + Build** | [GPU MODE lectures](https://github.com/gpu-mode/lectures) | The early lectures on profiling, CUDA basics, and Triton, with their code | 3 h |

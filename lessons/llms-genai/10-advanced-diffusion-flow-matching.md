@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| LLMs & GenAI | ~9 h | L3 | GEN-04 · math: [MATH-03](../math/03-probability-statistics.md) (Gaussians), [MATH-02](../math/02-calculus-optimization.md) |
+| LLMs & GenAI | ~10 h | L3 | GEN-04 · math: [MATH-03](../math/03-probability-statistics.md) (Gaussians), [MATH-02](../math/02-calculus-optimization.md) |
 
 ## Why this matters
 GEN-04 got you to DDPM. Modern image, video, and audio generators go further. They use the score-based/SDE view, classifier-free
@@ -21,6 +21,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: Advanced Diffusion & Flow Matching](../../notes/llms-genai/10-advanced-diffusion-flow-matching.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Read** | [Step-by-Step Diffusion: An Elementary Tutorial](https://arxiv.org/abs/2406.08929) | The whole tutorial (diffusion and flow matching, minimal prerequisites) | 2 h |
 | 2 | **Read** | [Yang Song: Generative Modeling by Estimating Gradients of the Data Distribution](https://yang-song.net/blog/2021/score/) | The whole post (score matching → SDEs) | 1.5 h |
 | 3 | **Read + Build** | [MIT 6.S184: Flow Matching & Diffusion](https://diffusion.csail.mit.edu/2026/index.html) | Lecture notes on flow matching, score matching, and guidance, with the matching labs | 3 h |

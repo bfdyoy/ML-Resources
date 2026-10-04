@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| LLMs & GenAI | ~5 h | L2 | GEN-03, GEN-06 |
+| LLMs & GenAI | ~6 h | L2 | GEN-03, GEN-06 |
 
 ## Why this matters
 As soon as an LLM reads untrusted text (web pages, emails, retrieved documents) and can take actions, **prompt injection** becomes a
@@ -21,6 +21,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: LLM Security & Safety](../../notes/llms-genai/09-llm-security-safety.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Read** | [Simon Willison: Prompt injection series](https://simonwillison.net/series/prompt-injection/) | Start with the earliest posts that define the attack, then the posts on indirect injection and on design patterns for mitigation | 1.5 h |
 | 2 | **Read** | [OWASP Top 10 for LLM Applications (2025)](https://genai.owasp.org/resource/owasp-top-10-for-llm-applications-2025/) | All 10 risks, with their example scenarios and mitigations | 1.5 h |
 | 3 | **Read** | [Lilian Weng: Adversarial Attacks on LLMs](https://lilianweng.github.io/posts/2023-10-25-adv-attack-llm/) | Threat model, attack types (token manipulation, jailbreak prompting, automated red-teaming) | 1 h |

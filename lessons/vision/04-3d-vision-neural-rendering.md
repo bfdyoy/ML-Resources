@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| Computer Vision | ~7 h | L3 | DL-04 · math: [MATH-01](../math/01-linear-algebra.md) (all blocks) |
+| Computer Vision | ~8 h | L3 | DL-04 · math: [MATH-01](../math/01-linear-algebra.md) (all blocks) |
 
 ## Why this matters
 Robotics, AR/VR, mapping, and 3D content creation all need geometry: cameras, depth, and 3D reconstruction. Neural radiance fields
@@ -21,6 +21,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: 3D Vision & Neural Rendering](../../notes/vision/04-3d-vision-neural-rendering.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Read** | [Szeliski, *Computer Vision: Algorithms and Applications* (2nd ed.)](https://szeliski.org/Book/) | Ch. 2 §2.1 (geometric primitives and transformations, 3D→2D projection). Then skim Ch. 11 (structure from motion and SLAM) for the big picture. | 2 h |
 | 2 | **Read** | [Szeliski](https://szeliski.org/Book/) | Ch. 14 "Image-based rendering", including the neural rendering section | 1 h |
 | 3 | **Read** | [NeRF](https://arxiv.org/abs/2003.08934) | §3–5: the scene representation, volume rendering, positional encoding, and hierarchical sampling | 1.5 h |

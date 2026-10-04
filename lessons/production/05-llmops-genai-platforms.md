@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| Production | ~7 h | L2→L3 | PROD-02, GEN-03 (GEN-05/06/08 help) |
+| Production | ~8 h | L2→L3 | PROD-02, GEN-03 (GEN-05/06/08 help) |
 
 ## Why this matters
 LLM products bring new operational problems. Behaviour changes whenever you edit a prompt or the provider updates a model. Costs scale
@@ -21,6 +21,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: LLMOps: Running GenAI Applications in Production](../../notes/production/05-llmops-genai-platforms.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Read** | [Chip Huyen: Building A Generative AI Platform](https://huyenchip.com/2024/07/25/genai-platform.html) | The whole post | 1 h |
 | 2 | **Read** | [What We've Learned From A Year of Building with LLMs](https://applied-llms.org/) | The operational and strategic sections (you read the tactical one in GEN-02/03) | 1.5 h |
 | 3 | **Read** | [Chip Huyen: Common pitfalls when building generative AI applications](https://huyenchip.com/2025/01/16/ai-engineering-pitfalls.html) | The whole post | 30 min |

@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| Elective | ~10 h | L1→L2 | CORE-04, CORE-05 |
+| Elective | ~11 h | L1→L2 | CORE-04, CORE-05 |
 
 ## Why this matters
 Demand, traffic, energy, finance: forecasting is everywhere. It also breaks the i.i.d. assumption the rest of
@@ -19,6 +19,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: Time-Series Forecasting](../../notes/electives/01-time-series-forecasting.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Read + Build** | [Forecasting: Principles and Practice, the Pythonic Way](https://otexts.com/fpppy/) | Chapters on time-series graphics, decomposition, the forecaster's toolbox (baselines, residual diagnostics, evaluating accuracy, time-series CV) | 3 h |
 | 2 | **Read + Build** | [FPP, Pythonic Way](https://otexts.com/fpppy/) | Chapters on exponential smoothing and ARIMA | 3 h |
 | 3 | **Read + Build** | [FPP, Pythonic Way](https://otexts.com/fpppy/) | The chapter on neural networks / ML-based forecasting (this is new to the Python edition) | 1.5 h |

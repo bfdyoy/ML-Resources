@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| Deep Learning | ~7 h | L1→L2 | DL-01 |
+| Deep Learning | ~8 h | L1→L2 | DL-01 |
 
 ## Why this matters
 You now know what autograd does. This lesson makes you *fast* with the tool everyone uses: tensors, `nn.Module`,
@@ -19,6 +19,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: PyTorch Fluency](../../notes/deep-learning/02-pytorch-fluency.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Read + Build** | [Learn PyTorch for Deep Learning](https://www.learnpytorch.io/) (online book) | [00 Fundamentals](https://www.learnpytorch.io/00_pytorch_fundamentals/), [01 Workflow](https://www.learnpytorch.io/01_pytorch_workflow/), 02 Classification. Do the exercises at the end of each. | 3.5 h |
 | 2 | **Read + Build** | [learnpytorch.io](https://www.learnpytorch.io/) | 04 Custom Datasets, 05 Going Modular | 2 h |
 | 3 | **Read** | [D2L](https://d2l.ai/) | Chapter "Builders' Guide" (layers and modules, parameter management, custom layers, file I/O, GPUs) | 1 h |

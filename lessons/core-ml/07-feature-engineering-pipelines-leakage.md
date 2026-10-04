@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| Core ML | ~6 h | L2 | CORE-05 |
+| Core ML | ~7 h | L2 | CORE-05 |
 
 ## Why this matters
 On real tabular problems, better features usually beat better algorithms. And the most common *silent* failure in
@@ -20,6 +20,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: Feature Engineering, Pipelines & Leakage](../../notes/core-ml/07-feature-engineering-pipelines-leakage.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Read** | [scikit-learn: Common pitfalls and recommended practices](https://scikit-learn.org/stable/common_pitfalls.html) | The whole page: inconsistent preprocessing, data leakage, randomness | 30 min |
 | 2 | **Build** | [Kaggle Learn: Intermediate ML](https://www.kaggle.com/learn/intermediate-machine-learning) | Lessons "Missing Values", "Categorical Variables", "Pipelines", "Cross-Validation", "Data Leakage" | 2 h |
 | 3 | **Build** | [Kaggle Learn: Feature Engineering](https://www.kaggle.com/learn/feature-engineering) | All lessons: mutual information, creating features, clustering as features, PCA, target encoding | 2 h |

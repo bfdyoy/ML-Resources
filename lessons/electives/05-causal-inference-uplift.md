@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| Elective | ~10 h | L2 | CORE-02, CORE-05, [MATH-03](../math/03-probability-statistics.md) |
+| Elective | ~11 h | L2 | CORE-02, CORE-05, [MATH-03](../math/03-probability-statistics.md) |
 
 ## Why this matters
 Predictive models answer "what will happen?". Businesses and scientists usually need "what happens **if we act**?": does the
@@ -22,6 +22,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: Causal Inference & Uplift Modeling](../../notes/electives/05-causal-inference-uplift.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Read + Build** | [Causal Inference for the Brave and True](https://matheusfacure.github.io/python-causality-handbook/) (Part I) | From "Introduction To Causality" through randomized experiments, regression, graphical causal models, propensity score, and difference-in-differences. Run the notebooks. | 4 h |
 | 2 | **Read** | [Brady Neal: Introduction to Causal Inference](https://www.bradyneal.com/causal-inference-course) | The course-notes chapters on causal graphs, d-separation, and the backdoor criterion | 2 h |
 | 3 | **Read + Build** | [Brave and True](https://matheusfacure.github.io/python-causality-handbook/) (Part II) | The heterogeneous-effects chapters, including [Meta Learners](https://matheusfacure.github.io/python-causality-handbook/21-Meta-Learners.html) | 2 h |

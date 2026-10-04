@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| Core ML | ~6 h | L1→L2 | Python, pandas basics |
+| Core ML | ~7 h | L1→L2 | Python, pandas basics |
 
 ## Why this matters
 Most failed ML projects don't fail because of the algorithm. They fail because the problem was framed badly, the
@@ -20,6 +20,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: The ML Workflow, End to End](../../notes/core-ml/01-ml-workflow-end-to-end.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Intuition** | [Introduction to ML Problem Framing](https://developers.google.com/machine-learning/problem-framing) (Google) | The whole mini-course. Do the framing exercise. | 45 min |
 | 2 | **Read + Build** | [Géron, *Hands-On ML*, Ch. 2 "End-to-End Machine Learning Project"](https://github.com/ageron/handson-mlp) | Read the chapter and run `02_end_to_end_machine_learning_project.ipynb` side by side. If you don't have the book, the notebook's comments are detailed enough to follow on their own. | 3 h |
 | 3 | **Read** | [ISLP](https://www.statlearning.com/) Ch. 2 "Statistical Learning" ([free PDF](https://hastie.su.domains/ISLP/ISLP_website.pdf.download.html)) | §2.1 (what we're estimating, and prediction vs inference) and §2.2.1 (measuring fit, training vs test MSE) | 1 h |

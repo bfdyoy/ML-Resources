@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| Deep Learning | ~9 h | L2→L3 | DL-05 |
+| Deep Learning | ~10 h | L2→L3 | DL-05 |
 
 ## Why this matters
 The transformer is the architecture behind LLMs, modern vision models (ViT), speech, and protein models. If you
@@ -21,6 +21,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: Transformers](../../notes/deep-learning/06-transformers.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Intuition** | [3Blue1Brown: Transformers](https://www.3blue1brown.com/lessons/gpt/) → [Attention in transformers](https://www.3blue1brown.com/lessons/attention/) | Both lessons | 1 h |
 | 2 | **Read** | [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/) (Alammar) | The whole post | 45 min |
 | 3 | **Intuition** | [Transformer Explainer](https://poloclub.github.io/transformer-explainer/) | Type your own prompts. Inspect the attention maps and the temperature. | 30 min |

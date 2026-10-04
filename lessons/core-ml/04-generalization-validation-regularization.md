@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| Core ML | ~6 h | L2 | CORE-02, CORE-03 |
+| Core ML | ~7 h | L2 | CORE-02, CORE-03 |
 
 ## Why this matters
 Every model you'll ever train is a trade-off between fitting the data and generalizing to new data. This lesson
@@ -21,6 +21,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: Generalization, Validation & Regularization](../../notes/core-ml/04-generalization-validation-regularization.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Intuition** | [MLU-Explain: Bias-Variance Tradeoff](https://mlu-explain.github.io/bias-variance/) then [Train, Test & Validation](https://mlu-explain.github.io/train-test-validation/) | Both essays | 40 min |
 | 2 | **Read** | [ISLP](https://www.statlearning.com/) Ch. 2 §2.2.2 "The Bias-Variance Trade-Off" + Ch. 5 "Resampling Methods" | §2.2.2, §5.1 (all CV variants), §5.2 (bootstrap) | 1.5 h |
 | 3 | **Read** | [ISLP](https://www.statlearning.com/) Ch. 6 "Linear Model Selection and Regularization" | §6.1 (subset selection, briefly), **§6.2 (ridge and lasso, in depth)**. Skim §6.4 (high dimensions). | 1.5 h |

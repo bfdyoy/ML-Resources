@@ -1,0 +1,27 @@
+name: Notes check
+
+on:
+  push:
+    paths: ["notes/**", "scripts/check_notes.py", "scripts/katex_check.mjs"]
+  pull_request:
+    paths: ["notes/**", "scripts/check_notes.py", "scripts/katex_check.mjs"]
+  workflow_dispatch:
+
+jobs:
+  notes:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install dependencies
+        run: |
+          pip install numpy scipy scikit-learn pandas
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+          npm install --no-save katex
+      - name: Structure, links, math, and code in every note
+        run: python3 scripts/check_notes.py notes/

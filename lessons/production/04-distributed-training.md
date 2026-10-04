@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| Production | ~9 h | L3 | DL-07, GEN-01 |
+| Production | ~10 h | L3 | DL-07, GEN-01 |
 
 ## Why this matters
 As soon as a model or batch doesn't fit on one GPU, or training takes too long, you need parallelism. Data parallelism, sharding
@@ -21,6 +21,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: Distributed Training at Scale](../../notes/production/04-distributed-training.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Read** | [The Ultra-Scale Playbook](https://huggingface.co/spaces/nanotron/ultrascale-playbook) (Hugging Face) | Memory usage → data parallelism → ZeRO → tensor parallelism → pipeline parallelism → context & expert parallelism. The primary text of this lesson. | 3 h |
 | 2 | **Read** | [Lilian Weng: How to Train Really Large Models on Many GPUs?](https://lilianweng.github.io/posts/2021-09-25-train-large/) | The whole post, as a second view | 1 h |
 | 3 | **Build** | [PyTorch: DDP series intro](https://pytorch.org/tutorials/beginner/ddp_series_intro.html) → [DDP tutorial](https://pytorch.org/tutorials/intermediate/ddp_tutorial.html) | Convert your GPT training loop to DDP with `torchrun` (2 GPUs, or 2 CPU processes with the gloo backend) | 2 h |

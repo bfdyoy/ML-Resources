@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| LLMs & GenAI | ~9 h | L2→L3 | GEN-02, GEN-03 (GEN-05 helps) |
+| LLMs & GenAI | ~10 h | L2→L3 | GEN-02, GEN-03 (GEN-05 helps) |
 
 ## Why this matters
 Agents are LLMs that call tools in a loop to reach a goal: search, code execution, APIs, other models. They are powerful but
@@ -21,6 +21,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: Agents: Tool Use, Structured Outputs & MCP](../../notes/llms-genai/06-agents-tool-use.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Read** | [Anthropic: Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents) | The whole post | 45 min |
 | 2 | **Read** | [Lilian Weng: LLM Powered Autonomous Agents](https://lilianweng.github.io/posts/2023-06-23-agent/) | Planning, memory, and tool use sections | 1 h |
 | 3 | **Read** | [ReAct](https://arxiv.org/abs/2210.03629) | §1–3 and Figure 1 | 45 min |

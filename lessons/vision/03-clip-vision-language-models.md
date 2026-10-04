@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| Computer Vision | ~7 h | L3 | CV-02, GEN-01 |
+| Computer Vision | ~8 h | L3 | CV-02, GEN-01 |
 
 ## Why this matters
 CLIP-style embeddings power zero-shot classification, image search, content moderation, and the text conditioning of image
@@ -21,6 +21,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: Multimodal: CLIP & Vision-Language Models](../../notes/vision/03-clip-vision-language-models.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Read** | [CLIP](https://arxiv.org/abs/2103.00020) | §1–2 (approach, Figure 1, pseudocode) and §3.1 (zero-shot transfer) | 1.5 h |
 | 2 | **Read** | [HF: A Dive into Vision-Language Models](https://huggingface.co/blog/vision_language_pretraining) | The whole post (the pretraining strategies) | 45 min |
 | 3 | **Read** | [HF: Vision Language Models Explained](https://huggingface.co/blog/vlms) | The whole post (model families, benchmarks, fine-tuning) | 45 min |

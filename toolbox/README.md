@@ -3,6 +3,9 @@
 The **lessons** give you a guided path. The **toolbox** is the reference shelf you come back to: every concept in ML, deep
 learning, LLMs, and MLOps, each with the best way to understand it and to practice it.
 
+For a written, step-by-step explanation of a concept that a lesson teaches (with the math and runnable code), go to that lesson's
+**[study notes](../notes/README.md)**. The toolbox points outward; the notes explain in place.
+
 **How each entry is organized:**
 
 | Column | What it gives you |

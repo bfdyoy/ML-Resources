@@ -10,7 +10,8 @@ Every lesson file follows `templates/lesson-template.md`. Non-negotiables:
 1. **Header block**: ID, track, estimated time, level, prerequisites (lesson IDs).
 2. **Why this matters**: 2–4 sentences that tie the concept to real practice.
 3. **Learning goals**: 3–6 bullets, each starting with a verb ("Explain…", "Implement…", "Diagnose…").
-4. **Study plan**: ordered steps, each labelled with one of:
+4. **Study plan**: starts with step **0 · Primer**, a link to the lesson's study notes in
+   `notes/<track>/<same-filename>.md` (see `.claude/rules/notes-format.md`), then ordered steps, each labelled with one of:
    - **Intuition** — a visual, interactive, or short explainer (≤ 30 min)
    - **Read** — the primary written chapter/section, with a time estimate
    - **Watch** — optional video complement
@@ -23,6 +24,7 @@ Every lesson file follows `templates/lesson-template.md`. Non-negotiables:
 8. **Math refresher** (if needed): link to a `lessons/math/` file with the specific section.
 9. **Toolbox, papers & practice**: links to the matching `toolbox/` page, `papers/` page, the
    relevant rungs of `exercises/from-scratch-ladder.md`, and a drill source.
+10. **Time** in the header includes the ~1 h primer.
 
 Style:
 - Use plain, friendly language. Explain *why* the resource was chosen in a short phrase.

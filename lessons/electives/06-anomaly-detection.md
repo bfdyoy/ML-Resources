@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| Elective | ~5 h | L2 | CORE-06, CORE-10 |
+| Elective | ~6 h | L2 | CORE-06, CORE-10 |
 
 ## Why this matters
 Fraud, intrusions, equipment failures, and data-pipeline bugs are all rare events with few or no labels. Anomaly detection is the toolkit
@@ -21,6 +21,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: Anomaly Detection](../../notes/electives/06-anomaly-detection.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Read** | [sklearn: Novelty and Outlier Detection](https://scikit-learn.org/stable/modules/outlier_detection.html) | The whole page, including the comparison figure across detectors | 1 h |
 | 2 | **Read** | [MIT DCAI](https://dcai.csail.mit.edu/) | The lecture "Class Imbalance, Outliers, and Distribution Shift" (outlier part) | 45 min |
 | 3 | **Build** | [PyOD](https://github.com/yzhao062/pyod) | Benchmark 5+ detectors (IForest, LOF, OCSVM, ECOD, autoencoder) on one dataset with a common evaluation | 2 h |

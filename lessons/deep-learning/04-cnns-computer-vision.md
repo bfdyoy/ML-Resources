@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| Deep Learning | ~8 h | L2 | DL-03 |
+| Deep Learning | ~9 h | L2 | DL-03 |
 
 ## Why this matters
 CNNs introduced the key idea of **inductive bias**: building assumptions (locality, translation equivariance) into the
@@ -20,6 +20,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: Convolutional Networks & Computer Vision](../../notes/deep-learning/04-cnns-computer-vision.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Intuition** | [CNN Explainer](https://poloclub.github.io/cnn-explainer/) | Click through every layer. Watch the animated convolutions. | 30 min |
 | 2 | **Read** | [UDL](https://udlbook.github.io/udlbook/) (Prince) | Ch. 10 "Convolutional Networks" and Ch. 11 "Residual Networks", with the notebooks | 2.5 h |
 | 3 | **Read** | [CS231n notes](https://cs231n.github.io/) | "Convolutional Neural Networks: Architectures, Convolution / Pooling Layers" and "Transfer Learning" | 1.5 h |

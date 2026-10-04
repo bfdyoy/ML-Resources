@@ -1,9 +1,9 @@
 # CLAUDE.md — ML-Resources
 
 This repo is a **curated, opinionated curriculum for learning machine learning**.
-It does not host content. It finds the best free (or clearly marked paid)
-resources on the internet and puts them in order as **lessons** and **paths**, so
-learning ML is as easy as possible *and still makes sense*.
+It finds the best free (or clearly marked paid) resources on the internet and puts them in order as
+**lessons** and **paths**. Every lesson also has original **study notes** that explain its ideas and math step by step,
+so learning ML is as easy as possible *and still makes sense*.
 
 ## Who it's for
 
@@ -28,6 +28,9 @@ lessons/<track>/NN-*.md   One lesson = one concept cluster, ~5–12 hours of wor
   production/             ML systems design, MLOps, testing & drift, distributed training, LLMOps
   electives/              Time series, Bayesian, RL, recsys, causal, anomaly, mech interp, GPU, audio, tabular DL
   math/                   Just-in-time math refreshers linked from lessons
+notes/<track>/NN-*.md     Study notes, one per lesson (same filename): intuition, derivations, worked examples,
+                          verified runnable code, pitfalls, cheat sheet, answers to the self-check
+notes/README.md           The notes index and reading route; notes/notation.md = shared symbols
 toolbox/NN-*.md           Reference shelf: every concept → intuition, deeper reading, practice, paper
 papers/NN-*.md            ~250 verified papers by topic, with a 30-paper must-read list
 exercises/*.md            Drills, 45-rung from-scratch ladder, assignments, projects, interview prep
@@ -36,17 +39,19 @@ resources/verified-urls.tsv  Verification record for EVERY URL in the repo (meth
 templates/lesson-template.md
 scripts/check_links.py    Live link checker (stdlib only; run where network allows)
 scripts/audit_urls.py     Fails if any URL lacks a verification record (runs anywhere)
-.claude/rules/            Standing rules (quality bar, lesson format, link policy)
-.claude/skills/           Repeatable workflows (research, build lesson, check links, review path)
+scripts/check_notes.py    Validates notes: structure, links, math lint (+KaTeX parse via katex_check.mjs), runs every code cell
+.claude/rules/            Standing rules (quality bar, lesson format, notes format, link policy)
+.claude/skills/           Repeatable workflows (research, build lesson, write notes, check links, review path, expand toolbox)
 .claude/agents/           Subagents (resource scout, curriculum architect, link auditor, pedagogy reviewer)
 ```
 
-## The four layers
+## The five layers
 1. **Paths → lessons**: the guided route (what to do next, in what order).
-2. **Toolbox**: the reference shelf for every concept, including ones no lesson covers.
-3. **Papers**: primary sources, each paired with an explainer and a "read after" lesson.
-4. **Exercises**: practice at every scale, from 20-minute drills to capstones.
-Lessons link down into the other three (see the "Toolbox, papers & practice" section of each lesson).
+2. **Study notes**: the explanation of each lesson, read as its step 0. Each note bridges to the next, so the route reads like one book.
+3. **Toolbox**: the reference shelf for every concept, including ones no lesson covers.
+4. **Papers**: primary sources, each paired with an explainer and a "read after" lesson.
+5. **Exercises**: practice at every scale, from 20-minute drills to capstones.
+Lessons start with their notes and link down into the other three (see the "Toolbox, papers & practice" section of each lesson).
 
 ## Core principles (read `.claude/rules/` for detail)
 
@@ -64,6 +69,8 @@ Lessons link down into the other three (see the "Toolbox, papers & practice" sec
    number. If unsure, link to the resource's landing page and say what to look for.
 6. **Coherent sequencing.** A lesson may only rely on concepts from earlier
    lessons in the same path, or on explicitly listed prerequisites.
+7. **Explain, then point.** The notes explain (derivations, worked numbers, verified code). The lessons point to the best
+   external material. Notes are original writing: never paste copyrighted text into them.
 
 ## Working conventions
 
@@ -71,7 +78,9 @@ Lessons link down into the other three (see the "Toolbox, papers & practice" sec
 - New resources go into `resources/catalog.md` **first**, and lessons reference them from there.
 - Keep lesson IDs stable (`CORE-03`, `DL-02`, `CV-01`, …). Paths refer to lessons by ID + link.
 - **Coverage rule:** every toolbox section should be taught by at least one lesson. When you add a toolbox topic, add or extend a lesson.
-- When you change a lesson, update every path that includes it.
+- When you change a lesson, update every path that includes it **and its study notes** (`notes/<track>/<same-filename>.md`).
+- Notes follow `templates/notes-template.md` and `.claude/rules/notes-format.md`. Every number quoted in a note must match its code's output.
+  `python3 scripts/check_notes.py notes/` must pass before committing notes (it needs numpy, scipy, scikit-learn, pandas, torch; `npm install katex` enables the KaTeX parse).
 - **Every new URL gets a row in `resources/verified-urls.tsv`** (method codes in `.claude/rules/link-policy.md`).
   `python3 scripts/audit_urls.py` must pass before committing.
 - Run `python3 scripts/check_links.py` before committing if network allows.
@@ -86,6 +95,7 @@ Lessons link down into the other three (see the "Toolbox, papers & practice" sec
 |---|---|
 | Find resources for a topic | skill `research-resources`, or agent `resource-scout` |
 | Write or rewrite a lesson | skill `build-lesson` |
+| Write or update a lesson's study notes (explanations, math, code) | skill `write-notes` |
 | Validate URLs | skill `check-links`, or agent `link-auditor` |
 | Check a path's ordering and difficulty | skill `review-path`, or agent `pedagogy-reviewer` |
 | Restructure paths or add a new track | agent `curriculum-architect` |

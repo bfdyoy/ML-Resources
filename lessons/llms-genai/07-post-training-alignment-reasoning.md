@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| LLMs & GenAI | ~10 h | L3 | GEN-01, GEN-02 · helpful: EL-03 (policy gradients) |
+| LLMs & GenAI | ~11 h | L3 | GEN-01, GEN-02 · helpful: EL-03 (policy gradients) |
 
 ## Why this matters
 Post-training is what turns a base model into a helpful assistant, and more recently into a *reasoning* model. It's also where much
@@ -21,6 +21,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: Post-Training: SFT, RLHF, DPO & Reasoning](../../notes/llms-genai/07-post-training-alignment-reasoning.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Read** | [HF: Illustrating RLHF](https://huggingface.co/blog/rlhf) | The whole post (the 3-stage picture) | 45 min |
 | 2 | **Read** | [RLHF Book](https://rlhfbook.com/) (Lambert) | The chapters on instruction tuning, reward modeling, policy-gradient RL, and direct alignment algorithms | 3 h |
 | 3 | **Read** | [HF: Fine-tune with DPO (TRL)](https://huggingface.co/blog/dpo-trl) + [HF: RLOO](https://huggingface.co/blog/putting_rl_back_in_rlhf_with_rloo) | Both posts (a practical DPO recipe; why simpler RL works) | 1 h |

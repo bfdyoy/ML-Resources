@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| Deep Learning | ~7 h | L2 | DL-02, DL-03 |
+| Deep Learning | ~8 h | L2 | DL-02, DL-03 |
 
 ## Why this matters
 Before transformers make sense, you need three ideas: **tokens become vectors** (embeddings), **a language model
@@ -20,6 +20,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: Embeddings, Language Modeling & Sequences](../../notes/deep-learning/05-embeddings-sequences-attention.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Intuition** | [The Illustrated Word2vec](https://jalammar.github.io/illustrated-word2vec/) (Alammar) | The whole post | 40 min |
 | 2 | **Read** | [Jurafsky & Martin, *Speech and Language Processing* (3rd ed.)](https://web.stanford.edu/~jurafsky/slp3/) | The chapters on **N-gram Language Models** (for perplexity) and **Vector Semantics and Embeddings**. Read for concepts, and skim the proofs. | 2 h |
 | 3 | **Build** | [Karpathy Lecture 2: makemore (bigram)](https://www.youtube.com/watch?v=PaCmpygFfXo) → [Lecture 3: makemore MLP](https://youtu.be/TCH_1BHY58I) | Code along with both | 3.5 h |

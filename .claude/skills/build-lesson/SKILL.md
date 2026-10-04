@@ -18,13 +18,16 @@ description: Write or rewrite a lesson file in lessons/ from the template, seque
    `research-resources` skill first.
 4. Build the **study plan** in this order: Intuition (short, visual) → Read (primary chapter,
    exact sections) → Build (notebook/exercise) → optional Watch. Put a time estimate on every step.
-   Target total: 5–9 hours (hands-on-heavy lessons may reach 12).
+   Target total: 6–10 hours including the ~1 h primer (hands-on-heavy lessons may reach 13).
 5. Write **Check your understanding** questions that test the goals. At least one question
    should be "debug this situation" style.
 6. Design a **mini-project** with a named public dataset (sklearn built-ins, Kaggle, UCI, Hugging Face Datasets).
 7. Add **Go deeper** (≤ 5 items) and a **Math refresher** link if needed.
-8. Update every `paths/*.md` that should include the lesson, and the lesson index in `README.md`.
-9. Run `python3 scripts/check_links.py lessons/<track>/<file>.md` if network allows.
+8. Add step **0 · Primer** linking to `notes/<track>/<same-filename>.md`, and write those study notes with the
+   `write-notes` skill (every lesson has notes; the self-check answers live there).
+9. Update every `paths/*.md` that should include the lesson, the lesson index in `README.md` (with its 📘 notes link),
+   and `notes/README.md`.
+10. Run `python3 scripts/check_links.py lessons/<track>/<file>.md` if network allows.
 
 ## Quality checklist
 - [ ] Every step has exactly one primary resource with exact scope and time

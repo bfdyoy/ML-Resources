@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| Deep Learning | ~8 h | L2 | CORE-02, CORE-03 · math: [MATH-02](../math/02-calculus-optimization.md) (chain rule) |
+| Deep Learning | ~9 h | L2 | CORE-02, CORE-03 · math: [MATH-02](../math/02-calculus-optimization.md) (chain rule) |
 
 ## Why this matters
 Backprop is the single algorithm under all of deep learning. If you've built it once yourself, frameworks
@@ -19,6 +19,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: Neural Networks from Scratch & Backprop](../../notes/deep-learning/01-neural-networks-from-scratch.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Intuition** | [3Blue1Brown: But what is a neural network?](https://www.3blue1brown.com/lessons/neural-networks/) → [Gradient descent](https://www.3blue1brown.com/lessons/gradient-descent/) → [Backpropagation calculus](https://www.3blue1brown.com/lessons/backpropagation-calculus/) | The three lesson pages (each has the video plus a written version) | 1 h |
 | 2 | **Read** | [Nielsen, *Neural Networks and Deep Learning*](http://neuralnetworksanddeeplearning.com/) | [Ch. 1](http://neuralnetworksanddeeplearning.com/chap1.html) (skim, since you know most of it) and **[Ch. 2 "How the backpropagation algorithm works"](http://neuralnetworksanddeeplearning.com/chap2.html)** (read carefully, with pen and paper) | 2 h |
 | 3 | **Read** | [UDL](https://udlbook.github.io/udlbook/) (Prince) | Ch. 3 "Shallow Neural Networks", Ch. 4 "Deep Neural Networks", Ch. 5 "Loss Functions". Do the Chapter 3–5 notebooks from the [repo](https://github.com/udlbook/udlbook). | 2.5 h |

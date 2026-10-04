@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| Production | ~6 h | L2 | CORE-01…07 (DL optional) |
+| Production | ~7 h | L2 | CORE-01…07 (DL optional) |
 
 ## Why this matters
 A model in a notebook creates no value. ML system design is about everything *around* the model: data pipelines,
@@ -21,6 +21,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: ML System Design](../../notes/production/01-ml-system-design.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Read** | [Rules of Machine Learning](https://developers.google.com/machine-learning/guides/rules-of-ml) (Zinkevich, Google) | All 43 rules. Read "Before Machine Learning" and "Phase I" twice. | 1.5 h |
 | 2 | **Read** | [Designing Machine Learning Systems](https://www.oreilly.com/library/view/designing-machine-learning/9781098107956/) (Chip Huyen) `[paid]`, or the free [chapter summaries](https://github.com/chiphuyen/dmls-book) | Ch. 2 (intro to ML systems design), Ch. 4 (training data), Ch. 7 (deployment), Ch. 8 (data distribution shifts and monitoring) | 3 h (book) / 1 h (summaries) |
 | 3 | **Watch/Read** | [Full Stack Deep Learning 2022](https://fullstackdeeplearning.com/course/2022/) | Lectures "Development Infrastructure & Tooling", "Deployment", and "Continual Learning". Read the lecture notes on the course site. | 1.5 h |

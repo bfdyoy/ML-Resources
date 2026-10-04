@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| Elective | ~8 h | L2 | DL-04, DL-06 |
+| Elective | ~9 h | L2 | DL-04, DL-06 |
 
 ## Why this matters
 Speech recognition, voice assistants, audio classification, music, and text-to-speech all rely on the same deep-learning toolkit, applied to a
@@ -21,6 +21,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: Audio & Speech](../../notes/electives/09-audio-and-speech.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Read + Build** | [Hugging Face Audio Course](https://huggingface.co/learn/audio-course/chapter0/introduction) | Unit 1 (working with audio data), Unit 2 (audio applications with pipelines), Unit 3 (transformer architectures for audio) | 3 h |
 | 2 | **Read + Build** | [HF Audio Course](https://huggingface.co/learn/audio-course/chapter0/introduction) | The audio-classification and speech-recognition units (fine-tune a model and compute WER) | 3 h |
 | 3 | **Read** | [Whisper](https://arxiv.org/abs/2212.04356) | §1–3 (data, model, multitask format) | 1 h |

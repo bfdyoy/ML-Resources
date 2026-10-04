@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| LLMs & GenAI | ~5 h | L2 | GEN-02 |
+| LLMs & GenAI | ~6 h | L2 | GEN-02 |
 
 ## Why this matters
 Unsuccessful LLM products almost always have the same root cause: **no systematic evaluation**. "It looked good
@@ -20,6 +20,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: Evaluating & Shipping LLM Applications](../../notes/llms-genai/03-evaluating-llm-apps.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Read** | [Hamel Husain: Your AI Product Needs Evals](https://hamel.dev/blog/posts/evals/) | The whole post | 1 h |
 | 2 | **Read** | [Hamel Husain: AI Evals FAQ](https://hamel.dev/blog/posts/evals-faq/) | Skim the questions and read the ones about error analysis and LLM-as-judge | 45 min |
 | 3 | **Read** | [Eugene Yan: Patterns for Building LLM-based Systems & Products](https://eugeneyan.com/writing/llm-patterns/) | The sections on evals, guardrails, caching, defensive UX, and user feedback | 1 h |

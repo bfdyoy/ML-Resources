@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| Production | ~12 h (spread over 2–3 weeks) | L2 | PROD-01, basic Docker & Git |
+| Production | ~13 h (spread over 2–3 weeks) | L2 | PROD-01, basic Docker & Git |
 
 ## Why this matters
 MLOps is the engineering discipline that makes ML repeatable: experiment tracking, reproducible pipelines, testing,
@@ -20,6 +20,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: MLOps in Practice](../../notes/production/02-mlops-in-practice.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Read + Build** | [Made With ML](https://madewithml.com/) ([repo](https://github.com/GokuMohandas/Made-With-ML)) | Work through the course's develop → deploy → iterate flow: data, training, tracking, testing, serving, CI/CD | 6 h |
 | 2 | **Build** | [MLOps Zoomcamp](https://github.com/DataTalksClub/mlops-zoomcamp) (DataTalks.Club) | Modules on experiment tracking, orchestration, deployment, and monitoring. Do the homework for at least 2 of them. | 6 h |
 

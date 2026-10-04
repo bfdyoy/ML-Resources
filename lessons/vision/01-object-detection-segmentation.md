@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| Computer Vision | ~8 h | L2→L3 | DL-04 |
+| Computer Vision | ~9 h | L2→L3 | DL-04 |
 
 ## Why this matters
 Most real vision products don't just classify an image. They find *where* things are: detection for counting, tracking, and
@@ -21,6 +21,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: Object Detection & Segmentation](../../notes/vision/01-object-detection-segmentation.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Read** | [Lilian Weng: Object Detection for Dummies](https://lilianweng.github.io/posts/2017-10-29-object-recognition-part-1/) | Parts [1](https://lilianweng.github.io/posts/2017-10-29-object-recognition-part-1/)–[2](https://lilianweng.github.io/posts/2017-12-15-object-recognition-part-2/) for the building blocks, [part 3](https://lilianweng.github.io/posts/2017-12-31-object-recognition-part-3/) (R-CNN family), and [part 4](https://lilianweng.github.io/posts/2018-12-27-object-recognition-part-4/) (fast detectors: YOLO, SSD, RetinaNet) | 2 h |
 | 2 | **Read + Build** | [D2L](https://d2l.ai/) | Chapter "Computer Vision": the sections on bounding boxes, anchor boxes, multiscale detection, SSD, R-CNNs, and semantic segmentation/FCN. Run the code. | 2.5 h |
 | 3 | **Read** | [U-Net](https://arxiv.org/abs/1505.04597) | The whole paper (short, with a clear figure) | 30 min |

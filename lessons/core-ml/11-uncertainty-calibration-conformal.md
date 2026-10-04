@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| Core ML | ~5 h | L2 | CORE-03, CORE-04 · math: [MATH-03](../math/03-probability-statistics.md) block A |
+| Core ML | ~6 h | L2 | CORE-03, CORE-04 · math: [MATH-03](../math/03-probability-statistics.md) block A |
 
 ## Why this matters
 A model that says "90% sure" should be right 90% of the time. Most models, especially deep nets, aren't. And point predictions
@@ -21,6 +21,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: Uncertainty: Calibration & Conformal Prediction](../../notes/core-ml/11-uncertainty-calibration-conformal.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Read** | [sklearn: Probability calibration](https://scikit-learn.org/stable/modules/calibration.html) | The whole page: calibration curves, `CalibratedClassifierCV`, sigmoid vs isotonic | 45 min |
 | 2 | **Read** | [On Calibration of Modern Neural Networks](https://arxiv.org/abs/1706.04599) (Guo et al.) | §1–3 and §4.2 (temperature scaling). Look at Figure 1. | 45 min |
 | 3 | **Read** | [A Gentle Introduction to Conformal Prediction](https://arxiv.org/abs/2107.07511) (Angelopoulos & Bates) | §1 (the core recipe), §2 (examples), §3 (evaluating conformal procedures) | 1.5 h |

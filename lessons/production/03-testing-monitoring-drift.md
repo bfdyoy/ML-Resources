@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| Production | ~7 h | L2 | PROD-01, PROD-02 |
+| Production | ~8 h | L2 | PROD-01, PROD-02 |
 
 ## Why this matters
 Models fail silently. The data shifts, an upstream pipeline changes a unit, or a feedback loop drags performance down, and nothing
@@ -21,6 +21,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: Testing, Monitoring & Drift](../../notes/production/03-testing-monitoring-drift.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Read** | [The ML Test Score](https://research.google/pubs/the-ml-test-score-a-rubric-for-ml-production-readiness-and-technical-debt-reduction/) | The whole paper (it's short): all 28 tests | 1 h |
 | 2 | **Read** | [Designing ML Systems: summaries](https://github.com/chiphuyen/dmls-book) | Ch. 8 (data distribution shifts and monitoring) and Ch. 9 (continual learning and testing in production) | 1 h |
 | 3 | **Read + Build** | [Evidently: ML Observability course](https://www.evidentlyai.com/ml-observability-course) | The modules on ML monitoring metrics, data quality, and drift detection | 2 h |

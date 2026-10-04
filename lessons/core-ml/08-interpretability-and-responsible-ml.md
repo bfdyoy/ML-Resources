@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| Core ML | ~5 h | L2 | CORE-05, CORE-07 |
+| Core ML | ~6 h | L2 | CORE-05, CORE-07 |
 
 ## Why this matters
 Stakeholders ask "why did the model say that?", regulators ask "is it fair?", and debugging often starts with
@@ -20,6 +20,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: Interpreting Models & Responsible ML](../../notes/core-ml/08-interpretability-and-responsible-ml.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Read** | [Interpretable Machine Learning](https://christophm.github.io/interpretable-ml-book/) (Molnar) | The intro chapters on interpretability and its taxonomy, then the chapters on **Permutation Feature Importance** and **Partial Dependence Plot** | 1.5 h |
 | 2 | **Read** | [Molnar: SHAP](https://christophm.github.io/interpretable-ml-book/shap.html) | The whole chapter, including the limitations | 1 h |
 | 3 | **Build** | `shap` + scikit-learn on your CORE-05 GBM | Compute permutation importance, PDPs (`sklearn.inspection`), and a SHAP summary plot. Compare what each one says. | 1.5 h |

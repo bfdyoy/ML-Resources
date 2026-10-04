@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| Core ML | ~6 h | L2 | CORE-04 · math: [MATH-01](../math/01-linear-algebra.md) (eigenvectors) |
+| Core ML | ~7 h | L2 | CORE-04 · math: [MATH-01](../math/01-linear-algebra.md) (eigenvectors) |
 
 ## Why this matters
 Most data has no labels. Clustering, PCA, and embeddings visualized with t-SNE/UMAP are how you *explore* data,
@@ -20,6 +20,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: Unsupervised Learning](../../notes/core-ml/06-unsupervised-learning.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Intuition** | [PCA Explained Visually](https://setosa.io/ev/principal-component-analysis/) (Setosa) | The whole page. Rotate the 3D example. | 20 min |
 | 2 | **Read** | [ISLP](https://www.statlearning.com/) Ch. 12 "Unsupervised Learning" | §12.1–12.2 (PCA), §12.4 (k-means and hierarchical clustering, practical issues). Skim §12.3 (missing values / matrix completion). | 2 h |
 | 3 | **Read + Build** | [Géron, *Hands-On ML*, Ch. 7 "Dimensionality Reduction" + Ch. 8 "Unsupervised Learning"](https://github.com/ageron/handson-mlp) | Run `07_dimensionality_reduction.ipynb` and `08_unsupervised_learning.ipynb`. Focus on k-means limits, DBSCAN, and Gaussian mixtures. | 2.5 h |

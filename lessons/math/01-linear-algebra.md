@@ -2,9 +2,11 @@
 
 | Track | Time | Level | Used by |
 |---|---|---|---|
-| Math | ~6 h (in pieces) | L1→L2 | CORE-02, CORE-06, DL-01+ |
+| Math | ~7 h (in pieces) | L1→L2 | CORE-02, CORE-06, DL-01+ |
 
 **How to use this page:** Don't do it all up front. When a lesson links here, do only the matching block, and come back later.
+
+> 📘 **Start here:** [Study notes: Linear Algebra for ML](../../notes/math/01-linear-algebra.md) (~1 h). All the blocks below are explained with derivations, worked examples, runnable code, and answers to the self-check.
 
 ## Block A: Vectors, matrices, and transformations (for CORE-02, DL-01)
 | Step | Resource | Scope | Time |

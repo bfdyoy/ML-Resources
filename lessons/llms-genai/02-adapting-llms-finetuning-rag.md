@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| LLMs & GenAI | ~9 h | L2 | GEN-01 |
+| LLMs & GenAI | ~10 h | L2 | GEN-01 |
 
 ## Why this matters
 Almost nobody trains an LLM from scratch. The real skill is **adapting** existing models: prompt well, fine-tune
@@ -21,6 +21,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: Adapting LLMs: Prompting, Fine-tuning, LoRA & RAG](../../notes/llms-genai/02-adapting-llms-finetuning-rag.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Read + Build** | [Hugging Face LLM Course](https://huggingface.co/learn/llm-course/chapter1/1) | Ch. 1–3 (transformer models, using 🤗 Transformers, fine-tuning a pretrained model). Do the code sections in Colab. | 3 h |
 | 2 | **Read + Build** | [Raschka, *Build a LLM From Scratch*](https://github.com/rasbt/LLMs-from-scratch) | Ch. 6 (fine-tuning for classification), Ch. 7 (instruction fine-tuning), Appendix E (LoRA). Run the notebooks. | 3 h |
 | 3 | **Read** | [Raschka: Practical Tips for Finetuning LLMs Using LoRA](https://magazine.sebastianraschka.com/p/practical-tips-for-finetuning-llms) | The whole post | 45 min |

@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| Core ML | ~7 h | L2 | CORE-03, CORE-04 · math: [MATH-01](../math/01-linear-algebra.md) block B, [MATH-02](../math/02-calculus-optimization.md) block B |
+| Core ML | ~8 h | L2 | CORE-03, CORE-04 · math: [MATH-01](../math/01-linear-algebra.md) block B, [MATH-02](../math/02-calculus-optimization.md) block B |
 
 ## Why this matters
 Before deep learning, kernel methods were *the* way to learn non-linear functions with clean guarantees. They still matter.
@@ -22,6 +22,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: Kernel Methods, SVMs, Nearest Neighbours & Gaussian Processes](../../notes/core-ml/09-kernels-svms-nearest-neighbours.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Read** | [ISLP](https://www.statlearning.com/) | §2.2.3 (the Bayes classifier and KNN) and §3.5 (KNN regression vs linear regression) | 45 min |
 | 2 | **Intuition** | [StatQuest: Support Vector Machines, Part 1](https://www.youtube.com/watch?v=efR1C6CvhmE) | Main ideas: margins, soft margins, and kernels (~20 min) | 20 min |
 | 3 | **Read** | [ISLP](https://www.statlearning.com/) Ch. 9 "Support Vector Machines" | All of §9.1–9.5, plus the Python lab | 2 h |

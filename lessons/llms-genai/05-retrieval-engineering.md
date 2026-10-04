@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| LLMs & GenAI | ~9 h | L2→L3 | GEN-02 |
+| LLMs & GenAI | ~10 h | L2→L3 | GEN-02 |
 
 ## Why this matters
 Most RAG failures are **retrieval failures**: the right passage never reaches the model. Classic information retrieval (BM25,
@@ -21,6 +21,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: Retrieval Engineering for RAG](../../notes/llms-genai/05-retrieval-engineering.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Read** | [Introduction to Information Retrieval](https://nlp.stanford.edu/IR-book/html/htmledition/irbook.html) | Ch. 6 (tf-idf, vector space model), Ch. 8 (evaluation), and Ch. 11 (probabilistic IR, with BM25 in §11.4) | 2.5 h |
 | 2 | **Read** | [Lilian Weng: How to Build an Open-Domain QA System](https://lilianweng.github.io/posts/2020-10-29-odqa/) | The retriever sections (classic IR, dense retrieval, retriever–reader) | 1 h |
 | 3 | **Read + Build** | [Sentence Transformers docs](https://sbert.net/) | Quickstart, then the training overview. Embed your GEN-02 corpus, and try a cross-encoder reranker. | 1.5 h |

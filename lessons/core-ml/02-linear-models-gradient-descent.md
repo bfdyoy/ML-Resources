@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| Core ML | ~6 h | L2 | CORE-01 · math: [MATH-01](../math/01-linear-algebra.md), [MATH-02](../math/02-calculus-optimization.md) |
+| Core ML | ~7 h | L2 | CORE-01 · math: [MATH-01](../math/01-linear-algebra.md), [MATH-02](../math/02-calculus-optimization.md) |
 
 ## Why this matters
 Linear regression is the "hello world" of ML, and it is also what a neural network's last layer does. Almost
@@ -20,6 +20,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: Linear Models & Gradient Descent](../../notes/core-ml/02-linear-models-gradient-descent.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Intuition** | [MLU-Explain: Linear Regression](https://mlu-explain.github.io/linear-regression/) | The whole essay. Play with the interactive fits. | 20 min |
 | 2 | **Read** | [ISLP](https://www.statlearning.com/) Ch. 3 "Linear Regression" | §3.1–3.3 (simple, multiple, qualitative predictors, interactions, potential problems). Skim §3.4 and read §3.5 (vs KNN). | 2 h |
 | 3 | **Read + Build** | [Géron, *Hands-On ML*, Ch. 4 "Training Models"](https://github.com/ageron/handson-mlp) | Normal equation, the three GD variants, polynomial regression, learning curves. Run `04_training_linear_models.ipynb`. | 2 h |

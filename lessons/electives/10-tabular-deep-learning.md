@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| Elective | ~5 h | L2 | CORE-05, CORE-07, DL-03 |
+| Elective | ~6 h | L2 | CORE-05, CORE-07, DL-03 |
 
 ## Why this matters
 On tabular data, gradient-boosted trees remain the default, and knowing *why* saves you from wasted effort. Still, neural nets have real uses:
@@ -20,6 +20,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: Deep Learning for Tabular Data](../../notes/electives/10-tabular-deep-learning.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Read** | [Why do tree-based models still outperform deep learning on tabular data?](https://arxiv.org/abs/2207.08815) | The whole paper (benchmark design and the inductive-bias experiments) | 1.5 h |
 | 2 | **Read + Build** | [fastbook](https://github.com/fastai/fastbook) | Ch. 9 "Tabular Modeling Deep Dive" (random forests, entity embeddings, neural nets) | 2 h |
 | 3 | **Read** | [TabPFN](https://arxiv.org/abs/2207.01848) | §1–3 (prior-fitted networks, in-context learning on tables) | 45 min |

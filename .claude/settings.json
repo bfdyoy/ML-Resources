@@ -4,6 +4,8 @@
       "WebSearch",
       "WebFetch",
       "Bash(python3 scripts/check_links.py:*)",
+      "Bash(python3 scripts/audit_urls.py:*)",
+      "Bash(python3 scripts/check_notes.py:*)",
       "Bash(git status:*)",
       "Bash(git diff:*)",
       "Bash(git log:*)"

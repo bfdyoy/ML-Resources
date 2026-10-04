@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| Elective | ~12 h | L2→L3 | DL-03 · math: [MATH-03](../math/03-probability-statistics.md) (expectations) |
+| Elective | ~13 h | L2→L3 | DL-03 · math: [MATH-03](../math/03-probability-statistics.md) (expectations) |
 
 ## Why this matters
 RL is how agents learn from interaction, and it's now central to LLM post-training (RLHF, and RL for reasoning).
@@ -21,6 +21,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: Reinforcement Learning](../../notes/electives/03-reinforcement-learning.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Read** | [Sutton & Barto, *Reinforcement Learning: An Introduction*](http://incompleteideas.net/book/the-book-2nd.html) | Ch. 1 (introduction), Ch. 2 (multi-armed bandits), Ch. 3 (finite MDPs), Ch. 6 (temporal-difference learning). Skim Ch. 4–5. | 5 h |
 | 2 | **Build** | [Hugging Face Deep RL Course](https://huggingface.co/learn/deep-rl-course/unit0/introduction) | Units 1–3 (intro, Q-learning, deep Q-learning), with the hands-on notebooks | 4 h |
 | 3 | **Read** | [OpenAI Spinning Up](https://spinningup.openai.com/en/latest/user/introduction.html) | "Introduction to RL" parts 1–3 (key concepts, kinds of RL algorithms, intro to policy optimization) | 2 h |

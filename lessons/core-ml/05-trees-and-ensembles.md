@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| Core ML | ~7 h | L2 | CORE-04 |
+| Core ML | ~8 h | L2 | CORE-04 |
 
 ## Why this matters
 On tabular data, which is most business data, gradient-boosted trees (XGBoost, LightGBM, CatBoost) are still
@@ -21,6 +21,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: Trees, Random Forests & Gradient Boosting](../../notes/core-ml/05-trees-and-ensembles.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Intuition** | [MLU-Explain: Decision Trees](https://mlu-explain.github.io/decision-tree/) then [Random Forest](https://mlu-explain.github.io/random-forest/) | Both essays | 40 min |
 | 2 | **Read** | [ISLP](https://www.statlearning.com/) Ch. 8 "Tree-Based Methods" | §8.1 (regression and classification trees, pruning), §8.2 (bagging, random forests, boosting, BART) | 2 h |
 | 3 | **Read + Build** | [Géron, *Hands-On ML*, Ch. 5 "Decision Trees" + Ch. 6 "Ensemble Learning and Random Forests"](https://github.com/ageron/handson-mlp) | Run `05_decision_trees.ipynb` and `06_ensemble_learning_and_random_forests.ipynb`. Focus on the gradient boosting and stacking sections. | 2.5 h |

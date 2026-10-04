@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| LLMs & GenAI | ~8 h | L3 | GEN-01, DL-07 (DL-08 helps) |
+| LLMs & GenAI | ~9 h | L3 | GEN-01, DL-07 (DL-08 helps) |
 
 ## Why this matters
 Inference cost and latency decide whether an LLM feature is viable. Most of the speed-ups come from a small set of ideas: the KV cache
@@ -21,6 +21,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: Efficient LLM Inference](../../notes/llms-genai/08-efficient-llm-inference.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Read** | [HF: KV Caching Explained](https://huggingface.co/blog/kv-cache) | The whole post | 30 min |
 | 2 | **Read** | [Lilian Weng: Large Transformer Model Inference Optimization](https://lilianweng.github.io/posts/2023-01-10-inference-optimization/) | The whole post (distillation, quantization, pruning, sparsity, architecture tricks) | 1.5 h |
 | 3 | **Read** | [Grootendorst: A Visual Guide to Quantization](https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-quantization) | The whole post | 1 h |

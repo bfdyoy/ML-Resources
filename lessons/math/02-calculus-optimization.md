@@ -2,7 +2,9 @@
 
 | Track | Time | Level | Used by |
 |---|---|---|---|
-| Math | ~5 h (in pieces) | L1→L2 | CORE-02, DL-01, DL-03 |
+| Math | ~6 h (in pieces) | L1→L2 | CORE-02, DL-01, DL-03 |
+
+> 📘 **Start here:** [Study notes: Calculus & Optimization for ML](../../notes/math/02-calculus-optimization.md) (~1 h). All the blocks below are explained with derivations, worked examples, runnable code, and answers to the self-check.
 
 ## Block A: Derivatives and the chain rule (for CORE-02, DL-01)
 | Step | Resource | Scope | Time |

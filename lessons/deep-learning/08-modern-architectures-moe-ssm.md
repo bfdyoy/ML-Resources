@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| Deep Learning | ~7 h | L3 | DL-06 |
+| Deep Learning | ~8 h | L3 | DL-06 |
 
 ## Why this matters
 The 2017 transformer is not what runs today. Modern LLMs use RoPE, RMSNorm, SwiGLU, grouped-query attention, and often
@@ -21,6 +21,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: Modern Architectures: RoPE, GQA, MoE & State-Space Models](../../notes/deep-learning/08-modern-architectures-moe-ssm.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Read** | [Raschka: The Big LLM Architecture Comparison](https://magazine.sebastianraschka.com/p/the-big-llm-architecture-comparison) | The whole article. It's the map for this lesson. | 1.5 h |
 | 2 | **Read** | [HF: Designing positional encoding](https://huggingface.co/blog/designing-positional-encoding) | The whole post (it builds RoPE from first principles) | 45 min |
 | 3 | **Read** | [Lilian Weng: The Transformer Family v2](https://lilianweng.github.io/posts/2023-01-27-the-transformer-family-v2/) | The sections on positional encoding, long context, and efficient/sparse attention. Use it as a reference; don't read end to end. | 1 h |

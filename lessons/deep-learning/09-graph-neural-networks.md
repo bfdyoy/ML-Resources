@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| Deep Learning | ~7 h | L2→L3 | DL-03, DL-06 · math: [MATH-01](../math/01-linear-algebra.md) blocks A–B |
+| Deep Learning | ~8 h | L2→L3 | DL-03, DL-06 · math: [MATH-01](../math/01-linear-algebra.md) blocks A–B |
 
 ## Why this matters
 Molecules, social networks, road maps, knowledge graphs, and user–item interactions are all graphs. GNNs learn from that structure
@@ -21,6 +21,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: Graph Neural Networks](../../notes/deep-learning/09-graph-neural-networks.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Intuition** | [Distill: A Gentle Introduction to Graph Neural Networks](https://distill.pub/2021/gnn-intro/) | The whole interactive article | 1 h |
 | 2 | **Read** | [Distill: Understanding Convolutions on Graphs](https://distill.pub/2021/understanding-gnns/) | The whole article (from spectral to modern GNNs) | 1 h |
 | 3 | **Read** | [Hamilton: Graph Representation Learning](https://www.cs.mcgill.ca/~wlh/grl_book/) | Ch. 5 (the GNN model: message passing, GCN, GraphSAGE, attention) and Ch. 7 (theoretical motivations, the WL test) | 2 h |

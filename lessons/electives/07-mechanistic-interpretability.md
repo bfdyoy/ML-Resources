@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| Elective | ~10 h | L3 | DL-06, CORE-08 |
+| Elective | ~11 h | L3 | DL-06, CORE-08 |
 
 ## Why this matters
 Feature importance (CORE-08) tells you *what* a model uses. Mechanistic interpretability asks *how* the network computes it, by reverse-engineering
@@ -21,6 +21,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: Mechanistic Interpretability](../../notes/electives/07-mechanistic-interpretability.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Read** | [A Mathematical Framework for Transformer Circuits](https://transformer-circuits.pub/2021/framework/index.html) | The whole article: zero-, one-, and two-layer attention-only transformers | 3 h |
 | 2 | **Build** | [Transformer Circuits Exercises](https://transformer-circuits.pub/2021/exercises/index.html) | Work the pen-and-paper exercises | 1.5 h |
 | 3 | **Build** | [ARENA 3.0](https://github.com/callummcdougall/ARENA_3.0) | The transformer-interpretability chapter: [TransformerLens](https://github.com/TransformerLensOrg/TransformerLens) intro, induction heads, activation patching | 4 h |

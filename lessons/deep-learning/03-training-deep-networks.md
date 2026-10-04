@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| Deep Learning | ~8 h | L2 | DL-02, CORE-04 |
+| Deep Learning | ~9 h | L2 | DL-02, CORE-04 |
 
 ## Why this matters
 Getting a network to train *well* is a craft. It takes the right initialization, normalization, optimizer, learning-rate
@@ -20,6 +20,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: Training Deep Networks Well](../../notes/deep-learning/03-training-deep-networks.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Read** | [UDL](https://udlbook.github.io/udlbook/) (Prince) | Ch. 6 "Fitting Models", Ch. 7 "Gradients and Initialization", Ch. 9 "Regularization". Run the notebooks for 6, 7 and 9. | 3 h |
 | 2 | **Intuition** | [Why Momentum Really Works](https://distill.pub/2017/momentum/) (Distill) | Play with the interactive panels. The maths is optional. | 30 min |
 | 3 | **Read** | [Karpathy: A Recipe for Training Neural Networks](http://karpathy.github.io/2019/04/25/recipe/) | The whole post. Print it and keep it next to you. | 45 min |

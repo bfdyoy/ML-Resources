@@ -1,6 +1,7 @@
 # Progress
 
 Tick lessons off as you go (`[x]`). Add a date and a link to your mini-project, so you can see your own portfolio grow.
+Each lesson starts with its [study notes](notes/README.md) (step 0). When you tick a lesson, you should be able to answer its self-check without opening the answer sketches.
 
 ## Path 1: Core ML Practitioner
 - [ ] CORE-01 The ML Workflow, End to End · project:

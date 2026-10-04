@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| Core ML | ~7 h | L2 | CORE-03, CORE-07 |
+| Core ML | ~8 h | L2 | CORE-03, CORE-07 |
 
 ## Why this matters
 In real projects, improving the **data** usually beats improving the model. Label errors, class imbalance, outliers, and
@@ -21,6 +21,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: Data-Centric ML](../../notes/core-ml/10-data-centric-ml.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Intuition** | [MIT Introduction to Data-Centric AI](https://dcai.csail.mit.edu/) | Lecture "Data-Centric AI vs. Model-Centric AI" (notes) | 30 min |
 | 2 | **Read + Build** | [MIT DCAI](https://dcai.csail.mit.edu/) + [dcai-lab](https://github.com/dcai-course/dcai-lab) | Lectures "Label Errors and Confident Learning" and "Class Imbalance, Outliers, and Distribution Shift", each with its lab | 3 h |
 | 3 | **Read** | [imbalanced-learn: Common pitfalls](https://imbalanced-learn.org/stable/common_pitfalls.html) + [sklearn: Tuning the decision threshold](https://scikit-learn.org/stable/modules/classification_threshold.html) | Both pages | 45 min |

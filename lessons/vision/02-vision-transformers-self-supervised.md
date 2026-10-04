@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| Computer Vision | ~8 h | L3 | DL-04, DL-06 |
+| Computer Vision | ~9 h | L3 | DL-04, DL-06 |
 
 ## Why this matters
 Modern vision backbones are pretrained *without labels* (contrastive learning, masked image modeling, self-distillation), and often on
@@ -21,6 +21,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: Vision Transformers & Self-Supervised Learning](../../notes/vision/02-vision-transformers-self-supervised.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Read** | [An Image is Worth 16x16 Words (ViT)](https://arxiv.org/abs/2010.11929) | §1–3 and Figure 1. Skim the experiments. | 1 h |
 | 2 | **Build** | [UvA DL Tutorials](https://uvadlc-notebooks.readthedocs.io/) | The Vision Transformer tutorial notebook | 1.5 h |
 | 3 | **Read** | [Lilian Weng: Contrastive Representation Learning](https://lilianweng.github.io/posts/2021-05-31-contrastive/) | The loss functions section and the vision methods (SimCLR, MoCo, BYOL) | 1.5 h |

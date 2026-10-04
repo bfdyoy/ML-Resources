@@ -17,6 +17,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: <Title>](../../notes/<track>/<file>.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Intuition** | [Name](url) | <what exactly> | 20 min |
 | 2 | **Read** | [Name](url) | <chapter/section> | 60 min |
 | 3 | **Build** | [Name](url) | <notebook/exercise> | 90 min |

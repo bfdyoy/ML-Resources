@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| LLMs & GenAI | ~9 h | L2→L3 | DL-06 |
+| LLMs & GenAI | ~10 h | L2→L3 | DL-06 |
 
 ## Why this matters
 You've built a toy GPT. Production LLMs follow the same recipe at vastly larger scale, and then go through
@@ -20,6 +20,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: How LLMs Are Built](../../notes/llms-genai/01-how-llms-are-built.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Intuition** | [Karpathy: Intro to Large Language Models](https://www.youtube.com/watch?v=zjkBMFhNj_g) | The whole talk. It's the mental map for this lesson. | 1 h |
 | 2 | **Read + Build** | [Raschka, *Build a LLM From Scratch*](https://github.com/rasbt/LLMs-from-scratch) | Ch. 2 (text data and tokenization) and Ch. 5 (pretraining on unlabeled data). Run `ch02.ipynb` and `ch05.ipynb`. The notebooks are free and heavily commented, even without the book. | 3 h |
 | 3 | **Build** | [Karpathy Lecture 8: Let's build the GPT Tokenizer](https://www.youtube.com/watch?v=zduSFxRajkE) | Code along for the first ~hour (BPE training and encode/decode). Skim the rest. | 1.5 h |

@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| Elective | ~10 h | L2 | CORE-03, [MATH-03](../math/03-probability-statistics.md) |
+| Elective | ~11 h | L2 | CORE-03, [MATH-03](../math/03-probability-statistics.md) |
 
 ## Why this matters
 Point predictions hide uncertainty. Bayesian thinking gives you calibrated uncertainty, principled ways to use prior
@@ -20,6 +20,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: Bayesian & Probabilistic ML](../../notes/electives/02-bayesian-probabilistic-ml.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Read + Build** | [Bayesian Methods for Hackers](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers) | Ch. 1 (the philosophy of Bayesian inference), Ch. 2 (more PyMC), Ch. 3 (opening the MCMC black box). Use the PyMC notebooks. | 4 h |
 | 2 | **Watch + Read** | [Statistical Rethinking 2026](https://github.com/rmcelreath/stat_rethinking_2026) (McElreath) | The first 4–5 lectures (Bayesian workflow, the garden of forking data, …) and the matching problem sets | 5 h |
 | 3 | **Build** | PyMC | Rebuild one Statistical Rethinking example in PyMC, as a hierarchical model | 1 h |

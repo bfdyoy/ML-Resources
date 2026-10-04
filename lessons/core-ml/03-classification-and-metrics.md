@@ -2,7 +2,7 @@
 
 | Track | Time | Level | Prerequisites |
 |---|---|---|---|
-| Core ML | ~6 h | L2 | CORE-02 · math: [MATH-03](../math/03-probability-statistics.md) |
+| Core ML | ~7 h | L2 | CORE-02 · math: [MATH-03](../math/03-probability-statistics.md) |
 
 ## Why this matters
 "Accuracy 95%" means nothing on a dataset that is 95% negatives. Choosing and reading the **right metric**
@@ -21,6 +21,7 @@ By the end you can:
 
 | # | Step | Resource | Scope | Time |
 |---|---|---|---|---|
+| 0 | **Primer** | [Study notes: Classification & Evaluation Metrics](../../notes/core-ml/03-classification-and-metrics.md) | The ideas and the math, step by step, with worked examples, runnable code, and answer sketches for the questions below. Read it first. | ~1 h |
 | 1 | **Intuition** | [MLU-Explain: Logistic Regression](https://mlu-explain.github.io/logistic-regression/) | The whole essay | 20 min |
 | 2 | **Read** | [ISLP](https://www.statlearning.com/) Ch. 4 "Classification" | §4.1–4.3 (logistic regression), §4.4 (LDA, QDA, Naive Bayes), §4.5 (comparison). Skim §4.6 (GLMs). | 2 h |
 | 3 | **Intuition** | [MLU-Explain: Precision & Recall](https://mlu-explain.github.io/precision-recall/) then [ROC & AUC](https://mlu-explain.github.io/roc-auc/) | Both essays, back to back | 40 min |
