@@ -31,6 +31,14 @@ URL_RE = re.compile(r"https?://[^\s<>()\"'`\]]+")
 SKIP = {".git", ".claude", "templates", "node_modules"}
 
 
+def is_reserved(url: str) -> bool:
+    """RFC 2606/6761 example hosts (e.g. evil.example, example.com) are illustrations, not links."""
+    m = re.match(r"https?://([^/?#:]+)", url.replace("\\", ""))
+    host = m.group(1).lower() if m else ""
+    return host in {"example.com", "example.org", "example.net", "localhost"} or host.endswith(
+        (".example", ".test", ".invalid", ".localhost", ".example.com", ".example.org"))
+
+
 def repo_urls() -> dict[str, list[str]]:
     found: dict[str, list[str]] = {}
     for p in ROOT.rglob("*.md"):
@@ -38,6 +46,8 @@ def repo_urls() -> dict[str, list[str]]:
             continue
         for n, line in enumerate(p.read_text(encoding="utf-8").splitlines(), 1):
             for u in URL_RE.findall(line):
+                if is_reserved(u):
+                    continue
                 found.setdefault(u.rstrip(".,;:*"), []).append(f"{p.relative_to(ROOT)}:{n}")
     return found
 

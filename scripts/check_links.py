@@ -27,6 +27,14 @@ import urllib.request
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 URL_RE = re.compile(r"https?://[^\s<>()\"'`\]]+")
 SKIP_DIRS = {".git", ".claude", "templates", "node_modules", ".venv"}
+
+
+def is_reserved(url: str) -> bool:
+    """RFC 2606/6761 example hosts (e.g. evil.example, example.com) are illustrations, not links."""
+    m = re.match(r"https?://([^/?#:]+)", url.replace("\\", ""))
+    host = m.group(1).lower() if m else ""
+    return host in {"example.com", "example.org", "example.net", "localhost"} or host.endswith(
+        (".example", ".test", ".invalid", ".localhost", ".example.com", ".example.org"))
 UA = "Mozilla/5.0 (ML-Resources link checker; +https://github.com/bfdyoy/ML-Resources)"
 
 
@@ -47,6 +55,8 @@ def extract(files: list[pathlib.Path]) -> dict[str, list[str]]:
         for n, line in enumerate(f.read_text(encoding="utf-8").splitlines(), 1):
             for u in URL_RE.findall(line):
                 u = u.rstrip(".,;:*")
+                if is_reserved(u):
+                    continue
                 urls.setdefault(u, []).append(f"{f.relative_to(ROOT)}:{n}")
     return urls
 
